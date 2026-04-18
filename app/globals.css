@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+:root {
+  --brand-primary: #002d62;
+  --brand-secondary: #455a64;
+  --brand-tertiary: #2e7d32;
+  --brand-neutral: #f8f9fa;
+  --brand-gradient-primary: linear-gradient(270deg, #164780 0%, #001c42 100%);
+}
+
+@theme inline {
+  --color-primary: var(--brand-primary);
+  --color-secondary: var(--brand-secondary);
+  --color-tertiary: var(--brand-tertiary);
+  --color-neutral: var(--brand-neutral);
+  --gradient-primary: var(--brand-gradient-primary);
+}
+
+@keyframes stepflow-fade-in {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 10px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.stepflow-fade-in {
+  animation: stepflow-fade-in 520ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.bg-brand-gradient {
+  background: var(--brand-gradient-primary);
+}

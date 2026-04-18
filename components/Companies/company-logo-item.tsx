@@ -1,0 +1,39 @@
+"use client";
+
+import Image from "next/image";
+
+export type CompanyLogo = {
+  name: string;
+  href: string;
+  src: string;
+  alt: string;
+  width: number;
+  height: number;
+};
+
+type CompanyLogoItemProps = {
+  logo: CompanyLogo;
+  showDivider: boolean;
+};
+
+export function CompanyLogoItem({ logo, showDivider }: CompanyLogoItemProps) {
+  return (
+    <a
+      href={logo.href}
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label={logo.alt}
+      className={`inline-flex shrink-0 items-center justify-center px-5 sm:px-7 md:px-10 ${
+        showDivider ? "border-r border-[#A9B3BD]" : ""
+      }`}
+    >
+      <Image
+        src={logo.src}
+        alt={logo.alt}
+        width={logo.width}
+        height={logo.height}
+        className="h-7 w-auto object-contain sm:h-8 md:h-11"
+      />
+    </a>
+  );
+}

@@ -79,7 +79,7 @@ export function HeroCarousel({ locale }: HeroCarouselProps) {
 
       <section
         id="home"
-        className="relative flex min-h-[84dvh] w-full overflow-hidden md:min-h-[86vh]"
+        className="relative flex min-h-[78svh] w-full overflow-hidden sm:min-h-[82svh] md:min-h-[86vh]"
       >
         {slides.map((slide, index) => (
           <div
@@ -95,7 +95,7 @@ export function HeroCarousel({ locale }: HeroCarouselProps) {
               fill
               priority={index === 0}
               sizes="100vw"
-              className="object-cover object-center"
+              className="object-cover object-[54%_42%] scale-[1.45] sm:object-[52%_42%] sm:scale-[1.28] md:object-center md:scale-100"
             />
           </div>
         ))}
@@ -103,22 +103,24 @@ export function HeroCarousel({ locale }: HeroCarouselProps) {
         <div className="absolute inset-0 bg-[linear-gradient(94deg,rgba(4,28,72,0.88)_0%,rgba(4,28,72,0.72)_34%,rgba(4,28,72,0.42)_66%,rgba(4,28,72,0.18)_100%)]" />
         <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(3,19,54,0.3)_0%,rgba(3,19,54,0.48)_100%)]" />
 
-        <div className="relative z-10 flex w-full flex-col">
-          <div className="mt-16 px-4 pb-20 sm:px-5 sm:pb-24 md:mt-40 md:px-8 md:pb-20">
-            <h1 className="max-w-202 text-pretty text-[32px] leading-[1.05] font-bold tracking-[0px] text-neutral sm:text-[38px] md:text-[55px] md:leading-22.5">
+        <div className="relative z-10 flex w-full flex-1">
+          <div className="flex w-full flex-col items-center justify-end px-4 pt-[124px] pb-26 text-center sm:items-start sm:px-5 sm:pt-[112px] sm:pb-24 sm:text-left md:items-start md:justify-start md:px-8 md:pt-40 md:pb-20">
+            <h1 className="max-w-202 text-pretty text-[30px] leading-[1.06] font-bold tracking-[0px] text-neutral sm:text-[36px] md:text-[55px] md:leading-22.5">
               {activeSlide.title}
             </h1>
 
-            <p className="relative mt-4 max-w-174.5 text-[16px] leading-[1.5] font-light tracking-[0px] text-neutral/88 sm:mt-5 sm:text-[18px] sm:leading-6.4 md:-top-px md:text-[24px] md:leading-8">
+            <p className="relative mt-4 max-w-174.5 text-[15px] leading-[1.5] font-light tracking-[0px] text-neutral/88 sm:mt-5 sm:text-[17px] sm:leading-6.2 md:-top-px md:text-[24px] md:leading-8">
               {activeSlide.description}
             </p>
 
-            <button
-              type="button"
-              className="mt-8 inline-flex cursor-pointer items-center border border-neutral/70 px-6 py-3 text-[14px] leading-none font-semibold text-neutral transition-all hover:bg-neutral/12 sm:mt-10 sm:px-8 sm:py-4 sm:text-[15px]"
-            >
-              {activeSlide.cta}
-            </button>
+            <div className="mt-8 flex w-full justify-center sm:mt-10 sm:justify-start">
+              <button
+                type="button"
+                className="inline-flex cursor-pointer items-center border border-neutral/70 px-6 py-3 text-[14px] leading-none font-semibold text-neutral transition-all hover:bg-neutral/12 sm:px-8 sm:py-4 sm:text-[15px]"
+              >
+                {activeSlide.cta}
+              </button>
+            </div>
           </div>
         </div>
 

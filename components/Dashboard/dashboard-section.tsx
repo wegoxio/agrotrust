@@ -123,12 +123,14 @@ export async function DashboardSection() {
         </RevealOnScroll>
 
         <RevealOnScroll delayMs={170}>
-          <DashboardStackCarousel
-            slides={slides}
-            previousLabel={t("controls.previous")}
-            nextLabel={t("controls.next")}
-            bottomSlogan={t("bottomSlogan")}
-          />
+          <div className="mx-auto w-full max-w-[1320px]">
+            <DashboardStackCarousel
+              slides={slides}
+              previousLabel={t("controls.previous")}
+              nextLabel={t("controls.next")}
+              bottomSlogan={t("bottomSlogan")}
+            />
+          </div>
         </RevealOnScroll>
       </div>
     </section>

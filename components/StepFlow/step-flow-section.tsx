@@ -60,7 +60,7 @@ export async function StepFlowSection() {
       tab: t("slides.7.tab"),
       title: t("slides.7.title"),
       description: t("slides.7.description"),
-      imageSrc: "/images/stepFlow/step-flow-07.png",
+      imageSrc: "/images/stepFlow/step-flow-07-v2.png",
       imageAlt: t("slides.7.imageAlt"),
     },
   ];

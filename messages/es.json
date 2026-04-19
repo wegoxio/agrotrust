@@ -40,7 +40,7 @@
     "news2Alt": "Sacos de cacao venezolano",
     "news2Title": "Chocolate venezolano y desafios de rentabilidad",
     "readMore": "LEER MAS",
-    "copyright": "(c) AGROTRUST Todos los derechos reservados"
+    "copyright": "AGROTRUST Todos los derechos reservados"
   },
   "Features": {
     "title": "Lo que puedes lanzar rapido",
@@ -79,6 +79,25 @@
       }
     },
     "imageAlt": "Rascacielos vistos desde abajo"
+  },
+  "MarketWidget": {
+    "eyebrow": "Pulso de mercado",
+    "title": "Panel en vivo del mercado de cafe",
+    "description": "Monitorea el movimiento del commodity en tiempo real con mini graficos embebidos, listos para visibilidad operativa y comercial inmediata.",
+    "cards": {
+      "1": {
+        "title": "Cafe - Feed en vivo",
+        "subtitle": "FPMARKETS:COFFEE"
+      },
+      "2": {
+        "title": "Cafe - Vista intradia",
+        "subtitle": "FPMARKETS:COFFEE"
+      },
+      "3": {
+        "title": "Cafe - Referencia de ejecucion",
+        "subtitle": "FPMARKETS:COFFEE"
+      }
+    }
   },
   "OurPlatform": {
     "eyebrow": "Nuestra plataforma",
@@ -359,6 +378,37 @@
       }
     }
   },
+  "ContactForm": {
+    "eyebrow": "Contacto",
+    "title": "Estructuremos su proxima transaccion",
+    "description": "Comparta sus requerimientos y nuestro equipo le ayudara a disenar un flujo de ejecucion seguro, alineado con sus objetivos comerciales.",
+    "infoTitle": "Hable con AgroTrust",
+    "infoText": "Para alianzas, estructuras de financiamiento y onboarding operativo, conecte directamente con nuestro equipo.",
+    "info": {
+      "emailLabel": "Email",
+      "phoneLabel": "Telefono",
+      "responseLabel": "Tiempo de respuesta",
+      "responseValue": "Dentro de 24 horas habiles"
+    },
+    "form": {
+      "fullName": "Nombre completo",
+      "email": "Email",
+      "company": "Empresa",
+      "phone": "Telefono",
+      "interest": "Interes principal",
+      "interestOptions": {
+        "trade": "Ejecucion comercial",
+        "capital": "Capital y financiamiento",
+        "partnership": "Alianza estrategica"
+      },
+      "message": "Mensaje",
+      "messagePlaceholder": "Cuentenos sobre su operacion, contrapartes y etapa actual.",
+      "submit": "Enviar consulta",
+      "disclaimer": "Al enviar este formulario, acepta ser contactado por el equipo de AgroTrust.",
+      "error": "Complete los campos requeridos para continuar.",
+      "success": "Gracias. Se abrio su cliente de correo con la consulta."
+    }
+  },
   "Footer": {
     "tagline": "AgroTrust construye flujos de commodities seguros donde capital, logistica y ejecucion permanecen alineados desde el origen hasta la liquidacion.",
     "quickLinksTitle": "Enlaces rapidos",
@@ -413,7 +463,7 @@
     "contactText": "Para alianzas, colaboracion con inversionistas y detalles de onboarding, contacta directamente a nuestro equipo.",
     "contactEmail": "partners@agrotrust.global",
     "contactCta": "Agendar llamada estrategica",
-    "rights": "(c) {year} AGROTRUST. Todos los derechos reservados.",
+    "rights": "{year} AGROTRUST. Todos los derechos reservados.",
     "compliance": "Disenado para una ejecucion transparente y segura",
     "backToTop": "Volver arriba"
   }

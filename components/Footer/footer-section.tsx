@@ -1,4 +1,6 @@
 import { getTranslations } from "next-intl/server";
+import Image from "next/image";
+import { Link } from "@/i18n/navigation";
 
 function LinkedInIcon() {
   return (
@@ -84,7 +86,7 @@ export async function FooterSection() {
 
   return (
     <footer
-      id="contact"
+      id="footer"
       className="w-full py-8 md:py-10"
       style={{
         background:
@@ -94,9 +96,15 @@ export async function FooterSection() {
       <div className="mx-auto max-w-full px-5 md:px-8">
         <div className="grid gap-10 md:grid-cols-[1.4fr_0.8fr_1fr] md:gap-12">
           <div className="max-w-[480px]">
-            <h2 className="text-[40px] leading-none font-semibold tracking-[0.02em] text-white md:text-[44px]">
-              AGRO<span className="font-light italic">TRUST</span>
-            </h2>
+            <Link href="/" aria-label="AgroTrust home" className="inline-flex">
+              <Image
+                src="/agrotrust_logo.png"
+                alt="AgroTrust"
+                width={217}
+                height={48}
+                className="h-9 w-auto md:h-11"
+              />
+            </Link>
 
             <p className="mt-4 text-[16px] leading-[1.6] font-normal text-[#8FAECC]">
               {t("tagline")}

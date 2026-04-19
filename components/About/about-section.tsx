@@ -62,7 +62,7 @@ export async function AboutSection() {
         <RevealOnScroll delayMs={260} className="mt-10 md:mt-12">
           <div className="relative aspect-[16/10] w-full overflow-hidden rounded-[6px] sm:aspect-[16/7.5] md:aspect-[16/4.75]">
             <Image
-              src="/about/about-01.jpg"
+              src="/images/about/about-01.jpg"
               alt={t("imageAlt")}
               fill
               sizes="(max-width: 768px) 100vw, 1400px"

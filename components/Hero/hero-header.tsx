@@ -61,14 +61,16 @@ export function HeroHeader({
       }
     >
       <div className="mx-auto flex h-[74px] w-full max-w-full items-center justify-between px-5 md:h-[82px] md:px-8">
-        <Image
-          src="/logo.png"
-          alt="AgroTrust"
-          width={217}
-          height={38}
-          className="h-7 w-auto md:h-8"
-          priority
-        />
+        <Link href="/" locale={locale} aria-label="AgroTrust home">
+          <Image
+            src="/agrotrust_logo.png"
+            alt="AgroTrust"
+            width={217}
+            height={48}
+            className="h-8 w-auto md:h-10"
+            priority
+          />
+        </Link>
 
         <div className="flex items-center gap-3">
           <Link

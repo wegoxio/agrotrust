@@ -14,8 +14,8 @@ type BecomePartnerCarouselProps = {
 };
 
 function getCardsPerView(width: number) {
-  if (width < 768) return 1;
-  if (width < 1280) return 2;
+  if (width < 860) return 1;
+  if (width < 1320) return 2;
   return 4;
 }
 
@@ -59,10 +59,29 @@ export function BecomePartnerCarousel({
   const duplicatedCards = useMemo(() => [...cards, ...cards], [cards]);
 
   useEffect(() => {
-    const update = () => setCardsPerView(getCardsPerView(window.innerWidth));
+    const update = () => {
+      const measuredWidth = viewportRef.current?.clientWidth ?? window.innerWidth;
+      setCardsPerView(getCardsPerView(measuredWidth));
+    };
+
     update();
+
+    const currentViewport = viewportRef.current;
+    const resizeObserver =
+      typeof ResizeObserver !== "undefined" && currentViewport
+        ? new ResizeObserver(update)
+        : null;
+
+    if (resizeObserver && currentViewport) {
+      resizeObserver.observe(currentViewport);
+    }
+
     window.addEventListener("resize", update);
-    return () => window.removeEventListener("resize", update);
+
+    return () => {
+      window.removeEventListener("resize", update);
+      resizeObserver?.disconnect();
+    };
   }, []);
 
   const goNext = () => {

@@ -26,20 +26,19 @@ type DashboardStackCarouselProps = {
 };
 
 const STACK_LAYOUT = [
-  { x: 0, y: 0, scale: 1, opacity: 1, z: 60 },
-  { x: 74, y: 0, scale: 1, opacity: 1, z: 50 },
-  { x: 81, y: 0, scale: 1, opacity: 1, z: 40 },
-  { x: 88, y: 0, scale: 1, opacity: 1, z: 30 },
-  { x: 95, y: 0, scale: 1, opacity: 1, z: 20 },
-];
-const STACK_CARD_WIDTH_PERCENT = 72;
+  { x: 0, width: 62, y: 0, scale: 1, opacity: 1, z: 60 },
+  { x: 63.6, width: 6.4, y: 0, scale: 1, opacity: 1, z: 50 },
+  { x: 71.6, width: 6.4, y: 0, scale: 1, opacity: 1, z: 40 },
+  { x: 79.6, width: 6.4, y: 0, scale: 1, opacity: 1, z: 30 },
+  { x: 87.6, width: 6.4, y: 0, scale: 1, opacity: 1, z: 20 },
+] as const;
 
 function ArrowIcon({ direction }: { direction: "left" | "right" }) {
   return (
     <svg
       aria-hidden
       viewBox="0 0 24 24"
-      className={`h-4.5 w-4.5 ${direction === "left" ? "rotate-180" : ""}`}
+      className={`h-[18px] w-[18px] ${direction === "left" ? "rotate-180" : ""}`}
     >
       <path
         d="M5 12H19"
@@ -140,7 +139,7 @@ export function DashboardStackCarousel({
 
       <div
         ref={containerRef}
-        className="relative h-130 overflow-hidden sm:h-155 md:h-190"
+        className="relative h-[340px] overflow-hidden sm:h-[440px] md:h-[560px] lg:h-[620px]"
         onMouseEnter={() => setIsPaused(true)}
         onMouseLeave={() => setIsPaused(false)}
         onFocusCapture={() => setIsPaused(true)}
@@ -161,29 +160,34 @@ export function DashboardStackCarousel({
             <article
               key={slide.id}
               aria-hidden={!isVisible}
-              className="absolute top-0 left-0 h-full overflow-hidden rounded-sm border border-[#CBD2D9] bg-white"
+              className="absolute top-0 left-0 h-full overflow-hidden rounded-[4px] border border-[#CBD2D9] bg-white"
               style={{
                 left: isVisible ? `${layout.x}%` : "106%",
                 transform: `translate3d(0, ${layout.y}px, 0) scale(${isVisible ? layout.scale : 0.98})`,
-                width: `${STACK_CARD_WIDTH_PERCENT}%`,
+                width: isVisible ? `${layout.width}%` : "6%",
                 opacity: isVisible ? layout.opacity : 0,
                 zIndex: layout.z,
                 transition:
                   "left 760ms cubic-bezier(0.22, 1, 0.36, 1), " +
                   "transform 760ms cubic-bezier(0.22, 1, 0.36, 1), " +
+                  "width 760ms cubic-bezier(0.22, 1, 0.36, 1), " +
                   "opacity 620ms ease-out",
-                willChange: "left, transform, opacity",
+                willChange: "left, transform, width, opacity",
               }}
             >
-              <div className="relative h-full w-full">
-                <Image
-                  src={slide.imageSrc}
-                  alt={slide.imageAlt}
-                  width={12000}
-                  height={500}
-                  className="object-cover object-center"
-                />
-              </div>
+              <Image
+                src={slide.imageSrc}
+                alt={slide.imageAlt}
+                fill
+                priority={relative === 0}
+                quality={95}
+                sizes={
+                  relative === 0
+                    ? "(max-width: 640px) 100vw, (max-width: 1320px) 62vw, 818px"
+                    : "(max-width: 640px) 18vw, (max-width: 1320px) 7vw, 92px"
+                }
+                className="object-cover object-center"
+              />
             </article>
           );
         })}

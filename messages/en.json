@@ -40,7 +40,7 @@
     "news2Alt": "Venezuelan cocoa sacks",
     "news2Title": "Venezuelan Chocolate & profiting issues",
     "readMore": "READ MORE",
-    "copyright": "(c) AGROTRUST All rights reserved"
+    "copyright": "AGROTRUST All rights reserved"
   },
   "Features": {
     "title": "What you can launch fast",
@@ -79,6 +79,25 @@
       }
     },
     "imageAlt": "Skyscrapers viewed from below"
+  },
+  "MarketWidget": {
+    "eyebrow": "Market Pulse",
+    "title": "Live Coffee Market Board",
+    "description": "Track commodity movement in real time with embedded mini charts, ready for quick operational and trading visibility.",
+    "cards": {
+      "1": {
+        "title": "Coffee - Live Feed",
+        "subtitle": "FPMARKETS:COFFEE"
+      },
+      "2": {
+        "title": "Coffee - Intraday View",
+        "subtitle": "FPMARKETS:COFFEE"
+      },
+      "3": {
+        "title": "Coffee - Execution Reference",
+        "subtitle": "FPMARKETS:COFFEE"
+      }
+    }
   },
   "OurPlatform": {
     "eyebrow": "Our Platform",
@@ -359,6 +378,37 @@
       }
     }
   },
+  "ContactForm": {
+    "eyebrow": "Contact",
+    "title": "Let's structure your next transaction",
+    "description": "Share your requirements and our team will help you design a secure execution flow aligned with your trade goals.",
+    "infoTitle": "Talk with AgroTrust",
+    "infoText": "For partnerships, financing structures, and operational onboarding, connect with our team directly.",
+    "info": {
+      "emailLabel": "Email",
+      "phoneLabel": "Phone",
+      "responseLabel": "Response Time",
+      "responseValue": "Within 24 business hours"
+    },
+    "form": {
+      "fullName": "Full Name",
+      "email": "Email",
+      "company": "Company",
+      "phone": "Phone",
+      "interest": "Primary Interest",
+      "interestOptions": {
+        "trade": "Trade Execution",
+        "capital": "Capital & Financing",
+        "partnership": "Strategic Partnership"
+      },
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your operation, counterparties, and current stage.",
+      "submit": "Send Inquiry",
+      "disclaimer": "By sending this form, you agree to be contacted by the AgroTrust team.",
+      "error": "Please complete the required fields to continue.",
+      "success": "Thank you. Your email client was opened with your inquiry."
+    }
+  },
   "Footer": {
     "tagline": "AgroTrust builds secure commodity workflows where capital, logistics, and execution stay aligned from origin to settlement.",
     "quickLinksTitle": "Quick Links",
@@ -413,7 +463,7 @@
     "contactText": "For partnerships, investor collaboration, and onboarding details, connect directly with our team.",
     "contactEmail": "partners@agrotrust.global",
     "contactCta": "Schedule a strategic call",
-    "rights": "(c) {year} AGROTRUST. All rights reserved.",
+    "rights": "{year} AGROTRUST. All rights reserved.",
     "compliance": "Built for transparent and secure execution",
     "backToTop": "Back to top"
   }

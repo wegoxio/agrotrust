@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { useEffect } from "react";
+import { Link } from "@/i18n/navigation";
 import { HeroNewsCard } from "./hero-news-card";
 
 type HeroFullscreenMenuProps = {
@@ -41,14 +42,14 @@ export function HeroFullscreenMenu({
 
   return (
     <div
-      className={`fixed inset-0 z-[11000] transition-all duration-[420ms] ease-[cubic-bezier(0.22,1,0.36,1)] ${
+      className={`fixed inset-0 z-[11000] h-[100dvh] w-screen overflow-hidden transition-all duration-[420ms] ease-[cubic-bezier(0.22,1,0.36,1)] ${
         isOpen
           ? "pointer-events-auto opacity-100"
           : "pointer-events-none opacity-0"
       }`}
       aria-hidden={!isOpen}
     >
-      <div className="relative h-full w-full overflow-x-hidden overflow-y-auto bg-[#051B44]">
+      <div className="relative h-full w-full overflow-x-hidden overflow-y-auto overscroll-contain bg-[#051B44] [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden">
         <Image
           src={backgroundSrc}
           alt={menu("backgroundAlt")}
@@ -66,14 +67,16 @@ export function HeroFullscreenMenu({
           }`}
         >
           <header className="flex items-start justify-between">
-            <Image
-              src="/logo.png"
-              alt="AgroTrust"
-              width={217}
-              height={38}
-              className="mt-1 h-7 w-auto md:h-8"
-              priority
-            />
+            <Link href="/" aria-label="AgroTrust home" onClick={onClose}>
+              <Image
+                src="/agrotrust_logo.png"
+                alt="AgroTrust"
+                width={217}
+                height={38}
+                className="mt-1 h-7 w-auto md:h-10"
+                priority
+              />
+            </Link>
 
             <button
               type="button"
@@ -139,8 +142,8 @@ export function HeroFullscreenMenu({
             </section>
           </div>
 
-          <footer className="mt-8 border-t border-[#A9CFD7]/46 pt-4 text-left text-[20px] leading-tight font-light text-[#B6C7CE] sm:text-right sm:text-[34px] md:mt-auto md:pt-5 md:text-[48px]">
-            {menu("copyright")}
+          <footer className="mt-8 border-t border-[#A9CFD7]/46 pt-4 text-left text-[16px] leading-tight font-light text-[#B6C7CE] sm:text-[18px] md:mt-auto md:pt-5 md:text-[20px] lg:text-right">
+            &copy; {menu("copyright")}
           </footer>
         </div>
       </div>

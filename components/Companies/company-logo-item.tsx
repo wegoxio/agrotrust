@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export type CompanyLogo = {
   name: string;
-  href: string;
+  href?: string;
   src: string;
   alt: string;
   width: number;
@@ -17,23 +17,33 @@ type CompanyLogoItemProps = {
 };
 
 export function CompanyLogoItem({ logo, showDivider }: CompanyLogoItemProps) {
+  const baseClass = `inline-flex shrink-0 items-center justify-center px-5 sm:px-7 md:px-10 ${
+    showDivider ? "border-r border-[#A9B3BD]" : ""
+  }`;
+
+  const logoImage = (
+    <Image
+      src={logo.src}
+      alt={logo.alt}
+      width={logo.width}
+      height={logo.height}
+      className="h-7 w-auto object-contain sm:h-8 md:h-11"
+    />
+  );
+
+  if (!logo.href) {
+    return <div className={baseClass}>{logoImage}</div>;
+  }
+
   return (
     <a
       href={logo.href}
       target="_blank"
       rel="noopener noreferrer"
       aria-label={logo.alt}
-      className={`inline-flex shrink-0 items-center justify-center px-5 sm:px-7 md:px-10 ${
-        showDivider ? "border-r border-[#A9B3BD]" : ""
-      }`}
+      className={baseClass}
     >
-      <Image
-        src={logo.src}
-        alt={logo.alt}
-        width={logo.width}
-        height={logo.height}
-        className="h-7 w-auto object-contain sm:h-8 md:h-11"
-      />
+      {logoImage}
     </a>
   );
 }

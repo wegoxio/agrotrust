@@ -11,7 +11,6 @@ import { HowItWorksSection } from "@/components/HowItWorks/how-it-works-section"
 import { StepFlowSection } from "@/components/StepFlow/step-flow-section";
 import { VsLcSection } from "@/components/Comparison/vs-lc-section";
 import { BecomePartnerSection } from "@/components/BecomePartner/become-partner-section";
-import { DashboardSection } from "@/components/Dashboard/dashboard-section";
 import { ContactSection } from "@/components/Contact/contact-section";
 import { FooterSection } from "@/components/Footer/footer-section";
 
@@ -39,7 +38,6 @@ export default async function HomePage({ params }: Props) {
       <StepFlowSection />
       <VsLcSection />
       <BecomePartnerSection />
-      <DashboardSection />
       <ContactSection />
       <FooterSection />
     </main>

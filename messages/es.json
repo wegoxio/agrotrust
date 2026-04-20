@@ -56,7 +56,12 @@
     "italBankAlt": "Logo de ItalBank",
     "defisaAlt": "Logo de DEFISA",
     "avexAlt": "Logo de AVEX",
-    "bolpriavenAlt": "Logo de Bolpriaven"
+    "bolpriavenAlt": "Logo de Bolpriaven",
+    "agroinvestAlt": "Logo de Agroinvest",
+    "brisasDelGilAlt": "Logo de Brisas del Gil",
+    "conduitAlt": "Logo de Conduit",
+    "fecveLabAlt": "Logo de FECVE Lab",
+    "italcambioAlt": "Logo de Italcambio"
   },
   "About": {
     "eyebrow": "Nosotros",
@@ -87,11 +92,11 @@
     "cards": {
       "1": {
         "title": "Cafe - Feed en vivo",
-        "subtitle": "FPMARKETS:COFFEE"
+        "subtitle": "KC1!"
       },
       "2": {
         "title": "Cafe - Vista intradia",
-        "subtitle": "FPMARKETS:COFFEE"
+        "subtitle": "KC1!"
       },
       "3": {
         "title": "Cafe - Referencia de ejecucion",
@@ -380,33 +385,69 @@
   },
   "ContactForm": {
     "eyebrow": "Contacto",
-    "title": "Estructuremos su proxima transaccion",
-    "description": "Comparta sus requerimientos y nuestro equipo le ayudara a disenar un flujo de ejecucion seguro, alineado con sus objetivos comerciales.",
-    "infoTitle": "Hable con AgroTrust",
-    "infoText": "Para alianzas, estructuras de financiamiento y onboarding operativo, conecte directamente con nuestro equipo.",
-    "info": {
-      "emailLabel": "Email",
-      "phoneLabel": "Telefono",
-      "responseLabel": "Tiempo de respuesta",
-      "responseValue": "Dentro de 24 horas habiles"
+    "title": "Ponte en contacto",
+    "subtitle": "Cuentanos tu rol y como te gustaria participar en el ecosistema AgroTrust.",
+    "sections": {
+      "purpose": "Proposito de contacto",
+      "companyType": "Tipo de empresa",
+      "companyInfo": "Informacion de la empresa",
+      "contactInfo": "Informacion de contacto",
+      "transaction": "Interes de transaccion"
     },
     "form": {
-      "fullName": "Nombre completo",
-      "email": "Email",
-      "company": "Empresa",
-      "phone": "Telefono",
-      "interest": "Interes principal",
-      "interestOptions": {
-        "trade": "Ejecucion comercial",
-        "capital": "Capital y financiamiento",
-        "partnership": "Alianza estrategica"
+      "purpose": "Que te gustaria hacer?",
+      "purposePlaceholder": "Selecciona una opcion",
+      "purposeOptions": {
+        "requestSupply": "Solicitar suministro (Comprador / Offtaker)",
+        "applyFinancing": "Aplicar para financiamiento / oportunidades de inversion",
+        "becomeProducer": "Convertirme en productor",
+        "becomePartner": "Convertirme en aliado",
+        "generalInquiry": "Consulta general"
       },
-      "message": "Mensaje",
-      "messagePlaceholder": "Cuentenos sobre su operacion, contrapartes y etapa actual.",
-      "submit": "Enviar consulta",
-      "disclaimer": "Al enviar este formulario, acepta ser contactado por el equipo de AgroTrust.",
-      "error": "Complete los campos requeridos para continuar.",
-      "success": "Gracias. Se abrio su cliente de correo con la consulta."
+      "role": "Tu rol / tipo de empresa",
+      "rolePlaceholder": "Selecciona tu rol",
+      "roleOptions": {
+        "buyerOfftaker": "Comprador / Offtaker",
+        "producerExporter": "Productor / Exportador",
+        "investorEntity": "Inversionista / entidad de financiamiento",
+        "bankEscrow": "Banco / proveedor escrow",
+        "warehouseManager": "Almacen / gestor de colateral",
+        "logisticsShipping": "Empresa de logistica / shipping",
+        "exchangePayment": "Plataforma de cambio / pagos",
+        "other": "Otro"
+      },
+      "companyName": "Nombre de la empresa (Requerido)",
+      "country": "Pais",
+      "countryPlaceholder": "Selecciona un pais",
+      "searchCountries": "Busca pais o codigo...",
+      "searchPhoneCountries": "Busca por pais o prefijo...",
+      "noCountryResults": "No se encontraron paises.",
+      "phoneCountryPlaceholder": "Selecciona prefijo",
+      "phoneNumberPlaceholder": "Ingresa el numero",
+      "industry": "Industria / sector (Opcional)",
+      "fullName": "Nombre completo (Requerido)",
+      "email": "Correo electronico (Requerido)",
+      "phone": "Telefono / WhatsApp (Opcional pero recomendado)",
+      "commodities": "En que estas interesado?",
+      "commodityOptions": {
+        "cocoa": "Cacao",
+        "coffee": "Cafe",
+        "other": "Otros commodities"
+      },
+      "volume": "Volumen estimado (Opcional)",
+      "volumePlaceholder": "Selecciona un volumen estimado",
+      "volumeOptions": {
+        "small": "Pequeno (1-5 contenedores)",
+        "medium": "Mediano (5-20 contenedores)",
+        "large": "Grande (20+ contenedores)"
+      },
+      "message": "Cuentanos mas sobre tu solicitud",
+      "messagePlaceholder": "Comparte cualquier detalle relevante de tu solicitud.",
+      "submit": "Enviar solicitud",
+      "submitting": "Enviando...",
+      "confidentiality": "Todas las solicitudes se gestionan de forma confidencial dentro de nuestra plataforma segura.",
+      "error": "Completa todos los campos requeridos.",
+      "success": "Gracias. Tu solicitud fue enviada correctamente."
     }
   },
   "Footer": {

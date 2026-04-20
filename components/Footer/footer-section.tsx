@@ -24,53 +24,6 @@ function XIcon() {
   );
 }
 
-function MailIcon() {
-  return (
-    <svg aria-hidden viewBox="0 0 24 24" className="h-5 w-5">
-      <path
-        d="M4 7.2C4 6.54 4.54 6 5.2 6h13.6c.66 0 1.2.54 1.2 1.2v9.6c0 .66-.54 1.2-1.2 1.2H5.2c-.66 0-1.2-.54-1.2-1.2V7.2Z"
-        stroke="currentColor"
-        strokeWidth="1.8"
-        fill="none"
-      />
-      <path
-        d="M4.4 7l7.6 6 7.6-6"
-        stroke="currentColor"
-        strokeWidth="1.8"
-        fill="none"
-      />
-    </svg>
-  );
-}
-
-function PhoneIcon() {
-  return (
-    <svg aria-hidden viewBox="0 0 24 24" className="h-5 w-5">
-      <path
-        d="M6.3 4.8 8.8 4a1 1 0 0 1 1.2.5L11.2 7a1 1 0 0 1-.2 1.1l-1 1a13 13 0 0 0 5 5l1-1a1 1 0 0 1 1.1-.2l2.5 1.2a1 1 0 0 1 .5 1.2l-.8 2.5a1.8 1.8 0 0 1-1.8 1.2A14.7 14.7 0 0 1 5 6.6a1.8 1.8 0 0 1 1.3-1.8Z"
-        stroke="currentColor"
-        strokeWidth="1.8"
-        strokeLinejoin="round"
-        fill="none"
-      />
-    </svg>
-  );
-}
-
-function LocationIcon() {
-  return (
-    <svg aria-hidden viewBox="0 0 24 24" className="h-5 w-5">
-      <path
-        d="M12 20.5s6-5.5 6-10a6 6 0 1 0-12 0c0 4.5 6 10 6 10Z"
-        stroke="currentColor"
-        strokeWidth="1.8"
-        fill="none"
-      />
-      <circle cx="12" cy="10.5" r="2" fill="currentColor" />
-    </svg>
-  );
-}
-
 export async function FooterSection() {
   const t = await getTranslations("Footer");
   const year = new Date().getFullYear();
@@ -82,6 +35,12 @@ export async function FooterSection() {
     { href: "#partners", label: t("quickLinks.partners") },
     { href: "#dashboard", label: t("quickLinks.news") },
     { href: "#contact", label: t("quickLinks.contact") },
+  ];
+  const ecosystemLinks = [
+    { href: "#network", label: t("ecosystem.network") },
+    { href: "#step-flow", label: t("ecosystem.stepFlow") },
+    { href: "#vs-lc", label: t("ecosystem.comparison") },
+    { href: "#dashboard", label: t("ecosystem.dashboard") },
   ];
 
   return (
@@ -154,51 +113,24 @@ export async function FooterSection() {
 
           <div>
             <h3 className="text-[32px] leading-none font-semibold text-white">
-              {t("contactTitle")}
+              {t("groups.ecosystem")}
             </h3>
 
-            <ul className="mt-4 space-y-5">
-              <li className="flex items-start gap-3 text-[#8FAECC]">
-                <span className="mt-0.5 shrink-0">
-                  <MailIcon />
-                </span>
-                <div>
-                  <p className="text-[16px] leading-none">{t("contact.emailLabel")}</p>
-                  <a
-                    href={`mailto:${t("contact.emailValue")}`}
-                    className="mt-1 inline-flex break-all text-[16px] leading-[1.25] transition-colors hover:text-white"
-                  >
-                    {t("contact.emailValue")}
-                  </a>
-                </div>
-              </li>
+            <p className="mt-4 max-w-[360px] text-[16px] leading-[1.5] text-[#8FAECC]">
+              {t("compliance")}
+            </p>
 
-              <li className="flex items-start gap-3 text-[#8FAECC]">
-                <span className="mt-0.5 shrink-0">
-                  <PhoneIcon />
-                </span>
-                <div>
-                  <p className="text-[16px] leading-none">{t("contact.phoneLabel")}</p>
+            <ul className="mt-4 space-y-3">
+              {ecosystemLinks.map((link) => (
+                <li key={link.href}>
                   <a
-                    href={`tel:${t("contact.phoneHref")}`}
-                    className="mt-1 inline-flex text-[16px] leading-[1.25] transition-colors hover:text-white"
+                    href={link.href}
+                    className="inline-flex text-[16px] leading-[1.25] font-normal text-[#8FAECC] transition-colors hover:text-white"
                   >
-                    {t("contact.phoneValue")}
+                    {link.label}
                   </a>
-                </div>
-              </li>
-
-              <li className="flex items-start gap-3 text-[#8FAECC]">
-                <span className="mt-0.5 shrink-0">
-                  <LocationIcon />
-                </span>
-                <div>
-                  <p className="text-[16px] leading-none">{t("contact.locationLabel")}</p>
-                  <p className="mt-1 text-[16px] leading-[1.25]">
-                    {t("contact.locationValue")}
-                  </p>
-                </div>
-              </li>
+                </li>
+              ))}
             </ul>
           </div>
         </div>

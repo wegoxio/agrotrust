@@ -56,7 +56,12 @@
     "italBankAlt": "ItalBank logo",
     "defisaAlt": "DEFISA logo",
     "avexAlt": "AVEX logo",
-    "bolpriavenAlt": "Bolpriaven logo"
+    "bolpriavenAlt": "Bolpriaven logo",
+    "agroinvestAlt": "Agroinvest logo",
+    "brisasDelGilAlt": "Brisas del Gil logo",
+    "conduitAlt": "Conduit logo",
+    "fecveLabAlt": "FECVE Lab logo",
+    "italcambioAlt": "Italcambio logo"
   },
   "About": {
     "eyebrow": "About",
@@ -87,11 +92,11 @@
     "cards": {
       "1": {
         "title": "Coffee - Live Feed",
-        "subtitle": "FPMARKETS:COFFEE"
+        "subtitle": "KC1!"
       },
       "2": {
         "title": "Coffee - Intraday View",
-        "subtitle": "FPMARKETS:COFFEE"
+        "subtitle": "KC1!"
       },
       "3": {
         "title": "Coffee - Execution Reference",
@@ -380,33 +385,69 @@
   },
   "ContactForm": {
     "eyebrow": "Contact",
-    "title": "Let's structure your next transaction",
-    "description": "Share your requirements and our team will help you design a secure execution flow aligned with your trade goals.",
-    "infoTitle": "Talk with AgroTrust",
-    "infoText": "For partnerships, financing structures, and operational onboarding, connect with our team directly.",
-    "info": {
-      "emailLabel": "Email",
-      "phoneLabel": "Phone",
-      "responseLabel": "Response Time",
-      "responseValue": "Within 24 business hours"
+    "title": "Get in Touch",
+    "subtitle": "Tell us about your role and how you'd like to participate in the AgroTrust ecosystem.",
+    "sections": {
+      "purpose": "Contact Purpose",
+      "companyType": "Type of Company",
+      "companyInfo": "Company Information",
+      "contactInfo": "Contact Information",
+      "transaction": "Transaction Interest"
     },
     "form": {
-      "fullName": "Full Name",
-      "email": "Email",
-      "company": "Company",
-      "phone": "Phone",
-      "interest": "Primary Interest",
-      "interestOptions": {
-        "trade": "Trade Execution",
-        "capital": "Capital & Financing",
-        "partnership": "Strategic Partnership"
+      "purpose": "What would you like to do?",
+      "purposePlaceholder": "Select an option",
+      "purposeOptions": {
+        "requestSupply": "Request Supply (Buyer / Offtaker)",
+        "applyFinancing": "Apply for Financing / Investment Opportunities",
+        "becomeProducer": "Become a Producer",
+        "becomePartner": "Become a Partner",
+        "generalInquiry": "General Inquiry"
       },
-      "message": "Message",
-      "messagePlaceholder": "Tell us about your operation, counterparties, and current stage.",
-      "submit": "Send Inquiry",
-      "disclaimer": "By sending this form, you agree to be contacted by the AgroTrust team.",
-      "error": "Please complete the required fields to continue.",
-      "success": "Thank you. Your email client was opened with your inquiry."
+      "role": "Your Role / Company Type",
+      "rolePlaceholder": "Select your role",
+      "roleOptions": {
+        "buyerOfftaker": "Buyer / Offtaker",
+        "producerExporter": "Producer / Exporter",
+        "investorEntity": "Investor / Financing Entity",
+        "bankEscrow": "Bank / Escrow Provider",
+        "warehouseManager": "Warehouse / Collateral Manager",
+        "logisticsShipping": "Logistics / Shipping Company",
+        "exchangePayment": "Exchange / Payment Platform",
+        "other": "Other"
+      },
+      "companyName": "Company Name (Required)",
+      "country": "Country",
+      "countryPlaceholder": "Select a country",
+      "searchCountries": "Search country or code...",
+      "searchPhoneCountries": "Search by country or prefix...",
+      "noCountryResults": "No countries found.",
+      "phoneCountryPlaceholder": "Select country prefix",
+      "phoneNumberPlaceholder": "Enter phone number",
+      "industry": "Industry / Sector (Optional)",
+      "fullName": "Full Name (Required)",
+      "email": "Email Address (Required)",
+      "phone": "Phone / WhatsApp (Optional but recommended)",
+      "commodities": "What are you interested in?",
+      "commodityOptions": {
+        "cocoa": "Cocoa",
+        "coffee": "Coffee",
+        "other": "Other Commodities"
+      },
+      "volume": "Estimated Volume (Optional)",
+      "volumePlaceholder": "Select estimated volume",
+      "volumeOptions": {
+        "small": "Small (1-5 containers)",
+        "medium": "Medium (5-20 containers)",
+        "large": "Large (20+ containers)"
+      },
+      "message": "Tell us more about your request",
+      "messagePlaceholder": "Share any relevant details about your request.",
+      "submit": "Submit Inquiry",
+      "submitting": "Sending...",
+      "confidentiality": "All inquiries are handled confidentially within our secure platform.",
+      "error": "Please complete all required fields.",
+      "success": "Thank you. Your inquiry was sent successfully."
     }
   },
   "Footer": {

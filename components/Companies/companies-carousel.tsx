@@ -57,11 +57,11 @@ export function CompaniesCarousel() {
       {
         name: "Agroinvest",
         href: "https://www.agroinvestcb.com/inicio",
-        src: "/images/companies/logo-agroinvest.png",
+        src: "/images/companies/logo-agroinvest2.png",
         alt: t("agroinvestAlt"),
         width: 238,
-        height: 80,
-        imageClassName: "h-8 sm:h-9 md:h-[56px]",
+        height: 120,
+        imageClassName: "h-8 sm:h-9 md:h-[76px]",
       },
       {
         name: "Brisas del Gil",
@@ -70,7 +70,7 @@ export function CompaniesCarousel() {
         alt: t("brisasDelGilAlt"),
         width: 220,
         height: 120,
-        imageClassName: "h-8 sm:h-9 md:h-[58px]",
+        imageClassName: "h-8 sm:h-9 md:h-[80px]",
       },
       {
         name: "Conduit",

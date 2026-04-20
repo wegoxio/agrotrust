@@ -32,12 +32,12 @@ export default async function HomePage({ params }: Props) {
       <HeroCarousel locale={locale as AppLocale} />
       <CompaniesCarousel />
       <AboutSection />
-      <MarketWidgetSection />
       <PlatformSection />
       <HowItWorksSection />
       <StepFlowSection />
       <VsLcSection />
       <BecomePartnerSection />
+      <MarketWidgetSection />
       <ContactSection />
       <FooterSection />
     </main>

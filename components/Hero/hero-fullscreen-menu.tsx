@@ -69,7 +69,7 @@ export function HeroFullscreenMenu({
           <header className="flex items-start justify-between">
             <Link href="/" aria-label="AgroTrust home" onClick={onClose}>
               <Image
-                src="/agrotrust_logo.png"
+                src="/agrotrust_logo.svg"
                 alt="AgroTrust"
                 width={217}
                 height={38}

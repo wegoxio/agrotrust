@@ -262,7 +262,7 @@ function renderEmailLayout(params: {
   siteUrl?: string;
 }) {
   const logoUrl = params.siteUrl
-    ? `${params.siteUrl.replace(/\/$/, "")}/agrotrust_logo.png`
+    ? `${params.siteUrl.replace(/\/$/, "")}/agrotrust_logo.svg`
     : "";
 
   const safeTitle = escapeHtml(params.title);

@@ -1,4 +1,5 @@
 import { getTranslations } from "next-intl/server";
+import Image from "next/image";
 import { RevealOnScroll } from "@/components/Animations/reveal-on-scroll";
 import { VsLcFeatureRow } from "./vs-lc-feature-row";
 
@@ -65,11 +66,22 @@ export async function VsLcSection() {
                   </div>
                 </div>
 
-                <div className="rounded-[3px] bg-[linear-gradient(90deg,#022F3A_0%,#2F4D59_100%)] p-3 md:p-4">
-                  <h3 className="pb-3 text-center text-[30px] leading-none text-white sm:text-[36px] md:pb-4 md:text-[42px]">
-                    <span className="font-bold">AGRO</span>
-                    <span className="font-light italic">TRUST</span>
-                  </h3>
+                <div
+                  className="rounded-[3px] p-3 md:p-4"
+                  style={{
+                    background:
+                      "var(--brand-gradient-primary, linear-gradient(270deg, #164780 0%, #001C42 100%))",
+                  }}
+                >
+                  <div className="flex items-center justify-center pb-3 md:pb-4">
+                    <Image
+                      src="/agrotrust_logo.svg"
+                      alt="AgroTrust"
+                      width={217}
+                      height={48}
+                      className="h-8 w-auto sm:h-10 md:h-11"
+                    />
+                  </div>
 
                   <div className="rounded-[2px] bg-[#E6E8EB] px-4 md:px-6">
                     {rightItems.map((item, index) => (

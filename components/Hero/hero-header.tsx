@@ -63,7 +63,7 @@ export function HeroHeader({
       <div className="mx-auto flex h-[74px] w-full max-w-full items-center justify-between px-5 md:h-[82px] md:px-8">
         <Link href="/" locale={locale} aria-label="AgroTrust home">
           <Image
-            src="/agrotrust_logo.png"
+            src="/agrotrust_logo.svg"
             alt="AgroTrust"
             width={217}
             height={48}

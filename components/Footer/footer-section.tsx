@@ -57,7 +57,7 @@ export async function FooterSection() {
           <div className="max-w-[480px]">
             <Link href="/" aria-label="AgroTrust home" className="inline-flex">
               <Image
-                src="/agrotrust_logo.png"
+                src="/agrotrust_logo.svg"
                 alt="AgroTrust"
                 width={217}
                 height={48}

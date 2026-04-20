@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import { useEffect } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Link } from "@/i18n/navigation";
 import { HeroNewsCard } from "./hero-news-card";
 
@@ -18,6 +18,7 @@ export function HeroFullscreenMenu({
   onClose,
 }: HeroFullscreenMenuProps) {
   const menu = useTranslations("OverlayMenu");
+  const [newsPageIndex, setNewsPageIndex] = useState(0);
 
   useEffect(() => {
     if (!isOpen) return;
@@ -32,6 +33,18 @@ export function HeroFullscreenMenu({
     return () => window.removeEventListener("keydown", onKeyDown);
   }, [isOpen, onClose]);
 
+  useEffect(() => {
+    if (!isOpen) return;
+
+    const intervalId = window.setInterval(() => {
+      setNewsPageIndex((currentIndex) => (currentIndex + 1) % 2);
+    }, 5200);
+
+    return () => {
+      window.clearInterval(intervalId);
+    };
+  }, [isOpen]);
+
   const navItems = [
     { label: menu("about"), href: "#about" },
     { label: menu("platform"), href: "#platform" },
@@ -39,6 +52,37 @@ export function HeroFullscreenMenu({
     { label: menu("partners"), href: "#partners" },
     { label: menu("contact"), href: "#contact" },
   ];
+
+  const newsItems = useMemo(
+    () => [
+      {
+        imageSrc: "/images/latestNews/latestNews-01.png",
+        imageAlt: menu("news1Alt"),
+        title: menu("news1Title"),
+      },
+      {
+        imageSrc: "/images/latestNews/latestNews-02.png",
+        imageAlt: menu("news2Alt"),
+        title: menu("news2Title"),
+      },
+      {
+        imageSrc: "/images/latestNews/latestNews-03.png",
+        imageAlt: menu("news3Alt"),
+        title: menu("news3Title"),
+      },
+      {
+        imageSrc: "/images/latestNews/latestNews-04.png",
+        imageAlt: menu("news4Alt"),
+        title: menu("news4Title"),
+      },
+    ],
+    [menu]
+  );
+
+  const newsSlides = useMemo(
+    () => [newsItems.slice(0, 2), newsItems.slice(2, 4)],
+    [newsItems]
+  );
 
   return (
     <div
@@ -125,19 +169,27 @@ export function HeroFullscreenMenu({
                 {menu("latestNews")}
               </h2>
 
-              <div className="mt-4 grid w-full max-w-[760px] gap-4 sm:grid-cols-2">
-                <HeroNewsCard
-                  imageSrc="/images/Hero/hero_slide_3.webp"
-                  imageAlt={menu("news1Alt")}
-                  title={menu("news1Title")}
-                  cta={menu("readMore")}
-                />
-                <HeroNewsCard
-                  imageSrc="/images/Hero/hero_slide_2.webp"
-                  imageAlt={menu("news2Alt")}
-                  title={menu("news2Title")}
-                  cta={menu("readMore")}
-                />
+              <div className="mt-4 w-full max-w-[760px] overflow-hidden">
+                <div
+                  className="flex transition-transform duration-700 ease-[cubic-bezier(0.22,1,0.36,1)] will-change-transform"
+                  style={{ transform: `translateX(-${newsPageIndex * 100}%)` }}
+                >
+                  {newsSlides.map((slide, slideIndex) => (
+                    <div key={`slide-${slideIndex}`} className="w-full shrink-0">
+                      <div className="grid grid-cols-2 gap-3 sm:gap-4">
+                        {slide.map((item) => (
+                          <HeroNewsCard
+                            key={item.imageSrc}
+                            imageSrc={item.imageSrc}
+                            imageAlt={item.imageAlt}
+                            title={item.title}
+                            cta={menu("readMore")}
+                          />
+                        ))}
+                      </div>
+                    </div>
+                  ))}
+                </div>
               </div>
             </section>
           </div>

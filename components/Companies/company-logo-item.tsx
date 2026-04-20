@@ -9,6 +9,7 @@ export type CompanyLogo = {
   alt: string;
   width: number;
   height: number;
+  imageClassName?: string;
 };
 
 type CompanyLogoItemProps = {
@@ -27,7 +28,9 @@ export function CompanyLogoItem({ logo, showDivider }: CompanyLogoItemProps) {
       alt={logo.alt}
       width={logo.width}
       height={logo.height}
-      className="h-7 w-auto object-contain sm:h-8 md:h-11"
+      className={`h-9 w-auto object-contain sm:h-8 md:h-10 ${
+        logo.imageClassName ?? ""
+      }`}
     />
   );
 

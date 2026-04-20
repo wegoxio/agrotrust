@@ -33,7 +33,7 @@ export function CompaniesCarousel() {
       {
         name: "DEFISA",
         href: "https://instagram.com/defisa_ve/",
-        src: "/images/companies/logo-defisa2.png",
+        src: "/images/companies/logo-defisa.png",
         alt: t("defisaAlt"),
         width: 220,
         height: 54,
@@ -61,6 +61,7 @@ export function CompaniesCarousel() {
         alt: t("agroinvestAlt"),
         width: 238,
         height: 80,
+        imageClassName: "h-8 sm:h-9 md:h-[56px]",
       },
       {
         name: "Brisas del Gil",
@@ -69,6 +70,7 @@ export function CompaniesCarousel() {
         alt: t("brisasDelGilAlt"),
         width: 220,
         height: 120,
+        imageClassName: "h-8 sm:h-9 md:h-[58px]",
       },
       {
         name: "Conduit",

@@ -61,7 +61,7 @@ export function CompaniesCarousel() {
         alt: t("agroinvestAlt"),
         width: 238,
         height: 120,
-        imageClassName: "h-8 sm:h-9 md:h-[76px]",
+        imageClassName: "h-16 sm:h-16 md:h-[76px]",
       },
       {
         name: "Brisas del Gil",
@@ -70,7 +70,7 @@ export function CompaniesCarousel() {
         alt: t("brisasDelGilAlt"),
         width: 220,
         height: 120,
-        imageClassName: "h-8 sm:h-9 md:h-[80px]",
+        imageClassName: "h-16 sm:h-16 md:h-[80px]",
       },
       {
         name: "Conduit",

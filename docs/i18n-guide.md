@@ -4,8 +4,8 @@ This project uses `next-intl` with App Router and locale-based routing.
 
 - Default locale: `en`
 - Secondary locale: `es`
-- URL strategy: `localePrefix: 'as-needed'`
-  - English pages: `/`
+- URL strategy: `localePrefix: 'always'`
+  - English pages: `/en`
   - Spanish pages: `/es`
 
 ## 1) Where translations live

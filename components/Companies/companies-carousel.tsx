@@ -96,6 +96,15 @@ export function CompaniesCarousel() {
         width: 250,
         height: 52,
       },
+      {
+        name: "Triangulo de Mocoties",
+        href: "https://www.instagram.com/triangulodemocoties/",
+        src: "/images/companies/logo-triangulo.png",
+        alt: t("trianguloAlt"),
+        width: 250,
+        height: 130,
+        imageClassName: "h-16 sm:h-16 md:h-[80px]",
+      },
     ],
     [t]
   );

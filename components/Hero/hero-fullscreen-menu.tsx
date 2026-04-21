@@ -57,21 +57,25 @@ export function HeroFullscreenMenu({
     () => [
       {
         imageSrc: "/images/latestNews/latestNews-01.png",
+        imageLink: "https://thecostaricanews.com/venezuela-grows-the-best-coffee-in-the-world-according-to-international-experts/",
         imageAlt: menu("news1Alt"),
         title: menu("news1Title"),
       },
       {
         imageSrc: "/images/latestNews/latestNews-02.png",
+        imageLink: 'https://www.cafeimports.com/europe/venezuela',
         imageAlt: menu("news2Alt"),
         title: menu("news2Title"),
       },
       {
         imageSrc: "/images/latestNews/latestNews-03.png",
+        imageLink: "https://www.linkedin.com/pulse/importance-fine-aroma-cacao-global-market-case-venezuelan-0kmxe/",
         imageAlt: menu("news3Alt"),
         title: menu("news3Title"),
       },
       {
         imageSrc: "/images/latestNews/latestNews-04.png",
+        imageLink: "https://www.foxnews.com/world/venezuela-produces-some-of-the-worlds-best-chocolate-but-profiting-from-it-is-another-story",
         imageAlt: menu("news4Alt"),
         title: menu("news4Title"),
       },
@@ -182,6 +186,7 @@ export function HeroFullscreenMenu({
                             key={item.imageSrc}
                             imageSrc={item.imageSrc}
                             imageAlt={item.imageAlt}
+                            imageLink={item.imageLink}
                             title={item.title}
                             cta={menu("readMore")}
                           />

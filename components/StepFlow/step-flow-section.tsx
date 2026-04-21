@@ -24,6 +24,7 @@ export async function StepFlowSection() {
         t("slides.2.bullets.4"),
         t("slides.2.bullets.5"),
         t("slides.2.bullets.6"),
+        t("slides.2.bullets.7"),
       ],
       imageSrc: "/images/stepFlow/step-flow-02.png",
       imageAlt: t("slides.2.imageAlt"),

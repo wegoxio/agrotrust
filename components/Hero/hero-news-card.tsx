@@ -5,6 +5,7 @@ import Image from "next/image";
 type HeroNewsCardProps = {
   imageSrc: string;
   imageAlt: string;
+  imageLink: string;
   title: string;
   cta: string;
 };
@@ -12,6 +13,7 @@ type HeroNewsCardProps = {
 export function HeroNewsCard({
   imageSrc,
   imageAlt,
+  imageLink,
   title,
   cta,
 }: HeroNewsCardProps) {
@@ -31,15 +33,17 @@ export function HeroNewsCard({
           {title}
         </h3>
 
-        <button
-          type="button"
+        <a
+          href={imageLink}
+          target="_blank"
+          rel="noopener noreferrer"
           className="mt-3 inline-flex h-9 items-center gap-2.5 rounded-full border border-neutral/43 bg-[linear-gradient(180deg,rgba(82,82,82,0.42)_0%,rgba(18,18,18,0.72)_100%)] px-4 text-[13px] leading-none font-normal text-neutral shadow-[inset_0_1px_0_rgba(255,255,255,0.24),0_8px_16px_rgba(0,0,0,0.24)] backdrop-blur-[6px] transition-all duration-300 group-hover:border-neutral/58 sm:mt-4 sm:h-[35px] sm:px-8 sm:text-[15px]"
         >
           <span>{cta}</span>
           <span aria-hidden className="text-[15px] sm:text-[20px]">
             {"->"}
           </span>
-        </button>
+        </a>
       </div>
     </article>
   );

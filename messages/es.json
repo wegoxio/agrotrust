@@ -1,515 +1,525 @@
 {
-  "Metadata": {
-    "title": "AgroTrust | Soluciones agricolas confiables",
-    "description": "Landing page para los servicios y productos de AgroTrust."
-  },
-  "LanguageSwitcher": {
-    "label": "Idioma",
-    "en": "Ingles",
-    "es": "Espanol",
-    "goTo": "Cambiar a {language}",
-    "openMenu": "Abrir menu",
-    "closeMenu": "Cerrar menu"
-  },
-  "Hero": {
-    "slide1Title": "Donde el capital, los productores y compradores convergen",
-    "slide1Description": "La primera plataforma estructurada que facilita las transacciones globales de commodities",
-    "slide1Cta": "Conviertete en socio",
-    "slide2Title": "Disenada para la ejecucion real del comercio de commodities",
-    "slide2Description": "Confiable. Escalable. Disenada para operar en el mundo real.",
-    "slide2Cta": "Conviertete en socio",
-    "slide3Title": "Accede a commodities venezolanos premium, directo desde el origen",
-    "slide3Description": "Suministro exclusivo. Productores verificados. Transacciones seguras",
-    "slide3Cta": "Conviertete en socio",
-    "slide1Alt": "Buque de carga navegando por el oceano",
-    "slide2Alt": "Plantacion agricola en colinas verdes",
-    "slide3Alt": "Cerezas de cafe frescas sostenidas en dos manos",
-    "goToSlide": "Ir al slide {index}"
-  },
-  "OverlayMenu": {
-    "backgroundAlt": "Imagen de fondo del menu de pantalla completa",
-    "closeMenu": "Cerrar menu",
-    "latestNews": "ULTIMAS NOTICIAS",
-    "about": "Nosotros",
-    "platform": "Plataforma",
-    "howItWorks": "Como funciona",
-    "partners": "Aliados",
-    "contact": "Contacto",
-    "news1Alt": "Cerezas y granos de cafe de Venezuela",
-    "news1Title": "Venezuela cultiva uno de los mejores cafes del mundo, segun expertos internacionales",
-    "news2Alt": "Paisaje montanoso venezolano asociado a importaciones de cafe",
-    "news2Title": "IMPORTACIONES DE CAFE + VENEZUELA",
-    "news3Alt": "Mazorcas de cacao fino de aroma en primer plano",
-    "news3Title": "La importancia del cacao fino de aroma en el mercado global: el caso del cacao venezolano.",
-    "news4Alt": "Sacos con granos de cacao",
-    "news4Title": "Venezuela produce algunos de los mejores chocolates del mundo. Pero rentabilizarlo sigue siendo un reto",
-    "readMore": "LEER MAS",
-    "copyright": "AGROTRUST Todos los derechos reservados"
-  },
-  "Features": {
-    "title": "Lo que puedes lanzar rapido",
-    "item1Title": "Trazabilidad",
-    "item1Description": "Sigue cada etapa desde el origen hasta la entrega en un solo lugar.",
-    "item2Title": "Tableros operativos",
-    "item2Description": "Monitorea KPIs de cosecha, logistica y calidad en tiempo real.",
-    "item3Title": "Reportes confiables",
-    "item3Description": "Genera reportes listos para auditoria para clientes y requerimientos regulatorios."
-  },
-  "Companies": {
-    "subtitle": "Construido sobre una red de aliados confiables y consolidados en agricultura, logistica y finanzas.",
-    "italBankAlt": "Logo de ItalBank",
-    "defisaAlt": "Logo de DEFISA",
-    "avexAlt": "Logo de AVEX",
-    "bolpriavenAlt": "Logo de Bolpriaven",
-    "agroinvestAlt": "Logo de Agroinvest",
-    "brisasDelGilAlt": "Logo de Brisas del Gil",
-    "conduitAlt": "Logo de Conduit",
-    "fecveLabAlt": "Logo de FECVE Lab",
-    "italcambioAlt": "Logo de Italcambio"
-  },
-  "About": {
-    "eyebrow": "Nosotros",
-    "title": "Una nueva infraestructura para el comercio",
-    "cards": {
-      "origin": {
-        "title": "El capital se encuentra con el origen.",
-        "description": "AgroTrust conecta inversionistas y compradores de clase mundial directamente con productores en origen, mediante una plataforma estructurada de financiamiento comercial para reducir el riesgo.",
-        "cta": "Conoce como funciona"
-      },
-      "platform": {
-        "title": "Cadenas de suministro seguras y transparentes.",
-        "description": "Transformamos un comercio agricola fragmentado en cadenas listas para financiamiento: cada contrato, envio y pago se convierte en un activo trazable e invertible.",
-        "cta": "Ver la plataforma"
-      },
-      "sourcing": {
-        "title": "Mejor abastecimiento, mayor escala.",
-        "description": "Al controlar tanto el flujo de fondos como el movimiento de mercancia, AgroTrust te permite financiar mas rapido y escalar transacciones globales de commodities con confianza.",
-        "cta": "Comenzar abastecimiento"
-      }
-    },
-    "imageAlt": "Rascacielos vistos desde abajo"
-  },
-  "MarketWidget": {
-    "eyebrow": "Pulso de mercado",
-    "title": "Panel en vivo del mercado de cafe",
-    "description": "Monitorea el movimiento del commodity en tiempo real con mini graficos embebidos, listos para visibilidad operativa y comercial inmediata.",
-    "cards": {
-      "1": {
-        "title": "Cafe - Feed en vivo",
-        "subtitle": "KC1!"
-      },
-      "2": {
-        "title": "Cafe - Vista intradia",
-        "subtitle": "KC1!"
-      },
-      "3": {
-        "title": "Cafe - Referencia de ejecucion",
-        "subtitle": "FPMARKETS:COFFEE"
-      }
-    }
-  },
-  "OurPlatform": {
-    "eyebrow": "Nuestra plataforma",
-    "title": "Un ecosistema",
-    "description": "AgroTrust integra a los participantes clave del comercio global de commodities en un solo ecosistema estructurado. A traves de un marco controlado, compradores, productores, socios de capital y proveedores de servicios pueden operar con mayor transparencia, seguridad y eficiencia en cada etapa de la transaccion.",
-    "steps": {
-      "1": {
-        "title": "Debida diligencia y estructuracion del comprador",
-        "description": "AgroTrust inicia validando las partes involucradas y definiendo la estructura de la transaccion. Esto incluye evaluar contrapartes, alinear terminos del acuerdo y crear un marco que reduzca la incertidumbre antes de comenzar la ejecucion."
-      },
-      "2": {
-        "title": "Colateral y financiamiento",
-        "description": "Una vez estructurado el acuerdo, la plataforma soporta la capa financiera de la transaccion mediante la organizacion del colateral y la coordinacion del fondeo. Esto ayuda a que el capital se despliegue dentro de un marco seguro que protege a todas las partes involucradas."
-      },
-      "3": {
-        "title": "Embarque y escrow",
-        "description": "AgroTrust ayuda a coordinar los controles operativos y financieros ligados a la ejecucion, incluyendo la supervision de envios y los mecanismos de escrow. Esto agrega una capa de proteccion y transparencia mientras los bienes y pagos avanzan durante el proceso."
-      },
-      "4": {
-        "title": "Distribucion y ejecucion final",
-        "description": "La etapa final se enfoca en completar la transaccion de forma eficiente y en mantener alineados a todos los participantes a traves de la entrega y la distribucion. El resultado es una ejecucion mas fluida con mayor trazabilidad y responsabilidad de principio a fin."
-      }
-    },
-    "imageAlt": "Equipo de negocios uniendo las manos"
-  },
-  "HowItWorks": {
-    "eyebrow": "Como funciona",
-    "titlePrefix": "AgroTrust",
-    "titleHighlight": "opera como una infraestructura comercial plug-and-play,",
-    "titleSuffix": "donde todos los participantes clave del comercio global de commodities convergen dentro de un marco unico y seguro.",
-    "paragraph1": "AgroTrust integra a los actores clave del comercio global de commodities en un ecosistema estructurado. A traves de un marco controlado, compradores, productores, socios de capital y proveedores de servicios pueden operar con mayor transparencia, seguridad y eficiencia en cada etapa de la transaccion.",
-    "paragraph2Prefix": "A traves de nuestra plataforma, cada transaccion se ejecuta dentro de un ecosistema controlado que gestiona ambos:",
-    "paragraph2Highlight": "El movimiento de bienes y el flujo de fondos",
-    "cardTitle": "Disenado para una ejecucion segura",
-    "chips": {
-      "1": "Pagos controlados por escrow",
-      "2": "Transacciones respaldadas con colateral",
-      "3": "Financiamiento de hasta 80% del valor de la carga",
-      "4": "Estructurado desde origen hasta el pago"
-    },
-    "cardFooter": "Asegurando transparencia, seguridad y alineacion entre todos los participantes.",
-    "backgroundAlt": "Campos agricolas y montanas"
-  },
-  "StepFlow": {
-    "title": "Step Flow",
-    "descriptionHighlight": "AgroTrust integra a los participantes clave del comercio global de commodities en un ecosistema estructurado.",
-    "descriptionSuffix": "A traves de un marco controlado, compradores, productores, socios de capital y proveedores de servicios pueden operar con mayor transparencia y eficiencia en cada etapa de la transaccion.",
-    "controls": {
-      "previous": "Paso anterior",
-      "next": "Siguiente paso",
-      "goToStep": "Ir al paso"
-    },
-    "slides": {
-      "1": {
-        "tab": "Debida diligencia del comprador",
-        "title": "1. Debida diligencia del comprador",
-        "description": "Los compradores son presentados y evaluados para asegurar que la demanda calificada entre en la plataforma.",
-        "imageAlt": "Reunion para debida diligencia del comprador"
-      },
-      "2": {
-        "tab": "Estructuracion y alineacion de participantes",
-        "title": "2. Estructuracion y alineacion de participantes",
-        "lead": "AgroTrust estructura la transaccion alineando a todas las partes:",
-        "bullets": {
-          "1": "Productores",
-          "2": "Inversionistas",
-          "3": "Almacenes",
-          "4": "Proveedores logisticos",
-          "5": "Bancos escrow",
-          "6": "Compradores"
-        },
-        "imageAlt": "Mecanismos que representan alineacion"
-      },
-      "3": {
-        "tab": "Colateralizacion previa al embarque",
-        "title": "3. Colateralizacion previa al embarque",
-        "description": "La mercancia se entrega en un almacen general de deposito regulado y se asegura mediante un bono de prenda, creando una estructura de financiamiento respaldada por colateral.",
-        "imageAlt": "Firma de documentos para colateralizacion"
-      },
-      "4": {
-        "tab": "Despliegue de financiamiento",
-        "title": "4. Despliegue de financiamiento",
-        "description": "El capital se despliega, tipicamente hasta 70-80% del valor de la transaccion, dentro de un marco seguro respaldado por el activo subyacente.",
-        "imageAlt": "Despliegue de capital y financiamiento"
-      },
-      "5": {
-        "tab": "Embarque bajo control",
-        "title": "5. Embarque bajo control",
-        "description": "La carga se embarca bajo una estructura controlada, asegurando control total de la mercancia durante el transito hasta que se recibe el pago.",
-        "imageAlt": "Buque de carga bajo control"
-      },
-      "6": {
-        "tab": "Pago basado en escrow",
-        "title": "6. Pago basado en escrow",
-        "description": "El comprador remite el pago exclusivamente a una cuenta escrow designada, eliminando el riesgo de pago.",
-        "imageAlt": "Boveda escrow y pago seguro"
-      },
-      "7": {
-        "tab": "Distribucion automatizada por waterfall",
-        "title": "7. Distribucion automatizada por waterfall",
-        "description": "Los fondos se distribuyen automaticamente a traves de un waterfall predefinido que incluye a todos los participantes.",
-        "imageAlt": "Distribucion de fondos a participantes"
-      }
-    }
-  },
-  "VsLc": {
-    "titleBrand": "AGROTRUST",
-    "titleVs": "VS",
-    "titleMain": "Cartas de Credito (LC)",
-    "description": "AgroTrust elimina las limitaciones del financiamiento comercial tradicional al crear una infraestructura flexible, segura y escalable donde las transacciones pueden ejecutarse con confianza, exista o no una carta de credito.",
-    "leftTitle": "Carta de Credito Tradicional (LC)",
-    "leftItems": {
-      "1": "Proceso rigido y centrado en documentos",
-      "2": "Totalmente dependiente del banco emisor",
-      "3": "Limitado al financiamiento bancario",
-      "4": "Controla solo documentos",
-      "5": "Pago sujeto a cumplimiento estricto",
-      "6": "Aprobacion y procesamiento lentos",
-      "7": "Limitado por la capacidad bancaria",
-      "8": "Requiere LC para funcionar"
-    },
-    "rightItems": {
-      "1": "Estructura flexible y adaptable",
-      "2": "No depende de lineas de credito bancarias del comprador",
-      "3": "Financiamiento disponible directamente de inversionistas/fondos",
-      "4": "Controla tanto bienes como fondos",
-      "5": "Pagos seguros basados en escrow",
-      "6": "Ejecucion mas rapida",
-      "7": "Escalable para multiples participantes",
-      "8": "Funciona con o sin LC"
-    },
-    "footer": "Asegurando transparencia, seguridad y alineacion entre todos los participantes."
-  },
-  "BecomePartner": {
-    "title": "Conviertete en socio",
-    "leftTextPrefix": "Unete a un ecosistema estructurado donde cada participante cumple un rol critico para habilitar un",
-    "leftTextHighlight": "comercio global seguro y escalable.",
-    "rightText": "Juntos, estos participantes conforman un ecosistema comercial totalmente integrado, disenado para reducir riesgo, aumentar eficiencia y habilitar escala global.",
-    "cta": "Conviertete en socio",
-    "controls": {
-      "previous": "Tarjetas anteriores",
-      "next": "Siguientes tarjetas"
-    },
-    "cards": {
-      "1": {
-        "title": "Bancos y aliados escrow",
-        "subtitle": "Aseguran el flujo de fondos mediante cuentas escrow controladas.",
-        "description": "Garantizan que todos los pagos se reciban, resguarden y distribuyan de forma transparente, eliminando riesgo de pago en cada transaccion.",
-        "imageAlt": "Alianza con bancos y escrow"
-      },
-      "2": {
-        "title": "Inversionistas y aliados financieros",
-        "subtitle": "Aportan capital para financiar transacciones de commodities.",
-        "description": "Al participar dentro de una estructura respaldada por colateral, los inversionistas acceden a oportunidades de activos reales con riesgo controlado y ejecucion predecible.",
-        "imageAlt": "Inversionista firmando documento financiero"
-      },
-      "3": {
-        "title": "Productores",
-        "subtitle": "Suministran commodities seleccionados, de grado exportacion, directamente desde origen.",
-        "description": "Los productores acceden a mercados globales y a financiamiento, impulsando crecimiento sin depender de intermediarios tradicionales.",
-        "imageAlt": "Productores de commodities en origen"
-      },
-      "4": {
-        "title": "Compradores / Offtakers",
-        "subtitle": "Adquieren commodities a traves de la plataforma.",
-        "description": "Compradores internacionales acceden a oferta verificada mediante estructuras de pago seguras, garantizando confiabilidad, calidad y ejecucion.",
-        "imageAlt": "Red global de compradores y offtakers"
-      },
-      "5": {
-        "title": "Aliados de logistica y embarque",
-        "subtitle": "Gestionan el transporte y envio de mercancia.",
-        "description": "Aseguran el movimiento eficiente de commodities bajo documentacion controlada, preservando la integridad desde el origen hasta el destino.",
-        "imageAlt": "Buque portacontenedores transportando carga"
-      },
-      "6": {
-        "title": "Gestores de almacen y colateral",
-        "subtitle": "Aseguran, resguardan y certifican la mercancia.",
-        "description": "Al controlar inventario y emitir instrumentos de colateral, habilitan financiamiento y protegen la transaccion desde su base.",
-        "imageAlt": "Pasillos de almacen de mercancias"
-      },
-      "7": {
-        "title": "Plataformas de cambio y pagos",
-        "subtitle": "Habilitan liquidaciones transfronterizas mediante conversion fiat y activos digitales.",
-        "description": "Estos aliados permiten conversion fluida entre monedas tradicionales y activos digitales (como USDT), habilitando pagos globales mas rapidos y flexibles, especialmente en mercados con acceso bancario limitado.",
-        "imageAlt": "Plataformas de conversion y pagos digitales"
-      }
-    }
-  },
-  "Dashboard": {
-    "eyebrow": "Dashboard",
-    "title": "Panel de ejecucion comercial en tiempo real",
-    "description": "Monitorea activos, envios, documentos y pagos en un solo lugar.",
-    "controls": {
-      "previous": "Tarjeta anterior del dashboard",
-      "next": "Siguiente tarjeta del dashboard"
-    },
-    "bottomSlogan": "Una plataforma. Visibilidad total. Control total",
-    "slides": {
-      "1": {
-        "title": "1. Seguimiento de transacciones",
-        "description": "Sigue cada paso desde el almacen hasta el pago final",
-        "panelCode": "CAAU8335822",
-        "panelMeta": "40' Dry High cube - Chicago - Tren recibido - 25 jun 2025",
-        "panelOrigin": "Chicago",
-        "events": {
-          "1": "Tren recibido - 25 jun 2025",
-          "2": "Tren despachado - 25 jun 2025",
-          "3": "Intercambio ferroviario recibido - 25 jun 2025",
-          "4": "Tren recibido en McCook - 25 jun 2025",
-          "5": "Tren despachado a Joliet - 25 jun 2025"
-        },
-        "previewLabel": "Mapa de carga y control de embarque",
-        "imageAlt": "Mapa de seguimiento de embarque"
-      },
-      "2": {
-        "title": "2. Sincronizacion de documentos",
-        "description": "Coordina contratos, certificados de almacen y documentos de transporte en un solo flujo",
-        "panelCode": "DOCS-92141",
-        "panelMeta": "Contrato Set B - Version 3 - Actualizado 25 jun 2025",
-        "panelOrigin": "Frankfurt",
-        "events": {
-          "1": "Acuerdo de compra validado",
-          "2": "Certificado de almacen adjuntado",
-          "3": "Borrador de BL aprobado",
-          "4": "Checklist de cumplimiento completado",
-          "5": "Paquete final enviado"
-        },
-        "previewLabel": "Controles y aprobaciones documentales",
-        "imageAlt": "Panel de gestion documental"
-      },
-      "3": {
-        "title": "3. Verificacion de calidad y origen",
-        "description": "Valida especificaciones, hitos de calidad y evidencia de origen en tiempo real",
-        "panelCode": "QOR-51087",
-        "panelMeta": "Lote 17-C - Origen verificado - Actualizado 25 jun 2025",
-        "panelOrigin": "Puerto Cabello",
-        "events": {
-          "1": "Certificado de origen cargado",
-          "2": "Inspeccion de calidad pre-embarque completada",
-          "3": "Controles de humedad y peso aprobados",
-          "4": "Reporte de laboratorio adjuntado",
-          "5": "Lote liberado para embarque"
-        },
-        "previewLabel": "Hitos de calidad y origen",
-        "imageAlt": "Dashboard de calidad y origen"
-      },
-      "4": {
-        "title": "4. Monitoreo de hitos de pago",
-        "description": "Mantiene cada disparador de pago alineado con hitos logisticos y de entrega",
-        "panelCode": "PAY-30072",
-        "panelMeta": "Flujo escrow activo - 3 hitos - Actualizado 25 jun 2025",
-        "panelOrigin": "Panama",
-        "events": {
-          "1": "Cuenta escrow fondeada",
-          "2": "Hito de salida de embarque confirmado",
-          "3": "Checkpoint de intercambio verificado",
-          "4": "Confirmacion de entrega pendiente",
-          "5": "Liberacion final en cola"
-        },
-        "previewLabel": "Control de hitos de pago",
-        "imageAlt": "Monitoreo de hitos de pago"
-      },
-      "5": {
-        "title": "5. Capa de control lista para auditoria",
-        "description": "Genera una trazabilidad operativa clara durante todo el ciclo de la transaccion",
-        "panelCode": "AUD-77126",
-        "panelMeta": "Paquete de auditoria preparado - Actualizado 25 jun 2025",
-        "panelOrigin": "Houston",
-        "events": {
-          "1": "Export de linea de tiempo generado",
-          "2": "Aprobaciones y firmas conciliadas",
-          "3": "Puntos de riesgo documentados",
-          "4": "Registro de excepciones revisado",
-          "5": "Archivo final de auditoria entregado"
-        },
-        "previewLabel": "Trazabilidad de auditoria y cumplimiento",
-        "imageAlt": "Vista general de dashboard de auditoria"
-      }
-    }
-  },
-  "ContactForm": {
-    "eyebrow": "Contacto",
-    "title": "Ponte en contacto",
-    "subtitle": "Cuentanos tu rol y como te gustaria participar en el ecosistema AgroTrust.",
-    "sections": {
-      "purpose": "Proposito de contacto",
-      "companyType": "Tipo de empresa",
-      "companyInfo": "Informacion de la empresa",
-      "contactInfo": "Informacion de contacto",
-      "transaction": "Interes de transaccion"
-    },
-    "form": {
-      "purpose": "Que te gustaria hacer?",
-      "purposePlaceholder": "Selecciona una opcion",
-      "purposeOptions": {
-        "requestSupply": "Solicitar suministro (Comprador / Offtaker)",
-        "applyFinancing": "Aplicar para financiamiento / oportunidades de inversion",
-        "becomeProducer": "Convertirme en productor",
-        "becomePartner": "Convertirme en aliado",
-        "generalInquiry": "Consulta general"
-      },
-      "role": "Tu rol / tipo de empresa",
-      "rolePlaceholder": "Selecciona tu rol",
-      "roleOptions": {
-        "buyerOfftaker": "Comprador / Offtaker",
-        "producerExporter": "Productor / Exportador",
-        "investorEntity": "Inversionista / entidad de financiamiento",
-        "bankEscrow": "Banco / proveedor escrow",
-        "warehouseManager": "Almacen / gestor de colateral",
-        "logisticsShipping": "Empresa de logistica / shipping",
-        "exchangePayment": "Plataforma de cambio / pagos",
-        "other": "Otro"
-      },
-      "companyName": "Nombre de la empresa (Requerido)",
-      "country": "Pais",
-      "countryPlaceholder": "Selecciona un pais",
-      "searchCountries": "Busca pais o codigo...",
-      "searchPhoneCountries": "Busca por pais o prefijo...",
-      "noCountryResults": "No se encontraron paises.",
-      "phoneCountryPlaceholder": "Selecciona prefijo",
-      "phoneNumberPlaceholder": "Ingresa el numero",
-      "industry": "Industria / sector (Opcional)",
-      "fullName": "Nombre completo (Requerido)",
-      "email": "Correo electronico (Requerido)",
-      "phone": "Telefono / WhatsApp (Opcional pero recomendado)",
-      "commodities": "En que estas interesado?",
-      "commodityOptions": {
-        "cocoa": "Cacao",
-        "coffee": "Cafe",
-        "other": "Otros commodities"
-      },
-      "volume": "Volumen estimado (Opcional)",
-      "volumePlaceholder": "Selecciona un volumen estimado",
-      "volumeOptions": {
-        "small": "Pequeno (1-5 contenedores)",
-        "medium": "Mediano (5-20 contenedores)",
-        "large": "Grande (20+ contenedores)"
-      },
-      "message": "Cuentanos mas sobre tu solicitud",
-      "messagePlaceholder": "Comparte cualquier detalle relevante de tu solicitud.",
-      "submit": "Enviar solicitud",
-      "submitting": "Enviando...",
-      "confidentiality": "Todas las solicitudes se gestionan de forma confidencial dentro de nuestra plataforma segura.",
-      "error": "Completa todos los campos requeridos.",
-      "success": "Gracias. Tu solicitud fue enviada correctamente."
-    }
-  },
-  "Footer": {
-    "tagline": "AgroTrust construye flujos de commodities seguros donde capital, logistica y ejecucion permanecen alineados desde el origen hasta la liquidacion.",
-    "quickLinksTitle": "Enlaces rapidos",
-    "quickLinks": {
-      "about": "Nosotros",
-      "platform": "Plataforma",
-      "howItWorks": "Como funciona",
-      "partners": "Aliados",
-      "news": "Noticias",
-      "contact": "Contacto"
-    },
-    "contactTitle": "Contacto",
-    "contact": {
-      "emailLabel": "Email",
-      "emailValue": "info@agrotrust.com",
-      "phoneLabel": "Telefono",
-      "phoneValue": "+1 (234) 567-890",
-      "phoneHref": "+1234567890",
-      "locationLabel": "Ubicacion",
-      "locationValue": "Operaciones Globales"
-    },
-    "social": {
-      "linkedin": "LinkedIn",
-      "linkedinUrl": "https://www.linkedin.com",
-      "x": "X",
-      "xUrl": "https://x.com"
-    },
-    "bottom": {
-      "privacyPolicy": "Politica de Privacidad",
-      "termsOfService": "Terminos de Servicio",
-      "legal": "Legal"
-    },
-    "cta": "Conviertete en socio",
-    "groups": {
-      "navigation": "Navegacion",
-      "ecosystem": "Ecosistema",
-      "contact": "Contacto"
-    },
-    "navigation": {
-      "home": "Inicio",
-      "about": "Nosotros",
-      "platform": "Plataforma",
-      "howItWorks": "Como funciona",
-      "partners": "Aliados"
-    },
-    "ecosystem": {
-      "network": "Red de aliados",
-      "stepFlow": "Step Flow",
-      "comparison": "AgroTrust vs LC",
-      "dashboard": "Panel de ejecucion"
-    },
-    "contactText": "Para alianzas, colaboracion con inversionistas y detalles de onboarding, contacta directamente a nuestro equipo.",
-    "contactEmail": "partners@agrotrust.global",
-    "contactCta": "Agendar llamada estrategica",
-    "rights": "{year} AGROTRUST. Todos los derechos reservados.",
-    "compliance": "Disenado para una ejecucion transparente y segura",
-    "backToTop": "Volver arriba"
-  }
+    "Metadata":  {
+                     "title":  "AgroTrust | Soluciones agrícolas confiables",
+                     "description":  "Landing page para los servicios y productos de AgroTrust."
+                 },
+    "LanguageSwitcher":  {
+                             "label":  "Idioma",
+                             "en":  "Inglés",
+                             "es":  "Español",
+                             "goTo":  "Cambiar a {language}",
+                             "openMenu":  "Abrir menú",
+                             "closeMenu":  "Cerrar menú"
+                         },
+    "Hero":  {
+                 "slide1Title":  "Donde el Capital, los Productores y Compradores Convergen",
+                 "slide1Description":  "La primera plataforma estructurada que facilita las transacciones globales de commodities",
+                 "slide1Cta":  "Conviértete en nuestro socio",
+                 "slide2Title":  "Diseñada para la Ejecución Segura de Transacciones de Commodities",
+                 "slide2Description":  "Confiable. Escalable. Diseñada para operar en el mundo real.",
+                 "slide2Cta":  "Conviértete en nuestro socio",
+                 "slide3Title":  "Accede a Commodities Venezolanos Premium — Directamente desde el Origen",
+                 "slide3Description":  "Suministro exclusivo. Productores verificados. Transacciones seguras.",
+                 "slide3Cta":  "Conviértete en nuestro socio",
+                 "slide1Alt":  "Buque de carga navegando por el océano",
+                 "slide2Alt":  "Plantación agrícola en colinas verdes",
+                 "slide3Alt":  "Cerezas de café frescas sostenidas en dos manos",
+                 "goToSlide":  "Ir al slide {index}"
+             },
+    "OverlayMenu":  {
+                        "backgroundAlt":  "Imagen de fondo del menú de pantalla completa",
+                        "closeMenu":  "Cerrar menú",
+                        "latestNews":  "NOTICIAS",
+                        "about":  "Quiénes somos",
+                        "platform":  "Plataforma",
+                        "howItWorks":  "Cómo funciona",
+                        "partners":  "Aliados",
+                        "contact":  "Contacto",
+                        "news1Alt":  "Cerezas y granos de café de Venezuela",
+                        "news1Title":  "Venezuela cultiva uno de los mejores cafés del mundo, según expertos internacionales",
+                        "news2Alt":  "Paisaje montañoso venezolano asociado a importaciones de café",
+                        "news2Title":  "IMPORTACIONES DE CAFÉ + VENEZUELA",
+                        "news3Alt":  "Mazorcas de cacao fino de aroma en primer plano",
+                        "news3Title":  "La importancia del cacao fino de aroma en el mercado global: el caso del cacao venezolano.",
+                        "news4Alt":  "Sacos con granos de cacao",
+                        "news4Title":  "Venezuela produce algunos de los mejores chocolates del mundo. Pero rentabilizarlo sigue siendo un reto",
+                        "readMore":  "LEER MÁS",
+                        "copyright":  "AGROTRUST Todos los derechos reservados"
+                    },
+    "Features":  {
+                     "title":  "Lo que puedes lanzar rápido",
+                     "item1Title":  "Trazabilidad",
+                     "item1Description":  "Sigue cada etapa desde el origen hasta la entrega en un solo lugar.",
+                     "item2Title":  "Tableros operativos",
+                     "item2Description":  "Monitorea KPIs de cosecha, logística y calidad en tiempo real.",
+                     "item3Title":  "Reportes confiables",
+                     "item3Description":  "Genera reportes listos para auditoría para clientes y requerimientos regulatorios."
+                 },
+    "Companies":  {
+                      "subtitle":  "Construido sobre una red de socios confiables y consolidados en el sector agro, logística y finanzas.",
+                      "italBankAlt":  "Logo de ItalBank",
+                      "defisaAlt":  "Logo de DEFISA",
+                      "avexAlt":  "Logo de AVEX",
+                      "bolpriavenAlt":  "Logo de Bolpriaven",
+                      "agroinvestAlt":  "Logo de Agroinvest",
+                      "brisasDelGilAlt":  "Logo de Brisas del Gil",
+                      "conduitAlt":  "Logo de Conduit",
+                      "fecveLabAlt":  "Logo de FECVE Lab",
+                      "italcambioAlt":  "Logo de Italcambio",
+                      "trianguloAlt":  "Logo de Triángulo de Mocoties"
+                  },
+    "About":  {
+                  "eyebrow":  "QUIÉNES SOMOS",
+                  "title":  "Una nueva plataforma para la venta de commodities",
+                  "cards":  {
+                                "origin":  {
+                                               "title":  "El capital llega al origen.",
+                                               "description":  "AgroTrust conecta el capital con los productores en origen y compradores de clase mundial, a través de una plataforma de financiamiento (trade finance) estructurado, diseñada para reducir riesgos y habilitar transacciones globales de commodities.",
+                                               "cta":  "Cómo funciona"
+                                           },
+                                "platform":  {
+                                                 "title":  "Del origen al puerto de destino.",
+                                                 "description":  "Desde el origen hasta el puerto de destino, transformamos la comercialización fragmentada de commodities en cadenas de suministro seguras, transparentes y listas para el financiamiento.",
+                                                 "cta":  "Ver la plataforma"
+                                             },
+                                "sourcing":  {
+                                                 "title":  "Compra mejor, financia más rápido y escala con confianza.",
+                                                 "description":  "Al controlar tanto el flujo de fondos como la movilización y el transporte de mercancía, convertimos cada contrato, despacho y pago en un activo trazable e invertible, permitiéndole comprar mejor, financiar más rápido y escalar con confianza.",
+                                                 "cta":  "Comenzar a operar"
+                                             }
+                            },
+                  "imageAlt":  "Rascacielos vistos desde abajo"
+              },
+    "MarketWidget":  {
+                         "eyebrow":  "Pulso de mercado",
+                         "title":  "Panel en vivo del mercado de café y cacao",
+                         "description":  "Monitorea el movimiento de café y cacao en tiempo real con mini gráficos embebidos, listos para visibilidad operativa y comercial inmediata.",
+                         "cards":  {
+                                       "1":  {
+                                                 "title":  "Café - Feed en vivo",
+                                                 "subtitle":  "KC1!"
+                                             },
+                                       "2":  {
+                                                 "title":  "Café - Vista intradía",
+                                                 "subtitle":  "KC1!"
+                                             },
+                                       "3":  {
+                                                 "title":  "Café - Referencia de ejecución",
+                                                 "subtitle":  "FPMARKETS:COFFEE"
+                                             },
+                                       "4":  {
+                                                 "title":  "Cacao - Vista intradía",
+                                                 "subtitle":  "USCOCOA"
+                                             },
+                                       "5":  {
+                                                 "title":  "Cacao - Feed en vivo",
+                                                 "subtitle":  "USCOCOA"
+                                             }
+                                   }
+                     },
+    "OurPlatform":  {
+                        "eyebrow":  "Nuestra Plataforma",
+                        "title":  "Un Solo Ecosistema",
+                        "description":  "AgroTrust reúne a todos los participantes clave del comercio global de commodities dentro de un ecosistema estructurado único. A través de nuestra plataforma, el capital, los productores, los compradores y los proveedores de servicios operan dentro de un marco controlado diseñado para reducir riesgos y permitir una ejecución eficiente y confiable. Coordinamos cada etapa de la transacción — desde el financiamiento y la garantía hasta la logística y el pago — asegurando alineación, transparencia y seguridad en cada paso. Esto crea un sistema unificado donde todos los participantes operan con transparencia, control e incentivos alineados.",
+                        "steps":  {
+                                      "1":  {
+                                                "title":  "Debida diligencia del comprador y estructuración",
+                                                "description":  "AgroTrust comienza validando las partes involucradas y definiendo la estructura de la transacción. Esto incluye evaluar contrapartes, alinear condiciones del contrato y crear un marco que reduzca la incertidumbre antes de la ejecución."
+                                            },
+                                      "2":  {
+                                                "title":  "Colateral y financiamiento",
+                                                "description":  "Una vez estructurado el acuerdo, la plataforma soporta la capa financiera de la transacción a través de la organización del colateral y la coordinación del financiamiento, asegurando que el capital se despliegue dentro de un marco seguro que proteja a todas las partes involucradas."
+                                            },
+                                      "3":  {
+                                                "title":  "Envío y cuenta escrow",
+                                                "description":  "AgroTrust coordina los controles operativos y financieros vinculados a la ejecución, incluyendo la supervisión del envío y los mecanismos de escrow. Esto añade una capa de protección y transparencia a medida que los bienes y pagos avanzan en el proceso."
+                                            },
+                                      "4":  {
+                                                "title":  "Distribución y ejecución final",
+                                                "description":  "La etapa final se centra en completar la transacción de manera eficiente, asegurando que todos los participantes permanezcan alineados durante la entrega y distribución. El resultado es un proceso de ejecución más fluido y con mayor rendición de cuentas de principio a fin."
+                                            }
+                                  },
+                        "imageAlt":  "Equipo de negocios uniendo las manos"
+                    },
+    "HowItWorks":  {
+                       "eyebrow":  "Cómo Funciona",
+                       "titlePrefix":  "AgroTrust",
+                       "titleHighlight":  "opera como una plataforma de comercialización de commodities \"plug-and-play\",",
+                       "titleSuffix":  "donde todos los participantes clave convergen dentro de un entorno único y seguro.",
+                       "paragraph1":  "Productores, compradores, almacenes financieros, agentes de transporte, cuenta escrow, inversionistas y plataformas de pago, están conectados de forma integrada — permitiendo que las transacciones sean estructuradas, financiadas y ejecutadas con control total desde el origen hasta el pago.",
+                       "paragraph2Prefix":  "A través de nuestra plataforma, cada operación se ejecuta dentro de un ecosistema controlado que gestiona:",
+                       "paragraph2Highlight":  "Movilización y transporte de la mercancía (activo), y el flujo de los fondos (pago)",
+                       "cardTitle":  "Diseñado para una Ejecución Segura",
+                       "chips":  {
+                                     "1":  "Pagos controlados mediante una cuenta escrow",
+                                     "2":  "Transacciones respaldadas por colateral (mercancía)",
+                                     "3":  "Financiamiento de hasta el 80% del valor de la carga",
+                                     "4":  "Estructuración completa desde el origen hasta el pago"
+                                 },
+                       "cardFooter":  "Garantizando transparencia, seguridad y alineación entre todos los participantes.",
+                       "backgroundAlt":  "Campos agrícolas y montañas"
+                   },
+    "StepFlow":  {
+                     "title":  "Flujo del Proceso",
+                     "descriptionHighlight":  "Al controlar tanto el activo (commodity) como el flujo de efectivo (pago), AgroTrust permite que el capital participe en la comercialización de forma segura",
+                     "descriptionSuffix":  "acercando a productores y compradores globales dentro de un sistema único y escalable.",
+                     "controls":  {
+                                      "previous":  "Paso anterior",
+                                      "next":  "Siguiente paso",
+                                      "goToStep":  "Ir al paso"
+                                  },
+                     "slides":  {
+                                    "1":  {
+                                              "tab":  "Debida Diligencia del Comprador",
+                                              "title":  "1. Debida Diligencia del Comprador",
+                                              "description":  "Los compradores son introducidos y evaluados, asegurando que solo haya demanda calificada dentro de la plataforma.",
+                                              "imageAlt":  "Reunión para debida diligencia del comprador"
+                                          },
+                                    "2":  {
+                                              "tab":  "Estructuración y Alineación de Participantes",
+                                              "title":  "2. Estructuración y Alineación de Participantes",
+                                              "lead":  "AgroTrust estructura la transacción, alineando a todos los actores:",
+                                              "bullets":  {
+                                                              "1":  "Productores",
+                                                              "2":  "Inversionistas",
+                                                              "3":  "Almacenes Financieros",
+                                                              "4":  "Proveedores logísticos",
+                                                              "5":  "Compradores",
+                                                              "6":  "Cuentas Escrow",
+                                                              "7":  "Plataformas de Pago \u0026 Cambio"
+                                                          },
+                                              "imageAlt":  "Mecanismos que representan alineacion"
+                                          },
+                                    "3":  {
+                                              "tab":  "Colateralización Pre-Embarque",
+                                              "title":  "3. Colateralización Pre-Embarque",
+                                              "description":  "La mercancía es entregada en un almacén financiero regulado y el financiamiento se emite mediante un Bono de Prenda, creando una estructura de financiamiento respaldada por activos.",
+                                              "imageAlt":  "Firma de documentos para colateralización"
+                                          },
+                                    "4":  {
+                                              "tab":  "Despliegue de Financiamiento",
+                                              "title":  "4. Despliegue de Financiamiento",
+                                              "description":  "El capital se desembolsa — típicamente 80% del valor de la transacción — dentro de una estructura segura respaldada por el activo subyacente.",
+                                              "imageAlt":  "Despliegue de capital y financiamiento"
+                                          },
+                                    "5":  {
+                                              "tab":  "Envío Bajo Control",
+                                              "title":  "5. Envío Bajo Control",
+                                              "description":  "La carga se envía bajo una estructura controlada, asegurando control total de la mercancía durante todo el tránsito hasta la recepción del pago.",
+                                              "imageAlt":  "Buque de carga bajo control"
+                                          },
+                                    "6":  {
+                                              "tab":  "Pago vía Cuenta Escrow",
+                                              "title":  "6. Pago vía Cuenta Escrow",
+                                              "description":  "El comprador realiza el pago exclusivamente a una cuenta escrow designada, eliminando el riesgo de pago.",
+                                              "imageAlt":  "Bóveda escrow y pago seguro"
+                                          },
+                                    "7":  {
+                                              "tab":  "Distribución Automática (Waterfall)",
+                                              "title":  "7. Distribución Automática (Waterfall)",
+                                              "description":  "Los fondos se distribuyen automáticamente según un flujo predefinido que incluye a todos los participantes.",
+                                              "imageAlt":  "Distribución de fondos a participantes"
+                                          }
+                                }
+                 },
+    "VsLc":  {
+                 "titleBrand":  "AGROTRUST",
+                 "titleVs":  "VS",
+                 "titleMain":  "Cartas de Crédito (C/C)",
+                 "description":  "AgroTrust elimina las limitaciones del financiamiento tradicional al crear una infraestructura flexible, segura y escalable donde las transacciones pueden ejecutarse con confianza — exista o no una carta de crédito.",
+                 "leftTitle":  "Carta de Crédito Tradicional (C/C)",
+                 "leftItems":  {
+                                   "1":  "Proceso rígido y documental",
+                                   "2":  "Totalmente dependiente del banco",
+                                   "3":  "Limitado a financiamiento bancario",
+                                   "4":  "Control solo documental",
+                                   "5":  "Pago sujeto a cumplimiento estricto",
+                                   "6":  "Procesos lentos",
+                                   "7":  "Limitado por capacidad bancaria",
+                                   "8":  "Requiere C/C"
+                               },
+                 "rightItems":  {
+                                    "1":  "Estructura flexible y adaptable",
+                                    "2":  "No depende del banco del comprador",
+                                    "3":  "Financiamiento directo de inversionistas/fondos",
+                                    "4":  "Control de mercancía y fondos",
+                                    "5":  "Pagos seguros vía cuentas escrow",
+                                    "6":  "Ejecución rápida",
+                                    "7":  "Escalable a múltiples participantes",
+                                    "8":  "Funciona con o sin C/C"
+                                },
+                 "footer":  "La comercialización de commodities ya no tiene que ser lenta, rígida ni depender exclusivamente de los bancos."
+             },
+    "BecomePartner":  {
+                          "title":  "Conviértete en nuestro socio",
+                          "leftTextPrefix":  "Únete a un ecosistema estructurado donde cada participante cumple un rol clave en habilitar la",
+                          "leftTextHighlight":  "comercialización global de commodities de forma segura y escalable.",
+                          "rightText":  "Juntos, estos participantes forman un ecosistema completamente integrado — diseñado para reducir riesgos, aumentar eficiencia y escalar globalmente.",
+                          "cta":  "Conviértete en nuestro socio",
+                          "controls":  {
+                                           "previous":  "Tarjetas anteriores",
+                                           "next":  "Siguientes tarjetas"
+                                       },
+                          "cards":  {
+                                        "1":  {
+                                                  "title":  "Bancos y Socios de Escrow",
+                                                  "subtitle":  "Aseguran el flujo de fondos mediante cuentas de escrow (controladas).",
+                                                  "description":  "Garantizan que todos los pagos sean recibidos, resguardados y distribuidos de forma transparente — eliminando el riesgo de pago en cada transacción.",
+                                                  "imageAlt":  "Alianza con bancos y escrow"
+                                              },
+                                        "2":  {
+                                                  "title":  "Inversionistas y Socios Financieros",
+                                                  "subtitle":  "Proveen el capital para financiar las transacciones de commodities.",
+                                                  "description":  "Participan en estructuras respaldadas por colateral, accediendo a oportunidades sobre activos reales con riesgo controlado y ejecución predecible.",
+                                                  "imageAlt":  "Inversionista firmando documento financiero"
+                                              },
+                                        "3":  {
+                                                  "title":  "Productores",
+                                                  "subtitle":  "Suministran commodities cuidadosamente seleccionados y certificados con calidad de exportación directamente desde el origen.",
+                                                  "description":  "Obtienen acceso a mercados globales y financiamiento — sin necesidad de depender de intermediarios tradicionales.",
+                                                  "imageAlt":  "Productores de commodities en origen"
+                                              },
+                                        "4":  {
+                                                  "title":  "Compradores / Offtakers",
+                                                  "subtitle":  "Adquieren commodities a través de la plataforma.",
+                                                  "description":  "Acceden a oferta verificada con estructuras de pago seguras — garantizando confiabilidad, calidad y ejecución.",
+                                                  "imageAlt":  "Red global de compradores y offtakers"
+                                              },
+                                        "5":  {
+                                                  "title":  "Socios Logísticos y de Transporte",
+                                                  "subtitle":  "Gestionan el transporte de la mercancía.",
+                                                  "description":  "Aseguran el movimiento eficiente bajo documentación controlada, preservando la integridad desde el origen hasta el destino/pago.",
+                                                  "imageAlt":  "Buque portacontenedores transportando carga"
+                                              },
+                                        "6":  {
+                                                  "title":  "Almacenes y Gestores de Colateral",
+                                                  "subtitle":  "Resguardan, almacenan y certifican la mercancía.",
+                                                  "description":  "Al controlar el inventario y emitir instrumentos de garantía (bono de prenda), habilitan el financiamiento y protegen la transacción desde su base.",
+                                                  "imageAlt":  "Pasillos de almacén de mercancías"
+                                              },
+                                        "7":  {
+                                                  "title":  "Plataformas de Pago e Intercambio",
+                                                  "subtitle":  "Permiten la liquidación internacional mediante conversión entre monedas fiat y activos digitales (stablecoins).",
+                                                  "description":  "Facilitan pagos globales más rápidos y flexibles (como USDT), especialmente en mercados con limitaciones bancarias.",
+                                                  "imageAlt":  "Plataformas de conversión y pagos digitales"
+                                              }
+                                    }
+                      },
+    "Dashboard":  {
+                      "eyebrow":  "Dashboard",
+                      "title":  "Panel de ejecución comercial en tiempo real",
+                      "description":  "Monitorea activos, envíos, documentos y pagos en un solo lugar.",
+                      "controls":  {
+                                       "previous":  "Tarjeta anterior del dashboard",
+                                       "next":  "Siguiente tarjeta del dashboard"
+                                   },
+                      "bottomSlogan":  "Una plataforma. Visibilidad total. Control total",
+                      "slides":  {
+                                     "1":  {
+                                               "title":  "1. Seguimiento de transacciones",
+                                               "description":  "Sigue cada paso desde el almacén hasta el pago final",
+                                               "panelCode":  "CAAU8335822",
+                                               "panelMeta":  "40\u0027 Dry High cube - Chicago - Tren recibido - 25 jun 2025",
+                                               "panelOrigin":  "Chicago",
+                                               "events":  {
+                                                              "1":  "Tren recibido - 25 jun 2025",
+                                                              "2":  "Tren despachado - 25 jun 2025",
+                                                              "3":  "Intercambio ferroviario recibido - 25 jun 2025",
+                                                              "4":  "Tren recibido en McCook - 25 jun 2025",
+                                                              "5":  "Tren despachado a Joliet - 25 jun 2025"
+                                                          },
+                                               "previewLabel":  "Mapa de carga y control de embarque",
+                                               "imageAlt":  "Mapa de seguimiento de embarque"
+                                           },
+                                     "2":  {
+                                               "title":  "2. Sincronización de documentos",
+                                               "description":  "Coordina contratos, certificados de almacén y documentos de transporte en un solo flujo",
+                                               "panelCode":  "DOCS-92141",
+                                               "panelMeta":  "Contrato Set B - Versión 3 - Actualizado 25 jun 2025",
+                                               "panelOrigin":  "Frankfurt",
+                                               "events":  {
+                                                              "1":  "Acuerdo de compra validado",
+                                                              "2":  "Certificado de almacén adjuntado",
+                                                              "3":  "Borrador de BL aprobado",
+                                                              "4":  "Checklist de cumplimiento completado",
+                                                              "5":  "Paquete final enviado"
+                                                          },
+                                               "previewLabel":  "Controles y aprobaciones documentales",
+                                               "imageAlt":  "Panel de gestión documental"
+                                           },
+                                     "3":  {
+                                               "title":  "3. Verificación de calidad y origen",
+                                               "description":  "Valida especificaciones, hitos de calidad y evidencia de origen en tiempo real",
+                                               "panelCode":  "QOR-51087",
+                                               "panelMeta":  "Lote 17-C - Origen verificado - Actualizado 25 jun 2025",
+                                               "panelOrigin":  "Puerto Cabello",
+                                               "events":  {
+                                                              "1":  "Certificado de origen cargado",
+                                                              "2":  "Inspección de calidad pre-embarque completada",
+                                                              "3":  "Controles de humedad y peso aprobados",
+                                                              "4":  "Reporte de laboratorio adjuntado",
+                                                              "5":  "Lote liberado para embarque"
+                                                          },
+                                               "previewLabel":  "Hitos de calidad y origen",
+                                               "imageAlt":  "Dashboard de calidad y origen"
+                                           },
+                                     "4":  {
+                                               "title":  "4. Monitoreo de hitos de pago",
+                                               "description":  "Mantiene cada disparador de pago alineado con hitos logísticos y de entrega",
+                                               "panelCode":  "PAY-30072",
+                                               "panelMeta":  "Flujo escrow activo - 3 hitos - Actualizado 25 jun 2025",
+                                               "panelOrigin":  "Panamá",
+                                               "events":  {
+                                                              "1":  "Cuenta escrow fondeada",
+                                                              "2":  "Hito de salida de embarque confirmado",
+                                                              "3":  "Checkpoint de intercambio verificado",
+                                                              "4":  "Confirmación de entrega pendiente",
+                                                              "5":  "Liberación final en cola"
+                                                          },
+                                               "previewLabel":  "Control de hitos de pago",
+                                               "imageAlt":  "Monitoreo de hitos de pago"
+                                           },
+                                     "5":  {
+                                               "title":  "5. Capa de control lista para auditoría",
+                                               "description":  "Genera una trazabilidad operativa clara durante todo el ciclo de la transacción",
+                                               "panelCode":  "AUD-77126",
+                                               "panelMeta":  "Paquete de auditoría preparado - Actualizado 25 jun 2025",
+                                               "panelOrigin":  "Houston",
+                                               "events":  {
+                                                              "1":  "Exportación de línea de tiempo generada",
+                                                              "2":  "Aprobaciones y firmas conciliadas",
+                                                              "3":  "Puntos de riesgo documentados",
+                                                              "4":  "Registro de excepciones revisado",
+                                                              "5":  "Archivo final de auditoria entregado"
+                                                          },
+                                               "previewLabel":  "Trazabilidad de auditoria y cumplimiento",
+                                               "imageAlt":  "Vista general del dashboard de auditoría"
+                                           }
+                                 }
+                  },
+    "ContactForm":  {
+                        "eyebrow":  "CONTACTO",
+                        "title":  "Ponte en Contacto",
+                        "subtitle":  "Cuéntanos tu rol y cómo te gustaría participar en el ecosistema AgroTrust.",
+                        "sections":  {
+                                         "purpose":  "Propósito del Contacto",
+                                         "companyType":  "Tipo de Empresa",
+                                         "companyInfo":  "Información de la Empresa",
+                                         "contactInfo":  "Información de Contacto",
+                                         "transaction":  "Interés en Transacciones"
+                                     },
+                        "form":  {
+                                     "purpose":  "¿Qué te gustaría hacer?",
+                                     "purposePlaceholder":  "Selecciona una opción",
+                                     "purposeOptions":  {
+                                                            "requestSupply":  "Solicitar suministro (Comprador)",
+                                                            "applyFinancing":  "Aplicar para financiamiento / inversión",
+                                                            "becomeProducer":  "Convertirme en productor",
+                                                            "becomePartner":  "Convertirme en socio",
+                                                            "generalInquiry":  "Consulta general"
+                                                        },
+                                     "role":  "Tipo de Empresa",
+                                     "rolePlaceholder":  "Selecciona una opción",
+                                     "roleOptions":  {
+                                                         "buyerOfftaker":  "Comprador / Offtaker",
+                                                         "producerExporter":  "Productor / Exportador",
+                                                         "investorEntity":  "Inversionista / Financista",
+                                                         "bankEscrow":  "Banco / Proveedor de Escrow",
+                                                         "warehouseManager":  "Almacén / Controlador de colateral",
+                                                         "logisticsShipping":  "Empresa logística / transporte",
+                                                         "exchangePayment":  "Plataforma de pagos",
+                                                         "other":  "Otro"
+                                                     },
+                                     "companyName":  "Nombre de la empresa (obligatorio)",
+                                     "country":  "País",
+                                     "countryPlaceholder":  "Selecciona un país",
+                                     "searchCountries":  "Busca país o código...",
+                                     "searchPhoneCountries":  "Busca por país o prefijo...",
+                                     "noCountryResults":  "No se encontraron países.",
+                                     "phoneCountryPlaceholder":  "Selecciona prefijo",
+                                     "phoneNumberPlaceholder":  "Ingresa el número",
+                                     "industry":  "Industria / sector (opcional)",
+                                     "fullName":  "Nombre completo",
+                                     "email":  "Correo electrónico",
+                                     "phone":  "Teléfono / WhatsApp",
+                                     "commodities":  "Interés en Transacciones",
+                                     "commodityOptions":  {
+                                                              "cocoa":  "Cacao",
+                                                              "coffee":  "Café",
+                                                              "other":  "Otros commodities"
+                                                          },
+                                     "volume":  "Volumen Estimado",
+                                     "volumePlaceholder":  "Selecciona una opción",
+                                     "volumeOptions":  {
+                                                           "small":  "Pequeño (1–5 contenedores)",
+                                                           "medium":  "Mediano (5–20 contenedores)",
+                                                           "large":  "Grande (20+)"
+                                                       },
+                                     "message":  "Cuéntanos más sobre tu solicitud",
+                                     "messagePlaceholder":  "Cuéntanos más sobre tu solicitud",
+                                     "submit":  "Enviar solicitud",
+                                     "submitting":  "Enviando...",
+                                     "confidentiality":  "Todas las consultas se manejan de forma confidencial dentro de nuestra plataforma segura.",
+                                     "error":  "Completa todos los campos requeridos.",
+                                     "success":  "Gracias. Tu solicitud fue enviada correctamente."
+                                 }
+                    },
+    "Footer":  {
+                   "tagline":  "Al controlar tanto el activo (commodity) como el flujo de efectivo (pago), AgroTrust permite que el capital participe en la comercialización de forma segura.",
+                   "quickLinksTitle":  "Enlaces rápidos",
+                   "quickLinks":  {
+                                      "about":  "Quiénes somos",
+                                      "platform":  "Plataforma",
+                                      "howItWorks":  "Cómo funciona",
+                                      "partners":  "Aliados",
+                                      "news":  "Noticias",
+                                      "contact":  "Contacto"
+                                  },
+                   "contactTitle":  "Contacto",
+                   "contact":  {
+                                   "emailLabel":  "Email",
+                                   "emailValue":  "info@agrotrust.com",
+                                   "phoneLabel":  "Teléfono",
+                                   "phoneValue":  "+1 (234) 567-890",
+                                   "phoneHref":  "+1234567890",
+                                   "locationLabel":  "Ubicación",
+                                   "locationValue":  "Operaciones Globales"
+                               },
+                   "social":  {
+                                  "linkedin":  "LinkedIn",
+                                  "linkedinUrl":  "https://www.linkedin.com",
+                                  "x":  "X",
+                                  "xUrl":  "https://x.com"
+                              },
+                   "bottom":  {
+                                  "privacyPolicy":  "Política de Privacidad",
+                                  "termsOfService":  "Términos de Servicio",
+                                  "legal":  "Legal"
+                              },
+                   "cta":  "Conviértete en nuestro socio",
+                   "groups":  {
+                                  "navigation":  "Navegación",
+                                  "ecosystem":  "Ecosistema",
+                                  "contact":  "Contacto"
+                              },
+                   "navigation":  {
+                                      "home":  "Inicio",
+                                      "about":  "Quiénes somos",
+                                      "platform":  "Plataforma",
+                                      "howItWorks":  "Cómo funciona",
+                                      "partners":  "Aliados"
+                                  },
+                   "ecosystem":  {
+                                     "network":  "Red de aliados",
+                                     "stepFlow":  "Step Flow",
+                                     "comparison":  "AgroTrust vs LC",
+                                     "dashboard":  "Panel de ejecución"
+                                 },
+                   "contactText":  "Para alianzas, colaboración con inversionistas y detalles de onboarding, contacta directamente a nuestro equipo.",
+                   "contactEmail":  "partners@agrotrust.global",
+                   "contactCta":  "Agendar llamada estratégica",
+                   "rights":  "{year} AGROTRUST. Todos los derechos reservados.",
+                   "compliance":  "Ecosistema integrado para reducir riesgos, aumentar eficiencia y escalar globalmente.",
+                   "backToTop":  "Volver arriba"
+               }
 }

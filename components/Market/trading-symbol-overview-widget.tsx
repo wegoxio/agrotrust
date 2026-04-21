@@ -17,8 +17,20 @@ export const TradingSymbolOverviewWidget = memo(function TradingSymbolOverviewWi
 }: TradingSymbolOverviewWidgetProps) {
   const locale = useLocale();
   const containerRef = useRef<HTMLDivElement | null>(null);
-  const widgetSymbol =
-    symbol === "ICEUS:KC1!" || symbol === "KC1!" ? "CMCMARKETS:USCOFFEE" : symbol;
+  const widgetSymbol = useMemo(() => {
+    const normalizedSymbol = symbol.toUpperCase();
+
+    if (normalizedSymbol === "ICEUS:KC1!" || normalizedSymbol === "KC1!") {
+      return "CMCMARKETS:USCOFFEE";
+    }
+
+    // ICE cocoa continuous contract can fail in public widgets; use a public symbol feed.
+    if (normalizedSymbol === "ICEUS:CC1!" || normalizedSymbol === "CC1!") {
+      return "USCOCOA";
+    }
+
+    return symbol;
+  }, [symbol]);
 
   const config = useMemo(
     () => ({

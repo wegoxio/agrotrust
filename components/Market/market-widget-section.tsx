@@ -28,6 +28,20 @@ export async function MarketWidgetSection() {
       symbol: "KC1!",
       mode: "live",
     },
+    {
+      id: "cocoa-intraday",
+      title: t("cards.4.title"),
+      subtitle: t("cards.4.subtitle"),
+      symbol: "ICEUS:CC1!",
+      mode: "intraday",
+    },
+    {
+      id: "cocoa-live",
+      title: t("cards.5.title"),
+      subtitle: t("cards.5.subtitle"),
+      symbol: "ICEUS:CC1!",
+      mode: "live",
+    },
   ];
 
   return (
@@ -51,7 +65,7 @@ export async function MarketWidgetSection() {
           </p>
         </RevealOnScroll>
 
-        <div className="mt-8 grid grid-cols-1 gap-4 xl:grid-cols-2">
+        <div className="mt-8 grid grid-cols-1 gap-4 lg:grid-cols-2">
           {cards.map((card, index) => (
             <RevealOnScroll key={card.id} delayMs={170 + index * 60}>
               <article className="h-full min-w-0 rounded-[8px] border border-[#CBD6E2] bg-[#F9FBFD] p-4 shadow-[0_12px_26px_rgba(31,56,88,0.12)]">

@@ -92,9 +92,9 @@
                   "imageAlt":  "Rascacielos vistos desde abajo"
               },
     "MarketWidget":  {
-                         "eyebrow":  "Pulso de mercado",
-                         "title":  "Panel en vivo del mercado de café y cacao",
-                         "description":  "Monitorea el movimiento de café y cacao en tiempo real con mini gráficos embebidos, listos para visibilidad operativa y comercial inmediata.",
+                         "eyebrow":  "Pulso del mercado",
+                         "title":  "Indicadores en vivo del mercado de café y cacao",
+                         "description":  "Monitorea el movimiento del precio del café y cacao en tiempo real.",
                          "cards":  {
                                        "1":  {
                                                  "title":  "Café - Feed en vivo",

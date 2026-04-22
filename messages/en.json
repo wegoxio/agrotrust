@@ -58,6 +58,7 @@
     "Companies":  {
                       "subtitle":  "Built on a network of trusted, established partners across agriculture, logistics, and finance.",
                       "italBankAlt":  "ItalBank logo",
+                      "stanZioneAlt":  "Logo de Stanzione",
                       "defisaAlt":  "DEFISA logo",
                       "avexAlt":  "AVEX logo",
                       "bolpriavenAlt":  "Bolpriaven logo",
@@ -92,8 +93,8 @@
               },
     "MarketWidget":  {
                          "eyebrow":  "Market Pulse",
-                         "title":  "Live Coffee \u0026 Cocoa Market Board",
-                         "description":  "Track coffee and cocoa movement in real time with embedded mini charts, ready for quick operational and trading visibility.",
+                         "title":  "Real-Time Market Indicators for Coffee & Cocoa",
+                         "description":  "Track coffee and cocoa price movement in real time.",
                          "cards":  {
                                        "1":  {
                                                  "title":  "Coffee - Live Feed",

@@ -31,6 +31,15 @@ export function CompaniesCarousel() {
         height: 58,
       },
       {
+        name: "Stanzione",
+        href: "https://stanzione.com/",
+        src: "/images/companies/logo-stanzione.png",
+        alt: t("stanZioneAlt"),
+        width: 210,
+        height: 58,
+        imageClassName: "h-16 sm:h-16 md:h-[106px]",
+      },
+      {
         name: "DEFISA",
         href: "https://instagram.com/defisa_ve/",
         src: "/images/companies/logo-defisa.png",

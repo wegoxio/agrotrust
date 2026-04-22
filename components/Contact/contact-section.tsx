@@ -280,6 +280,7 @@ export function ContactSection() {
   const locale = useLocale();
   const [values, setValues] = useState<ContactValues>(INITIAL_VALUES);
   const [status, setStatus] = useState<"idle" | "error" | "success">("idle");
+  const [errorMessage, setErrorMessage] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const countryOptions = useMemo(() => getCountryOptions(locale), [locale]);
@@ -312,12 +313,14 @@ export function ContactSection() {
       values.commodities.length > 0;
 
     if (!requiredFilled) {
+      setErrorMessage(t("form.error"));
       setStatus("error");
       return;
     }
 
     setIsSubmitting(true);
     setStatus("idle");
+    setErrorMessage("");
 
     fetch("/api/contact", {
       method: "POST",
@@ -331,13 +334,24 @@ export function ContactSection() {
     })
       .then(async (response) => {
         if (!response.ok) {
-          throw new Error("Contact submission failed.");
+          const responseData = (await response
+            .json()
+            .catch(() => null)) as { error?: string; detail?: string } | null;
+          const serverMessage =
+            responseData?.detail || responseData?.error || t("form.submitError");
+          throw new Error(serverMessage);
         }
 
         setStatus("success");
+        setErrorMessage("");
         setValues(INITIAL_VALUES);
       })
-      .catch(() => {
+      .catch((error: unknown) => {
+        setErrorMessage(
+          error instanceof Error && error.message
+            ? error.message
+            : t("form.submitError")
+        );
         setStatus("error");
       })
       .finally(() => {
@@ -654,7 +668,7 @@ export function ContactSection() {
 
               {status === "error" ? (
                 <p className="mt-3 text-[14px] font-medium text-[#C13A4E]">
-                  {t("form.error")}
+                  {errorMessage || t("form.error")}
                 </p>
               ) : null}
 

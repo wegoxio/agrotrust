@@ -457,13 +457,14 @@
                                                        },
                                      "message":  "Tell us more about your request",
                                      "messagePlaceholder":  "Share any relevant details about your request.",
-                                     "submit":  "Submit Inquiry",
-                                     "submitting":  "Sending...",
-                                     "confidentiality":  "All inquiries are handled confidentially within our secure platform.",
-                                     "error":  "Please complete all required fields.",
-                                     "success":  "Thank you. Your inquiry was sent successfully."
-                                 }
-                    },
+                                      "submit":  "Submit Inquiry",
+                                      "submitting":  "Sending...",
+                                      "confidentiality":  "All inquiries are handled confidentially within our secure platform.",
+                                      "error":  "Please complete all required fields.",
+                                      "submitError":  "We could not send your inquiry right now. Please try again in a moment.",
+                                      "success":  "Thank you. Your inquiry was sent successfully."
+                                  }
+                     },
     "Footer":  {
                    "tagline":  "AgroTrust builds secure commodity workflows where capital, logistics, and execution stay aligned from origin to settlement.",
                    "quickLinksTitle":  "Quick Links",

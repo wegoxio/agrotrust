@@ -5,6 +5,7 @@ import { useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
 import { Link } from "@/i18n/navigation";
 import type { AppLocale } from "@/i18n/routing";
+import { SmoothScrollLink } from "@/components/Common/smooth-scroll-link";
 
 type HeroHeaderProps = {
   locale: AppLocale;
@@ -61,7 +62,7 @@ export function HeroHeader({
       }
     >
       <div className="mx-auto flex h-[74px] w-full max-w-full items-center justify-between px-5 md:h-[82px] md:px-8">
-        <Link href="/" locale={locale} aria-label="AgroTrust home">
+        <SmoothScrollLink href="#home" aria-label="AgroTrust home">
           <Image
             src="/agrotrust_logo.svg"
             alt="AgroTrust"
@@ -70,7 +71,7 @@ export function HeroHeader({
             className="h-8 w-auto md:h-10"
             priority
           />
-        </Link>
+        </SmoothScrollLink>
 
         <div className="flex items-center gap-3">
           <Link

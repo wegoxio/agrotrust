@@ -1,6 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import Image from "next/image";
-import { Link } from "@/i18n/navigation";
+import { SmoothScrollLink } from "@/components/Common/smooth-scroll-link";
+import { FooterNewsMenuLink } from "./footer-news-menu-link";
 
 function LinkedInIcon() {
   return (
@@ -24,23 +25,38 @@ function XIcon() {
   );
 }
 
+type FooterHashHref = `#${string}`;
+
+type FooterQuickLink = {
+  id: string;
+  href: FooterHashHref;
+  label: string;
+  opensMenu?: boolean;
+};
+
+type FooterEcosystemLink = {
+  id: string;
+  href: FooterHashHref;
+  label: string;
+};
+
 export async function FooterSection() {
   const t = await getTranslations("Footer");
   const year = new Date().getFullYear();
 
-  const quickLinks = [
-    { href: "#about", label: t("quickLinks.about") },
-    { href: "#platform", label: t("quickLinks.platform") },
-    { href: "#how-it-works", label: t("quickLinks.howItWorks") },
-    { href: "#partners", label: t("quickLinks.partners") },
-    { href: "#dashboard", label: t("quickLinks.news") },
-    { href: "#contact", label: t("quickLinks.contact") },
+  const quickLinks: FooterQuickLink[] = [
+    { id: "about", href: "#about", label: t("quickLinks.about") },
+    { id: "platform", href: "#platform", label: t("quickLinks.platform") },
+    { id: "how-it-works", href: "#how-it-works", label: t("quickLinks.howItWorks") },
+    { id: "partners", href: "#partners", label: t("quickLinks.partners") },
+    { id: "news", href: "#dashboard", label: t("quickLinks.news"), opensMenu: true },
+    { id: "contact", href: "#contact", label: t("quickLinks.contact") },
   ];
-  const ecosystemLinks = [
-    { href: "#network", label: t("ecosystem.network") },
-    { href: "#step-flow", label: t("ecosystem.stepFlow") },
-    { href: "#vs-lc", label: t("ecosystem.comparison") },
-    { href: "#dashboard", label: t("ecosystem.dashboard") },
+  const ecosystemLinks: FooterEcosystemLink[] = [
+    { id: "network", href: "#network", label: t("ecosystem.network") },
+    { id: "step-flow", href: "#step-flow", label: t("ecosystem.stepFlow") },
+    { id: "vs-lc", href: "#vs-lc", label: t("ecosystem.comparison") },
+    { id: "dashboard", href: "#market-widget", label: t("ecosystem.dashboard") },
   ];
 
   return (
@@ -55,7 +71,7 @@ export async function FooterSection() {
       <div className="mx-auto max-w-full px-5 md:px-8">
         <div className="grid gap-10 md:grid-cols-[1.4fr_0.8fr_1fr] md:gap-12">
           <div className="max-w-[480px]">
-            <Link href="/" aria-label="AgroTrust home" className="inline-flex">
+            <SmoothScrollLink href="#home" aria-label="AgroTrust home" className="inline-flex">
               <Image
                 src="/agrotrust_logo.svg"
                 alt="AgroTrust"
@@ -63,7 +79,7 @@ export async function FooterSection() {
                 height={48}
                 className="h-9 w-auto md:h-11"
               />
-            </Link>
+            </SmoothScrollLink>
 
             <p className="mt-4 text-[16px] leading-[1.6] font-normal text-[#8FAECC]">
               {t("tagline")}
@@ -99,13 +115,20 @@ export async function FooterSection() {
 
             <ul className="mt-4 space-y-3">
               {quickLinks.map((link) => (
-                <li key={link.href}>
-                  <a
-                    href={link.href}
-                    className="inline-flex text-[16px] leading-[1.25] font-normal text-[#8FAECC] transition-colors hover:text-white"
-                  >
-                    {link.label}
-                  </a>
+                <li key={link.id}>
+                  {link.opensMenu ? (
+                    <FooterNewsMenuLink
+                      label={link.label}
+                      className="inline-flex cursor-pointer text-[16px] leading-[1.25] font-normal text-[#8FAECC] transition-colors hover:text-white"
+                    />
+                  ) : (
+                    <SmoothScrollLink
+                      href={link.href}
+                      className="inline-flex text-[16px] leading-[1.25] font-normal text-[#8FAECC] transition-colors hover:text-white"
+                    >
+                      {link.label}
+                    </SmoothScrollLink>
+                  )}
                 </li>
               ))}
             </ul>
@@ -122,13 +145,13 @@ export async function FooterSection() {
 
             <ul className="mt-4 space-y-3">
               {ecosystemLinks.map((link) => (
-                <li key={link.href}>
-                  <a
+                <li key={link.id}>
+                  <SmoothScrollLink
                     href={link.href}
                     className="inline-flex text-[16px] leading-[1.25] font-normal text-[#8FAECC] transition-colors hover:text-white"
                   >
                     {link.label}
-                  </a>
+                  </SmoothScrollLink>
                 </li>
               ))}
             </ul>

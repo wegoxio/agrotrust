@@ -7,6 +7,8 @@ import type { AppLocale } from "@/i18n/routing";
 import { HeroHeader } from "./hero-header";
 import { HeroSlideIndicator } from "./hero-slide-indicator";
 import { HeroFullscreenMenu } from "./hero-fullscreen-menu";
+import { SmoothScrollLink } from "@/components/Common/smooth-scroll-link";
+import { OPEN_HERO_MENU_EVENT } from "./hero-menu-events";
 
 const AUTOPLAY_INTERVAL_MS = 5500;
 
@@ -69,6 +71,15 @@ export function HeroCarousel({ locale }: HeroCarouselProps) {
     };
   }, [isMenuOpen]);
 
+  useEffect(() => {
+    const onOpenMenu: EventListener = () => {
+      setIsMenuOpen(true);
+    };
+
+    window.addEventListener(OPEN_HERO_MENU_EVENT, onOpenMenu);
+    return () => window.removeEventListener(OPEN_HERO_MENU_EVENT, onOpenMenu);
+  }, []);
+
   return (
     <>
       <HeroHeader
@@ -114,12 +125,12 @@ export function HeroCarousel({ locale }: HeroCarouselProps) {
             </p>
 
             <div className="mt-8 flex w-full justify-center sm:mt-10 sm:justify-start">
-              <button
-                type="button"
+              <SmoothScrollLink
+                href="#contact"
                 className="inline-flex cursor-pointer items-center border border-neutral/70 px-6 py-3 text-[14px] leading-none font-semibold text-neutral transition-all hover:bg-neutral/12 sm:px-8 sm:py-4 sm:text-[15px]"
               >
                 {activeSlide.cta}
-              </button>
+              </SmoothScrollLink>
             </div>
           </div>
         </div>

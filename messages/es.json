@@ -457,13 +457,14 @@
                                                        },
                                      "message":  "Cuéntanos más sobre tu solicitud",
                                      "messagePlaceholder":  "Cuéntanos más sobre tu solicitud",
-                                     "submit":  "Enviar solicitud",
-                                     "submitting":  "Enviando...",
-                                     "confidentiality":  "Todas las consultas se manejan de forma confidencial dentro de nuestra plataforma segura.",
-                                     "error":  "Completa todos los campos requeridos.",
-                                     "success":  "Gracias. Tu solicitud fue enviada correctamente."
-                                 }
-                    },
+                                      "submit":  "Enviar solicitud",
+                                      "submitting":  "Enviando...",
+                                      "confidentiality":  "Todas las consultas se manejan de forma confidencial dentro de nuestra plataforma segura.",
+                                      "error":  "Completa todos los campos requeridos.",
+                                      "submitError":  "No pudimos enviar tu solicitud en este momento. Intentalo nuevamente en unos minutos.",
+                                      "success":  "Gracias. Tu solicitud fue enviada correctamente."
+                                  }
+                     },
     "Footer":  {
                    "tagline":  "Al controlar tanto el activo (commodity) como el flujo de efectivo (pago), AgroTrust permite que el capital participe en la comercialización de forma segura.",
                    "quickLinksTitle":  "Enlaces rápidos",

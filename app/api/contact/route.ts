@@ -372,7 +372,19 @@ async function sendResendEmail(
   });
 
   if (!response.ok) {
-    throw new Error(`Resend request failed with status ${response.status}.`);
+    let detail = "";
+    try {
+      const json = (await response.json()) as { message?: string; error?: string };
+      detail =
+        (typeof json.message === "string" && json.message) ||
+        (typeof json.error === "string" && json.error) ||
+        "";
+    } catch {
+      detail = "";
+    }
+
+    const suffix = detail ? ` ${detail}` : "";
+    throw new Error(`Resend request failed with status ${response.status}.${suffix}`);
   }
 }
 
@@ -470,7 +482,15 @@ export async function POST(request: Request) {
     ]);
 
     return Response.json({ ok: true });
-  } catch {
-    return Response.json({ error: "Failed to send contact emails." }, { status: 500 });
+  } catch (error: unknown) {
+    const detail =
+      error instanceof Error && error.message
+        ? error.message
+        : "Failed to send contact emails.";
+
+    return Response.json(
+      { error: "Failed to send contact emails.", detail },
+      { status: 500 }
+    );
   }
 }

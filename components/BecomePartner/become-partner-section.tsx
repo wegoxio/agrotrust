@@ -1,5 +1,6 @@
 import { getTranslations } from "next-intl/server";
 import { RevealOnScroll } from "@/components/Animations/reveal-on-scroll";
+import { SmoothScrollLink } from "@/components/Common/smooth-scroll-link";
 import {
   BecomePartnerCarousel,
 } from "./become-partner-carousel";
@@ -77,12 +78,12 @@ export async function BecomePartnerSection() {
                 <span className="text-primary">{t("leftTextHighlight")}</span>
               </p>
 
-              <button
-                type="button"
+              <SmoothScrollLink
+                href="#contact"
                 className="mt-7 inline-flex min-h-12 w-full items-center justify-center rounded-xs bg-primary px-7 text-[16px] leading-none font-semibold text-white transition-all duration-300 hover:bg-[#0A3973] sm:w-auto"
               >
                 {t("cta")}
-              </button>
+              </SmoothScrollLink>
             </div>
           </RevealOnScroll>
 

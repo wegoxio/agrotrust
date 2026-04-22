@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { useEffect, useMemo, useState } from "react";
-import { Link } from "@/i18n/navigation";
+import { SmoothScrollLink } from "@/components/Common/smooth-scroll-link";
 import { HeroNewsCard } from "./hero-news-card";
 
 type HeroFullscreenMenuProps = {
@@ -115,7 +115,7 @@ export function HeroFullscreenMenu({
           }`}
         >
           <header className="flex items-start justify-between">
-            <Link href="/" aria-label="AgroTrust home" onClick={onClose}>
+            <SmoothScrollLink href="#home" aria-label="AgroTrust home" onClick={onClose}>
               <Image
                 src="/agrotrust_logo.svg"
                 alt="AgroTrust"
@@ -124,7 +124,7 @@ export function HeroFullscreenMenu({
                 className="mt-1 h-7 w-auto md:h-10"
                 priority
               />
-            </Link>
+            </SmoothScrollLink>
 
             <button
               type="button"

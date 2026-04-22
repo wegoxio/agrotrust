@@ -16,6 +16,10 @@
   --gradient-primary: var(--brand-gradient-primary);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @keyframes stepflow-fade-in {
   from {
     opacity: 0;

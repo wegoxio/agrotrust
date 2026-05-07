@@ -14,13 +14,13 @@
     "Hero":  {
                  "slide1Title":  "Donde el Capital, los Productores y Compradores Convergen",
                  "slide1Description":  "La primera plataforma estructurada que facilita las transacciones globales de commodities",
-                 "slide1Cta":  "Conviértete en nuestro socio",
+                 "slide1Cta":  "Conviértete en nuestro aliado",
                  "slide2Title":  "Diseñada para la Ejecución Segura de Transacciones de Commodities",
                  "slide2Description":  "Confiable. Escalable. Diseñada para operar en el mundo real.",
-                 "slide2Cta":  "Conviértete en nuestro socio",
+                 "slide2Cta":  "Conviértete en nuestro aliado",
                  "slide3Title":  "Accede a Commodities Venezolanos Premium — Directamente desde el Origen",
                  "slide3Description":  "Suministro exclusivo. Productores verificados. Transacciones seguras.",
-                 "slide3Cta":  "Conviértete en nuestro socio",
+                 "slide3Cta":  "Conviértete en nuestro aliado",
                  "slide1Alt":  "Buque de carga navegando por el océano",
                  "slide2Alt":  "Plantación agrícola en colinas verdes",
                  "slide3Alt":  "Cerezas de café frescas sostenidas en dos manos",
@@ -65,6 +65,7 @@
                       "agroinvestAlt":  "Logo de Agroinvest",
                       "bridgeAlt": "Logo de Bridge",
                       "brisasDelGilAlt":  "Logo de Brisas del Gil",
+                      "interGlobalAlt": "Logo de InterGLobal",
                       "conduitAlt":  "Logo de Conduit",
                       "fecveLabAlt":  "Logo de FECVE Lab",
                       "italcambioAlt":  "Logo de Italcambio",
@@ -253,11 +254,11 @@
                  "footer":  "La comercialización de commodities ya no tiene que ser lenta, rígida ni depender exclusivamente de los bancos."
              },
     "BecomePartner":  {
-                          "title":  "Conviértete en nuestro socio",
+                          "title":  "Conviértete en nuestro aliado",
                           "leftTextPrefix":  "Únete a un ecosistema estructurado donde cada participante cumple un rol clave en habilitar la",
                           "leftTextHighlight":  "comercialización global de commodities de forma segura y escalable.",
                           "rightText":  "Juntos, estos participantes forman un ecosistema completamente integrado — diseñado para reducir riesgos, aumentar eficiencia y escalar globalmente.",
-                          "cta":  "Conviértete en nuestro socio",
+                          "cta":  "Conviértete en nuestro aliado",
                           "controls":  {
                                            "previous":  "Tarjetas anteriores",
                                            "next":  "Siguientes tarjetas"
@@ -417,7 +418,7 @@
                                                             "requestSupply":  "Solicitar suministro (Comprador)",
                                                             "applyFinancing":  "Aplicar para financiamiento / inversión",
                                                             "becomeProducer":  "Convertirme en productor",
-                                                            "becomePartner":  "Convertirme en socio",
+                                                            "becomePartner":  "Convertirme en aliado",
                                                             "generalInquiry":  "Consulta general"
                                                         },
                                      "role":  "Tipo de Empresa",
@@ -499,7 +500,7 @@
                                   "termsOfService":  "Términos de Servicio",
                                   "legal":  "Legal"
                               },
-                   "cta":  "Conviértete en nuestro socio",
+                   "cta":  "Conviértete en nuestro aliado",
                    "groups":  {
                                   "navigation":  "Navegación",
                                   "ecosystem":  "Ecosistema",

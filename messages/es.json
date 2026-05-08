@@ -56,7 +56,7 @@
                      "item3Description":  "Genera reportes listos para auditoría para clientes y requerimientos regulatorios."
                  },
     "Companies":  {
-                      "subtitle":  "Construido sobre una red de socios confiables y consolidados en el sector agro, logística y finanzas.",
+                      "subtitle":  "Construido sobre una red de aliados confiables y consolidados en el sector agro, logística y finanzas.",
                       "italBankAlt":  "Logo de ItalBank",
                       "stanZioneAlt":  "Logo de Stanzione",
                       "defisaAlt":  "Logo de DEFISA",
@@ -66,6 +66,7 @@
                       "bridgeAlt": "Logo de Bridge",
                       "brisasDelGilAlt":  "Logo de Brisas del Gil",
                       "interGlobalAlt": "Logo de InterGLobal",
+                      "bursagroAlt": "Logo de Bursagro",
                       "conduitAlt":  "Logo de Conduit",
                       "fecveLabAlt":  "Logo de FECVE Lab",
                       "italcambioAlt":  "Logo de Italcambio",
@@ -265,13 +266,13 @@
                                        },
                           "cards":  {
                                         "1":  {
-                                                  "title":  "Bancos y Socios de Escrow",
+                                                  "title":  "Bancos y Aliados de Escrow",
                                                   "subtitle":  "Aseguran el flujo de fondos mediante cuentas de escrow (controladas).",
                                                   "description":  "Garantizan que todos los pagos sean recibidos, resguardados y distribuidos de forma transparente — eliminando el riesgo de pago en cada transacción.",
                                                   "imageAlt":  "Alianza con bancos y escrow"
                                               },
                                         "2":  {
-                                                  "title":  "Inversionistas y Socios Financieros",
+                                                  "title":  "Inversionistas y Aliados Financieros",
                                                   "subtitle":  "Proveen el capital para financiar las transacciones de commodities.",
                                                   "description":  "Participan en estructuras respaldadas por colateral, accediendo a oportunidades sobre activos reales con riesgo controlado y ejecución predecible.",
                                                   "imageAlt":  "Inversionista firmando documento financiero"
@@ -289,7 +290,7 @@
                                                   "imageAlt":  "Red global de compradores y offtakers"
                                               },
                                         "5":  {
-                                                  "title":  "Socios Logísticos y de Transporte",
+                                                  "title":  "Aliados Logísticos y de Transporte",
                                                   "subtitle":  "Gestionan el transporte de la mercancía.",
                                                   "description":  "Aseguran el movimiento eficiente bajo documentación controlada, preservando la integridad desde el origen hasta el destino/pago.",
                                                   "imageAlt":  "Buque portacontenedores transportando carga"

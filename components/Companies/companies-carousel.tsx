@@ -40,6 +40,14 @@ export function CompaniesCarousel() {
         imageClassName: "h-16 sm:h-16 md:h-[106px]",
       },
       {
+        name: "Bursagro",
+        href: "https://www.bursagro.com/",
+        src: "/images/companies/logo-bursagro.png",
+        alt: t("bursagroAlt"),
+        width: 210,
+        height: 58,
+      },
+      {
         name: "DEFISA",
         href: "https://instagram.com/defisa_ve/",
         src: "/images/companies/logo-defisa.png",

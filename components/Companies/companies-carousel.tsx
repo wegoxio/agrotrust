@@ -46,6 +46,16 @@ export function CompaniesCarousel() {
         alt: t("bursagroAlt"),
         width: 210,
         height: 58,
+        imageClassName: "h-8 sm:h-8 md:h-[66px]",
+      },
+      {
+        name: "Apila Capital",
+        href: "https://www.apilacapital.com/",
+        src: "/images/companies/logo-apila.png",
+        alt: t("apilaCapitalAlt"),
+        width: 210,
+        height: 58,
+        imageClassName: "h-8 sm:h-8 md:h-[66]",
       },
       {
         name: "DEFISA",

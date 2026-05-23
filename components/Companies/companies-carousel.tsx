@@ -64,6 +64,7 @@ export function CompaniesCarousel() {
         alt: t("defisaAlt"),
         width: 220,
         height: 54,
+        
       },
       {
         name: "AVEX",
@@ -72,6 +73,7 @@ export function CompaniesCarousel() {
         alt: t("avexAlt"),
         width: 228,
         height: 68,
+        imageClassName: "h-8 sm:h-8 md:h-[66]",
       },
       // {
       //   name: "Bolpriaven",
@@ -88,6 +90,7 @@ export function CompaniesCarousel() {
         alt: t("bridgeAlt"),
         width: 238,
         height: 120,
+        
       },
       // {
       //   name: "Agroinvest",
@@ -138,6 +141,7 @@ export function CompaniesCarousel() {
         alt: t("italcambioAlt"),
         width: 250,
         height: 52,
+        imageClassName: "h-8 sm:h-8 md:h-[46]",
       },
       {
         name: "Triangulo de Mocoties",

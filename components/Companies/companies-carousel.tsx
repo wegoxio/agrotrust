@@ -144,6 +144,15 @@ export function CompaniesCarousel() {
         imageClassName: "h-8 sm:h-8 md:h-[46]",
       },
       {
+        name: "Depositos Industriales",
+        href: "https://www.instagram.com/depositos_industriales_sa?igsh=MWRkcjkzeHZ0czhvdg%3D%3D",
+        src: "/images/companies/logo-depositos.png",
+        alt: t("italcambioAlt"),
+        width: 250,
+        height: 52,
+        imageClassName: "h-8 sm:h-8 md:h-[116]",
+      },
+      {
         name: "Triangulo de Mocoties",
         href: "https://www.instagram.com/triangulodemocoties/",
         src: "/images/companies/logo-triangulo.png",

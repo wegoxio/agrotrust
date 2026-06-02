@@ -59,7 +59,7 @@ export function CompaniesCarousel() {
       },
       {
         name: "DEFISA",
-        href: "https://instagram.com/defisa_ve/",
+        href: "https://defisa.com",
         src: "/images/companies/logo-defisa.png",
         alt: t("defisaAlt"),
         width: 220,

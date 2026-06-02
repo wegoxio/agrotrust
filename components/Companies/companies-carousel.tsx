@@ -161,6 +161,15 @@ export function CompaniesCarousel() {
         height: 130,
         imageClassName: "h-16 sm:h-16 md:h-[80px]",
       },
+      {
+        name: "Detons",
+        href: "https://www.dentons.com/en/global-presence/latin-america-and-the-caribbean/venezuela/caracas",
+        src: "/images/companies/logo-detons.png",
+        alt: t("dentonAlt"),
+        width: 250,
+        height: 130,
+        imageClassName: "h-16 sm:h-16 md:h-[80px]",
+      },
     ],
     [t]
   );

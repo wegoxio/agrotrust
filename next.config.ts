@@ -11,7 +11,7 @@ const nextConfig: NextConfig = {
       },
     ];
   },
-  crossOrigin: 'anonymus'
+  crossOrigin: 'anonymous'
 };
 
 const withNextIntl = createNextIntlPlugin();

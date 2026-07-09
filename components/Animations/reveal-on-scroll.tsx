@@ -18,13 +18,7 @@ export function RevealOnScroll({
   once = true,
 }: RevealOnScrollProps) {
   const elementRef = useRef<HTMLDivElement | null>(null);
-  const [isVisible, setIsVisible] = useState(() => {
-    if (typeof window === "undefined") {
-      return false;
-    }
-
-    return window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  });
+  const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
     const element = elementRef.current;
@@ -35,6 +29,7 @@ export function RevealOnScroll({
     ).matches;
 
     if (prefersReducedMotion) {
+      setIsVisible(true);
       return;
     }
 

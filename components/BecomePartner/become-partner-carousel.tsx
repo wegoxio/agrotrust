@@ -86,6 +86,20 @@ export function BecomePartnerCarousel({
 
   const goNext = () => {
     if (cardsCount <= 1) return;
+
+    if (positionIndex >= cardsCount) {
+      const snapped = positionIndex - cardsCount;
+      setIsTransitionEnabled(false);
+      setPositionIndex(snapped);
+      window.requestAnimationFrame(() => {
+        window.requestAnimationFrame(() => {
+          setIsTransitionEnabled(true);
+          setPositionIndex(snapped + 1);
+        });
+      });
+      return;
+    }
+
     setIsTransitionEnabled(true);
     setPositionIndex((current) => current + 1);
   };
@@ -121,10 +135,10 @@ export function BecomePartnerCarousel({
   }, [autoplayMs, cardsCount, isPaused]);
 
   const handleTrackTransitionEnd = () => {
-    if (positionIndex !== cardsCount) return;
+    if (positionIndex < cardsCount) return;
 
     setIsTransitionEnabled(false);
-    setPositionIndex(0);
+    setPositionIndex(positionIndex % cardsCount);
     window.requestAnimationFrame(() => {
       window.requestAnimationFrame(() => {
         setIsTransitionEnabled(true);

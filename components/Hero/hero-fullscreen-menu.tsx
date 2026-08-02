@@ -1,9 +1,10 @@
 "use client";
 
 import Image from "next/image";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { useEffect, useMemo, useState } from "react";
 import { SmoothScrollLink } from "@/components/Common/smooth-scroll-link";
+import { Link, usePathname } from "@/i18n/navigation";
 import { HeroNewsCard } from "./hero-news-card";
 
 type HeroFullscreenMenuProps = {
@@ -18,6 +19,8 @@ export function HeroFullscreenMenu({
   onClose,
 }: HeroFullscreenMenuProps) {
   const menu = useTranslations("OverlayMenu");
+  const locale = useLocale();
+  const pathname = usePathname();
   const [newsPageIndex, setNewsPageIndex] = useState(0);
 
   useEffect(() => {
@@ -46,6 +49,7 @@ export function HeroFullscreenMenu({
   }, [isOpen]);
 
   const navItems = [
+    { label: "Dashboard", href: "/dashboard", isRoute: true },
     { label: menu("about"), href: "#about" },
     { label: menu("platform"), href: "#platform" },
     { label: menu("howItWorks"), href: "#how-it-works" },
@@ -147,16 +151,40 @@ export function HeroFullscreenMenu({
               <ul className="space-y-4 sm:space-y-6">
                 {navItems.map((item) => (
                   <li key={item.href}>
-                    <a
-                      href={item.href}
-                      onClick={onClose}
-                      className="group inline-flex text-[20px] leading-[1.05] font-normal text-[#C4D2D8] transition-all duration-300 hover:text-white sm:text-[24px]"
-                    >
-                      <span className="relative">
-                        {item.label}
-                        <span className="pointer-events-none absolute -bottom-1 left-0 h-px w-full origin-left scale-x-0 bg-white/82 transition-transform duration-300 ease-out group-hover:scale-x-100" />
-                      </span>
-                    </a>
+                    {item.isRoute ? (
+                      <Link
+                        href="/dashboard"
+                        onClick={onClose}
+                        className="group inline-flex text-[20px] leading-[1.05] font-normal text-[#C4D2D8] transition-all duration-300 hover:text-white sm:text-[24px]"
+                      >
+                        <span className="relative">
+                          {item.label}
+                          <span className="pointer-events-none absolute -bottom-1 left-0 h-px w-full origin-left scale-x-0 bg-white/82 transition-transform duration-300 ease-out group-hover:scale-x-100" />
+                        </span>
+                      </Link>
+                    ) : pathname === "/dashboard" ? (
+                      <a
+                        href={`/${locale}/${item.href}`}
+                        onClick={onClose}
+                        className="group inline-flex text-[20px] leading-[1.05] font-normal text-[#C4D2D8] transition-all duration-300 hover:text-white sm:text-[24px]"
+                      >
+                        <span className="relative">
+                          {item.label}
+                          <span className="pointer-events-none absolute -bottom-1 left-0 h-px w-full origin-left scale-x-0 bg-white/82 transition-transform duration-300 ease-out group-hover:scale-x-100" />
+                        </span>
+                      </a>
+                    ) : (
+                      <a
+                        href={item.href}
+                        onClick={onClose}
+                        className="group inline-flex text-[20px] leading-[1.05] font-normal text-[#C4D2D8] transition-all duration-300 hover:text-white sm:text-[24px]"
+                      >
+                        <span className="relative">
+                          {item.label}
+                          <span className="pointer-events-none absolute -bottom-1 left-0 h-px w-full origin-left scale-x-0 bg-white/82 transition-transform duration-300 ease-out group-hover:scale-x-100" />
+                        </span>
+                      </a>
+                    )}
                   </li>
                 ))}
               </ul>

@@ -23,6 +23,9 @@ export function SmoothScrollLink({
 
     const target = document.querySelector<HTMLElement>(href);
     if (!target) {
+      const localeMatch = window.location.pathname.match(/^\/(en|es)(?:\/|$)/);
+      const localePrefix = localeMatch ? `/${localeMatch[1]}` : "";
+      window.location.assign(`${localePrefix}/${href}`);
       return;
     }
 

@@ -11,12 +11,14 @@ type HeroHeaderProps = {
   locale: AppLocale;
   isMenuOpen: boolean;
   onToggleMenu: () => void;
+  languageHref?: "/" | "/dashboard";
 };
 
 export function HeroHeader({
   locale,
   isMenuOpen,
   onToggleMenu,
+  languageHref = "/",
 }: HeroHeaderProps) {
   const switcher = useTranslations("LanguageSwitcher");
   const [hasScrolled, setHasScrolled] = useState(() => {
@@ -75,7 +77,7 @@ export function HeroHeader({
 
         <div className="flex items-center gap-3">
           <Link
-            href="/"
+            href={languageHref}
             locale={nextLocale}
             aria-label={switcher("goTo", { language: nextLanguageLabel })}
             className="text-xl font-normal text-neutral transition hover:text-neutral/80"

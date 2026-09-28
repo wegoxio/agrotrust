@@ -75,7 +75,14 @@ export function HeroHeader({
           />
         </SmoothScrollLink>
 
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2 sm:gap-3">
+          <a
+            href="https://ag-admin-panel.vercel.app"
+            className="inline-flex h-10 items-center justify-center rounded-[7px] border border-white/35 bg-white/[0.09] px-3.5 text-[13px] font-medium tracking-[0.02em] text-white shadow-[inset_0_1px_0_rgba(255,255,255,0.18),0_8px_20px_rgba(0,15,35,0.12)] backdrop-blur-md transition-all duration-300 hover:border-white/55 hover:bg-white/[0.16] hover:shadow-[inset_0_1px_0_rgba(255,255,255,0.24),0_10px_24px_rgba(0,15,35,0.18)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white/70 sm:px-4 sm:text-sm"
+          >
+            Login
+          </a>
+
           <Link
             href={languageHref}
             locale={nextLocale}

@@ -2,6 +2,7 @@ import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 import { SmoothScrollLink } from "@/components/Common/smooth-scroll-link";
 import { FooterNewsMenuLink } from "./footer-news-menu-link";
+import { Link } from "@/i18n/navigation";
 
 function LinkedInIcon() {
   return (
@@ -47,16 +48,29 @@ export async function FooterSection() {
   const quickLinks: FooterQuickLink[] = [
     { id: "about", href: "#about", label: t("quickLinks.about") },
     { id: "platform", href: "#platform", label: t("quickLinks.platform") },
-    { id: "how-it-works", href: "#how-it-works", label: t("quickLinks.howItWorks") },
+    {
+      id: "how-it-works",
+      href: "#how-it-works",
+      label: t("quickLinks.howItWorks"),
+    },
     { id: "partners", href: "#partners", label: t("quickLinks.partners") },
-    { id: "news", href: "#dashboard", label: t("quickLinks.news"), opensMenu: true },
+    {
+      id: "news",
+      href: "#dashboard",
+      label: t("quickLinks.news"),
+      opensMenu: true,
+    },
     { id: "contact", href: "#contact", label: t("quickLinks.contact") },
   ];
   const ecosystemLinks: FooterEcosystemLink[] = [
     { id: "network", href: "#network", label: t("ecosystem.network") },
     { id: "step-flow", href: "#step-flow", label: t("ecosystem.stepFlow") },
     { id: "vs-lc", href: "#vs-lc", label: t("ecosystem.comparison") },
-    { id: "dashboard", href: "#market-widget", label: t("ecosystem.dashboard") },
+    {
+      id: "dashboard",
+      href: "#market-widget",
+      label: t("ecosystem.dashboard"),
+    },
   ];
 
   return (
@@ -71,7 +85,11 @@ export async function FooterSection() {
       <div className="mx-auto max-w-full px-5 md:px-8">
         <div className="grid gap-10 md:grid-cols-[1.4fr_0.8fr_1fr] md:gap-12">
           <div className="max-w-[480px]">
-            <SmoothScrollLink href="#home" aria-label="AgroTrust home" className="inline-flex">
+            <SmoothScrollLink
+              href="#home"
+              aria-label="AgroTrust home"
+              className="inline-flex"
+            >
               <Image
                 src="/agrotrust_logo.svg"
                 alt="AgroTrust"
@@ -165,18 +183,19 @@ export async function FooterSection() {
             </p>
 
             <div className="flex flex-wrap items-center gap-6">
-              <a
-                href="#"
+              <Link
+                href="/privacy"
                 className="text-[15px] leading-none text-[#8FAECC] transition-colors hover:text-white"
               >
                 {t("bottom.privacyPolicy")}
-              </a>
-              <a
-                href="#"
+              </Link>
+
+              <Link
+                href="/terms"
                 className="text-[15px] leading-none text-[#8FAECC] transition-colors hover:text-white"
               >
                 {t("bottom.termsOfService")}
-              </a>
+              </Link>
               <a
                 href="#"
                 className="text-[15px] leading-none text-[#8FAECC] transition-colors hover:text-white"

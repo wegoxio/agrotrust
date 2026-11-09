@@ -11,7 +11,8 @@ type HeroHeaderProps = {
   locale: AppLocale;
   isMenuOpen: boolean;
   onToggleMenu: () => void;
-  languageHref?: "/" | "/dashboard";
+  languageHref?: "/" | "/dashboard" | "/privacy" | "/terms";
+  forceGlass?: boolean;
 };
 
 export function HeroHeader({
@@ -19,6 +20,7 @@ export function HeroHeader({
   isMenuOpen,
   onToggleMenu,
   languageHref = "/",
+  forceGlass,
 }: HeroHeaderProps) {
   const switcher = useTranslations("LanguageSwitcher");
   const [hasScrolled, setHasScrolled] = useState(() => {
@@ -32,7 +34,7 @@ export function HeroHeader({
   const currentLanguageCode =
     locale.charAt(0).toUpperCase() + locale.slice(1).toLowerCase();
   const nextLanguageLabel = switcher(nextLocale);
-  const showGlass = hasScrolled || isMenuOpen;
+  const showGlass = hasScrolled || isMenuOpen || forceGlass;
 
   useEffect(() => {
     const onScroll = () => {
@@ -94,7 +96,9 @@ export function HeroHeader({
 
           <button
             type="button"
-            aria-label={isMenuOpen ? switcher("closeMenu") : switcher("openMenu")}
+            aria-label={
+              isMenuOpen ? switcher("closeMenu") : switcher("openMenu")
+            }
             onClick={onToggleMenu}
             className={`inline-flex h-10 w-10 items-center justify-center rounded-[7px] border text-neutral transition ${
               showGlass

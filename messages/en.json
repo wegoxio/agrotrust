@@ -1,533 +1,1115 @@
 {
-    "Metadata":  {
-                     "title":  "AgroTrust | Trusted agricultural solutions",
-                     "description":  "Landing page for AgroTrust services and products."
-                 },
-    "LanguageSwitcher":  {
-                             "label":  "Language",
-                             "en":  "English",
-                             "es":  "Spanish",
-                             "goTo":  "Switch to {language}",
-                             "openMenu":  "Open menu",
-                             "closeMenu":  "Close menu"
-                         },
-    "Hero":  {
-                 "slide1Title":  "Where Capital, Producers and Buyers Converge",
-                 "slide1Description":  "The first structured platform powering global commodity trade",
-                 "slide1Cta":  "Become a Partner",
-                 "slide2Title":  "Built for Real-World Commodity Trade Execution",
-                 "slide2Description":  "Secure. Scalable. Designed for real-world execution.",
-                 "slide2Cta":  "Become a Partner",
-                 "slide3Title":  "Access Premium Venezuelan Commodities - Directly From Origin",
-                 "slide3Description":  "Rare supply. Verified producers. Secure transactions",
-                 "slide3Cta":  "Become a Partner",
-                 "slide1Alt":  "Cargo ship navigating across the ocean",
-                 "slide2Alt":  "Agricultural plantation across rolling green hills",
-                 "slide3Alt":  "Fresh coffee cherries held in two hands",
-                 "goToSlide":  "Go to slide {index}"
-             },
-    "OverlayMenu":  {
-                        "backgroundAlt":  "Background image for fullscreen navigation menu",
-                        "closeMenu":  "Close menu",
-                        "latestNews":  "LATEST NEWS",
-                        "about":  "About",
-                        "platform":  "Platform",
-                        "howItWorks":  "How it works",
-                        "partners":  "Partners",
-                        "contact":  "Contact",
-                        "news1Alt":  "Coffee cherries and beans from Venezuela",
-                        "news1Title":  "Venezuela Grows the Best Coffee in the World, According to International Experts",
-                        "news2Alt":  "Venezuelan mountain landscape linked to coffee imports",
-                        "news2Title":  "CAFE IMPORTS + VENEZUELA",
-                        "news3Alt":  "Fine aroma cacao pods close-up",
-                        "news3Title":  "The Importance of Fine Aroma Cacao in the Global Market: The Case of Venezuelan Cacao.",
-                        "news4Alt":  "Sacks of cacao beans",
-                        "news4Title":  "Venezuela produces some of the world\u0027s best chocolate. But profiting from it",
-                        "readMore":  "READ MORE",
-                        "copyright":  "AGROTRUST All rights reserved"
-                    },
-    "Features":  {
-                     "title":  "What you can launch fast",
-                     "item1Title":  "Traceability",
-                     "item1Description":  "Track every stage from origin to delivery in one place.",
-                     "item2Title":  "Operational dashboards",
-                     "item2Description":  "Monitor KPIs for harvest, logistics, and quality in real time.",
-                     "item3Title":  "Reliable reporting",
-                     "item3Description":  "Generate audit-ready reports for clients and regulatory requirements."
-                 },
-    "Companies":  {
-                      "subtitle":  "Built on a network of trusted, established partners across agriculture, logistics, and finance.",
-                      "italBankAlt":  "ItalBank logo",
-                      "stanZioneAlt":  "Stanzione Logo",
-                      "defisaAlt":  "DEFISA logo",
-                      "avexAlt":  "AVEX logo",
-                      "bolpriavenAlt":  "Bolpriaven logo",
-                      "agroinvestAlt":  "Agroinvest logo",
-                      "bridgeAlt": "Bridge Logo",
-                      "brisasDelGilAlt":  "Brisas del Gil logo",
-                      "interGlobalAlt": "InterGlobal Logo",
-                      "bursagroAlt": "Bursagro Logo",
-                      "apilaCapitalAlt": "Apila Capital Logo",
-                      "conduitAlt":  "Conduit logo",
-                      "fecveLabAlt":  "FECVE Lab logo",
-                      "italcambioAlt":  "Italcambio logo",
-                      "trianguloAlt":  "Triangulo de Mocoties logo",
-                      "depositosAlt": "Depositos industriales Logo",
-                      "dentonAlt": "Denton Logo"
-                  },
-    "About":  {
-                  "eyebrow":  "About",
-                  "title":  "A New Infrastructure for Trade",
-                  "cards":  {
-                                "origin":  {
-                                               "title":  "Capital meets origin.",
-                                               "description":  "AgroTrust connects investors and world-class buyers directly with origin producers through a structured trade finance platform designed to reduce risk.",
-                                               "cta":  "Learn how it works"
-                                           },
-                                "platform":  {
-                                                 "title":  "Secure, transparent supply chains.",
-                                                 "description":  "We transform fragmented agricultural trade into finance-ready supply chains - every contract, shipment, and payment becomes a traceable, investable asset.",
-                                                 "cta":  "View the platform"
-                                             },
-                                "sourcing":  {
-                                                 "title":  "Source better, scale faster.",
-                                                 "description":  "By controlling both the flow of funds and the movement of goods, AgroTrust lets you finance faster and scale global commodity transactions with confidence.",
-                                                 "cta":  "Start sourcing"
-                                             }
-                            },
-                  "imageAlt":  "Skyscrapers viewed from below"
+  "Metadata": {
+    "title": "AgroTrust | Trusted agricultural solutions",
+    "description": "Landing page for AgroTrust services and products."
+  },
+  "LanguageSwitcher": {
+    "label": "Language",
+    "en": "English",
+    "es": "Spanish",
+    "goTo": "Switch to {language}",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "Hero": {
+    "slide1Title": "Where Capital, Producers and Buyers Converge",
+    "slide1Description": "The first structured platform powering global commodity trade",
+    "slide1Cta": "Become a Partner",
+    "slide2Title": "Built for Real-World Commodity Trade Execution",
+    "slide2Description": "Secure. Scalable. Designed for real-world execution.",
+    "slide2Cta": "Become a Partner",
+    "slide3Title": "Access Premium Venezuelan Commodities - Directly From Origin",
+    "slide3Description": "Rare supply. Verified producers. Secure transactions",
+    "slide3Cta": "Become a Partner",
+    "slide1Alt": "Cargo ship navigating across the ocean",
+    "slide2Alt": "Agricultural plantation across rolling green hills",
+    "slide3Alt": "Fresh coffee cherries held in two hands",
+    "goToSlide": "Go to slide {index}"
+  },
+  "OverlayMenu": {
+    "backgroundAlt": "Background image for fullscreen navigation menu",
+    "closeMenu": "Close menu",
+    "latestNews": "LATEST NEWS",
+    "about": "About",
+    "platform": "Platform",
+    "howItWorks": "How it works",
+    "partners": "Partners",
+    "contact": "Contact",
+    "news1Alt": "Coffee cherries and beans from Venezuela",
+    "news1Title": "Venezuela Grows the Best Coffee in the World, According to International Experts",
+    "news2Alt": "Venezuelan mountain landscape linked to coffee imports",
+    "news2Title": "CAFE IMPORTS + VENEZUELA",
+    "news3Alt": "Fine aroma cacao pods close-up",
+    "news3Title": "The Importance of Fine Aroma Cacao in the Global Market: The Case of Venezuelan Cacao.",
+    "news4Alt": "Sacks of cacao beans",
+    "news4Title": "Venezuela produces some of the world\u0027s best chocolate. But profiting from it",
+    "readMore": "READ MORE",
+    "copyright": "AGROTRUST All rights reserved"
+  },
+  "Features": {
+    "title": "What you can launch fast",
+    "item1Title": "Traceability",
+    "item1Description": "Track every stage from origin to delivery in one place.",
+    "item2Title": "Operational dashboards",
+    "item2Description": "Monitor KPIs for harvest, logistics, and quality in real time.",
+    "item3Title": "Reliable reporting",
+    "item3Description": "Generate audit-ready reports for clients and regulatory requirements."
+  },
+  "Companies": {
+    "subtitle": "Built on a network of trusted, established partners across agriculture, logistics, and finance.",
+    "italBankAlt": "ItalBank logo",
+    "stanZioneAlt": "Stanzione Logo",
+    "defisaAlt": "DEFISA logo",
+    "avexAlt": "AVEX logo",
+    "bolpriavenAlt": "Bolpriaven logo",
+    "agroinvestAlt": "Agroinvest logo",
+    "bridgeAlt": "Bridge Logo",
+    "brisasDelGilAlt": "Brisas del Gil logo",
+    "interGlobalAlt": "InterGlobal Logo",
+    "bursagroAlt": "Bursagro Logo",
+    "apilaCapitalAlt": "Apila Capital Logo",
+    "conduitAlt": "Conduit logo",
+    "fecveLabAlt": "FECVE Lab logo",
+    "italcambioAlt": "Italcambio logo",
+    "trianguloAlt": "Triangulo de Mocoties logo",
+    "depositosAlt": "Depositos industriales Logo",
+    "dentonAlt": "Denton Logo"
+  },
+  "About": {
+    "eyebrow": "About",
+    "title": "A New Infrastructure for Trade",
+    "cards": {
+      "origin": {
+        "title": "Capital meets origin.",
+        "description": "AgroTrust connects investors and world-class buyers directly with origin producers through a structured trade finance platform designed to reduce risk.",
+        "cta": "Learn how it works"
+      },
+      "platform": {
+        "title": "Secure, transparent supply chains.",
+        "description": "We transform fragmented agricultural trade into finance-ready supply chains - every contract, shipment, and payment becomes a traceable, investable asset.",
+        "cta": "View the platform"
+      },
+      "sourcing": {
+        "title": "Source better, scale faster.",
+        "description": "By controlling both the flow of funds and the movement of goods, AgroTrust lets you finance faster and scale global commodity transactions with confidence.",
+        "cta": "Start sourcing"
+      }
+    },
+    "imageAlt": "Skyscrapers viewed from below"
+  },
+  "MarketWidget": {
+    "eyebrow": "Market Pulse",
+    "title": "Real-Time Market Indicators for Coffee & Cocoa",
+    "description": "Track coffee and cocoa price movement in real time.",
+    "cards": {
+      "1": {
+        "title": "Coffee - Live Feed",
+        "subtitle": "KC1!"
+      },
+      "2": {
+        "title": "Coffee - Intraday View",
+        "subtitle": "KC1!"
+      },
+      "3": {
+        "title": "Coffee - Execution Reference",
+        "subtitle": "FPMARKETS:COFFEE"
+      },
+      "4": {
+        "title": "Cocoa - Intraday View",
+        "subtitle": "USCOCOA"
+      },
+      "5": {
+        "title": "Cocoa - Live Feed",
+        "subtitle": "USCOCOA"
+      }
+    }
+  },
+  "OurPlatform": {
+    "eyebrow": "Our Platform",
+    "title": "One Ecosystem",
+    "description": "AgroTrust brings together the key participants in global commodity trade into one structured ecosystem. Through a controlled framework, buyers, producers, capital partners, and service providers can operate with more transparency, security, and efficiency across every stage of the transaction.",
+    "steps": {
+      "1": {
+        "title": "Buyer due diligence \u0026 structuring",
+        "description": "AgroTrust begins by validating parties involved and defining the structure of the transaction. This includes assessing counterparties, aligning deal terms, and creating a framework that reduces uncertainty before execution begins."
+      },
+      "2": {
+        "title": "Collateral \u0026 financing",
+        "description": "Once the deal is structured, the platform supports the financial layer of the transaction through collateral organization and funding coordination. This helps ensure that capital is deployed within a secure framework that protects all parties involved."
+      },
+      "3": {
+        "title": "Shipment \u0026 escrow",
+        "description": "AgroTrust helps coordinate the operational and financial controls tied to execution, including shipment oversight and escrow mechanisms. This adds a layer of protection and transparency as goods and payments move through the process."
+      },
+      "4": {
+        "title": "Distribution \u0026 final execution",
+        "description": "The final stage focuses on completing the transaction efficiently and ensuring all participants remain aligned through delivery and distribution. The result is a more seamless execution process with clearer accountability from start to finish."
+      }
+    },
+    "imageAlt": "Business team hands joined together"
+  },
+  "HowItWorks": {
+    "eyebrow": "How It Works",
+    "titlePrefix": "AgroTrust",
+    "titleHighlight": "operates as a plug-and-play trade infrastructure,",
+    "titleSuffix": "where all key participants in global commodity trade converge within a single, secure framework.",
+    "paragraph1": "AgroTrust brings together the key participants in global commodity trade into one structured ecosystem. Through a controlled framework, buyers, producers, capital partners, and service providers can operate with more transparency, security, and efficiency across every stage of the transaction.",
+    "paragraph2Prefix": "Through our platform, every transaction is executed within a controlled ecosystem that manages both:",
+    "paragraph2Highlight": "The movement of goods, and the flow of funds",
+    "cardTitle": "Built for Secure Execution",
+    "chips": {
+      "1": "Escrow-controlled payments",
+      "2": "Collateral-backed transactions",
+      "3": "Financing up to 80% of cargo value",
+      "4": "Structured from origin to payment"
+    },
+    "cardFooter": "Ensuring transparency, security, and alignment across all participants.",
+    "backgroundAlt": "Agricultural fields and hills"
+  },
+  "StepFlow": {
+    "title": "Step Flow",
+    "descriptionHighlight": "AgroTrust brings together the key participants in global commodity trade into one structured ecosystem.",
+    "descriptionSuffix": "Through a controlled framework, buyers, producers, capital partners, and service providers can operate with more transparency, and efficiency across every stage of the transaction.",
+    "controls": {
+      "previous": "Previous step",
+      "next": "Next step",
+      "goToStep": "Go to step"
+    },
+    "slides": {
+      "1": {
+        "tab": "Buyer Due Diligence",
+        "title": "1. Buyer Due Diligence",
+        "description": "Buyers are introduced and vetted, ensuring qualified demand enters the platform.",
+        "imageAlt": "Buyer due diligence meeting"
+      },
+      "2": {
+        "tab": "Structuring \u0026 Participant Alignment",
+        "title": "2. Structuring \u0026 Participant Alignment",
+        "lead": "AgroTrust structures the transaction, aligning all parties:",
+        "bullets": {
+          "1": "Producers",
+          "2": "Investors",
+          "3": "Warehouses",
+          "4": "Logistics providers",
+          "5": "Escrow banks",
+          "6": "Buyers",
+          "7": "Payment \u0026 FX Platforms"
+        },
+        "imageAlt": "Mechanism parts illustrating alignment"
+      },
+      "3": {
+        "tab": "Pre-Shipment Collateralization",
+        "title": "3. Pre-Shipment Collateralization",
+        "description": "The commodity is delivered to a regulated general deposit warehouse and secured through a pledge bond, creating a collateral-backed financing structure.",
+        "imageAlt": "Document signing for collateralization"
+      },
+      "4": {
+        "tab": "Financing Deployment",
+        "title": "4. Financing Deployment",
+        "description": "Capital is deployed, typically up to 70-80% of the transaction value, within a secured framework backed by the underlying asset.",
+        "imageAlt": "Capital deployment and funding"
+      },
+      "5": {
+        "tab": "Shipment Under Control",
+        "title": "5. Shipment Under Control",
+        "description": "The cargo is shipped under a controlled structure, ensuring full control of the goods throughout transit until payment is received.",
+        "imageAlt": "Container ship under control"
+      },
+      "6": {
+        "tab": "Escrow-Based Payment",
+        "title": "6. Escrow-Based Payment",
+        "description": "The buyer remits payment exclusively into a designated escrow account, eliminating payment risk.",
+        "imageAlt": "Escrow vault and secure payment"
+      },
+      "7": {
+        "tab": "Automated Waterfall Distribution",
+        "title": "7. Automated Waterfall Distribution",
+        "description": "Funds are distributed automatically through a predefined waterfall including all participants.",
+        "imageAlt": "Funds distribution to participants"
+      }
+    }
+  },
+  "VsLc": {
+    "titleBrand": "AGROTRUST",
+    "titleVs": "VS",
+    "titleMain": "Letters of Credit (LC)",
+    "description": "AgroTrust removes the limitations of traditional trade finance by creating a flexible, secure, and scalable infrastructure where transactions can be executed with confidence, whether or not a letter of credit exists.",
+    "leftTitle": "Traditional Letter of Credit (LC)",
+    "leftItems": {
+      "1": "Rigid, document-heavy process",
+      "2": "Fully dependent on issuing bank",
+      "3": "Limited to bank financing",
+      "4": "Controls documents only",
+      "5": "Payment subject to strict compliance",
+      "6": "Slow approval and processing",
+      "7": "Limited by banking capacity",
+      "8": "Requires LC to function"
+    },
+    "rightItems": {
+      "1": "Flexible, adaptable structure",
+      "2": "Does not depend on buyer bank credit lines",
+      "3": "Financing available directly from investors/funds",
+      "4": "Controls both goods and funds",
+      "5": "Escrow-based secure payments",
+      "6": "Faster execution",
+      "7": "Scalable across multiple participants",
+      "8": "Works with or without LC"
+    },
+    "footer": "Ensuring transparency, security, and alignment across all participants."
+  },
+  "BecomePartner": {
+    "title": "Become a Partner",
+    "leftTextPrefix": "Join a structured ecosystem where every participant plays a critical role in enabling",
+    "leftTextHighlight": "secure, scalable global trade.",
+    "rightText": "Together, these participants form a fully integrated trade ecosystem designed to reduce risk, increase efficiency, and enable global scale.",
+    "cta": "Become a Partner",
+    "controls": {
+      "previous": "Previous cards",
+      "next": "Next cards"
+    },
+    "cards": {
+      "1": {
+        "title": "Banks \u0026 Escrow Partners",
+        "subtitle": "Secure the flow of funds through controlled escrow accounts.",
+        "description": "They ensure all payments are received, held, and distributed transparently, eliminating payment risk across every transaction.",
+        "imageAlt": "Bank and escrow partnership"
+      },
+      "2": {
+        "title": "Investors \u0026 Financing Partners",
+        "subtitle": "Provide capital to finance commodity transactions.",
+        "description": "By participating within a collateral-backed structure, investors gain access to real-asset opportunities with controlled risk and predictable execution.",
+        "imageAlt": "Investor signing a financing document"
+      },
+      "3": {
+        "title": "Producers",
+        "subtitle": "Supply carefully selected, export-grade commodities directly from origin.",
+        "description": "Producers gain access to global markets and financing, unlocking growth without reliance on traditional intermediaries.",
+        "imageAlt": "Commodity producers at origin"
+      },
+      "4": {
+        "title": "Buyers / Offtakers",
+        "subtitle": "Purchase commodities through the platform.",
+        "description": "International buyers access verified supply through secure payment structures, ensuring reliability, quality, and execution.",
+        "imageAlt": "Global buyers and offtakers network"
+      },
+      "5": {
+        "title": "Logistics \u0026 Shipping Partners",
+        "subtitle": "Manage transport and shipment of goods.",
+        "description": "They ensure efficient movement of commodities under controlled documentation, preserving integrity from origin to destination.",
+        "imageAlt": "Container vessel transporting cargo"
+      },
+      "6": {
+        "title": "Warehouse \u0026 Collateral Managers",
+        "subtitle": "Secure, store, and certify the commodity.",
+        "description": "By controlling inventory and issuing collateral instruments, they enable financing and protect the transaction at its foundation.",
+        "imageAlt": "Commodity warehouse storage aisles"
+      },
+      "7": {
+        "title": "Exchange \u0026 Payment Platforms",
+        "subtitle": "Enable cross-border settlement through fiat and digital asset conversion.",
+        "description": "These partners provide seamless conversion between traditional currencies and digital assets (such as USDT), enabling faster, more flexible global payments, especially in markets where banking access is limited.",
+        "imageAlt": "Digital and fiat payment conversion platforms"
+      }
+    }
+  },
+  "Dashboard": {
+    "eyebrow": "Dashboard",
+    "title": "Real-Time trade execution dashboard",
+    "description": "Track assets, shipments, documents, and payments all in one place.",
+    "controls": {
+      "previous": "Previous dashboard card",
+      "next": "Next dashboard card"
+    },
+    "bottomSlogan": "One platform. Full visibility. Total control",
+    "slides": {
+      "1": {
+        "title": "1. Transaction Tracking",
+        "description": "Follow every step from warehouse to final payment",
+        "panelCode": "CAAU8335822",
+        "panelMeta": "40\u0027 Dry High cube - Chicago - Rail arrived - Jun 25, 2025",
+        "panelOrigin": "Chicago",
+        "events": {
+          "1": "Rail arrived - Jun 25, 2025",
+          "2": "Rail departed - Jun 25, 2025",
+          "3": "Rail interchange received - Jun 25, 2025",
+          "4": "Rail arrived at McCook - Jun 25, 2025",
+          "5": "Rail departed to Joliet - Jun 25, 2025"
+        },
+        "previewLabel": "Cargo map and shipment control",
+        "imageAlt": "Shipment tracking map"
+      },
+      "2": {
+        "title": "2. Document Synchronization",
+        "description": "Coordinate contracts, warehouse receipts, and transport docs in one stream",
+        "panelCode": "DOCS-92141",
+        "panelMeta": "Contract Set B - Version 3 - Updated Jun 25, 2025",
+        "panelOrigin": "Frankfurt",
+        "events": {
+          "1": "Purchase agreement validated",
+          "2": "Warehouse certificate attached",
+          "3": "BL draft approved",
+          "4": "Compliance checklist completed",
+          "5": "Final package submitted"
+        },
+        "previewLabel": "Document controls and approvals",
+        "imageAlt": "Document management panel"
+      },
+      "3": {
+        "title": "3. Quality \u0026 Origin Verification",
+        "description": "Validate product specs, quality checkpoints, and origin evidence in real time",
+        "panelCode": "QOR-51087",
+        "panelMeta": "Batch 17-C - Origin verified - Updated Jun 25, 2025",
+        "panelOrigin": "Puerto Cabello",
+        "events": {
+          "1": "Origin certificate uploaded",
+          "2": "Pre-shipment quality inspection completed",
+          "3": "Moisture and weight controls passed",
+          "4": "Lab report attached",
+          "5": "Batch released for shipping"
+        },
+        "previewLabel": "Quality checkpoints and origin",
+        "imageAlt": "Quality and origin dashboard"
+      },
+      "4": {
+        "title": "4. Payment Milestone Monitoring",
+        "description": "Keep every payment trigger aligned with logistics and delivery milestones",
+        "panelCode": "PAY-30072",
+        "panelMeta": "Escrow flow active - 3 milestones - Updated Jun 25, 2025",
+        "panelOrigin": "Panama",
+        "events": {
+          "1": "Escrow account funded",
+          "2": "Shipment departure milestone confirmed",
+          "3": "Interchange checkpoint verified",
+          "4": "Delivery confirmation pending",
+          "5": "Final release queued"
+        },
+        "previewLabel": "Payment control milestones",
+        "imageAlt": "Payment milestone monitoring"
+      },
+      "5": {
+        "title": "5. Audit-Ready Control Layer",
+        "description": "Generate a clear operational audit trail across the entire transaction lifecycle",
+        "panelCode": "AUD-77126",
+        "panelMeta": "Audit package prepared - Updated Jun 25, 2025",
+        "panelOrigin": "Houston",
+        "events": {
+          "1": "Timeline export generated",
+          "2": "Approvals and signatures reconciled",
+          "3": "Risk checkpoints documented",
+          "4": "Exceptions log reviewed",
+          "5": "Final audit file delivered"
+        },
+        "previewLabel": "Audit trail and compliance control",
+        "imageAlt": "Audit dashboard overview"
+      }
+    }
+  },
+  "ContactForm": {
+    "eyebrow": "Contact",
+    "title": "Get in Touch",
+    "subtitle": "Tell us about your role and how you\u0027d like to participate in the AgroTrust ecosystem.",
+    "sections": {
+      "purpose": "Contact Purpose",
+      "companyType": "Type of Company",
+      "companyInfo": "Company Information",
+      "contactInfo": "Contact Information",
+      "transaction": "Transaction Interest"
+    },
+    "form": {
+      "purpose": "What would you like to do?",
+      "purposePlaceholder": "Select an option",
+      "purposeOptions": {
+        "requestSupply": "Request Supply (Buyer / Offtaker)",
+        "applyFinancing": "Apply for Financing / Investment Opportunities",
+        "becomeProducer": "Become a Producer",
+        "becomePartner": "Become a Partner",
+        "generalInquiry": "General Inquiry"
+      },
+      "role": "Your Role / Company Type",
+      "rolePlaceholder": "Select your role",
+      "roleOptions": {
+        "buyerOfftaker": "Buyer / Offtaker",
+        "producerExporter": "Producer / Exporter",
+        "investorEntity": "Investor / Financing Entity",
+        "bankEscrow": "Bank / Escrow Provider",
+        "warehouseManager": "Warehouse / Collateral Manager",
+        "logisticsShipping": "Logistics / Shipping Company",
+        "exchangePayment": "Exchange / Payment Platform",
+        "other": "Other"
+      },
+      "companyName": "Company Name (Required)",
+      "country": "Country",
+      "countryPlaceholder": "Select a country",
+      "searchCountries": "Search country or code...",
+      "searchPhoneCountries": "Search by country or prefix...",
+      "noCountryResults": "No countries found.",
+      "phoneCountryPlaceholder": "Select country prefix",
+      "phoneNumberPlaceholder": "Enter phone number",
+      "industry": "Industry / Sector (Optional)",
+      "fullName": "Full Name (Required)",
+      "email": "Email Address (Required)",
+      "phone": "Phone / WhatsApp (Optional but recommended)",
+      "commodities": "What are you interested in?",
+      "commodityOptions": {
+        "cocoa": "Cocoa",
+        "coffee": "Coffee",
+        "other": "Other Commodities"
+      },
+      "volume": "Estimated Volume (Optional)",
+      "volumePlaceholder": "Select estimated volume",
+      "volumeOptions": {
+        "small": "Small (1-5 containers)",
+        "medium": "Medium (5-20 containers)",
+        "large": "Large (20+ containers)"
+      },
+      "message": "Tell us more about your request",
+      "messagePlaceholder": "Share any relevant details about your request.",
+      "submit": "Submit Inquiry",
+      "submitting": "Sending...",
+      "confidentiality": "All inquiries are handled confidentially within our secure platform.",
+      "error": "Please complete all required fields.",
+      "submitError": "We could not send your inquiry right now. Please try again in a moment.",
+      "success": "Thank you. Your inquiry was sent successfully."
+    }
+  },
+  "Footer": {
+    "tagline": "AgroTrust builds secure commodity workflows where capital, logistics, and execution stay aligned from origin to settlement.",
+    "quickLinksTitle": "Quick Links",
+    "quickLinks": {
+      "about": "About",
+      "platform": "Platform",
+      "howItWorks": "How It Works",
+      "partners": "Partners",
+      "news": "News",
+      "contact": "Contact"
+    },
+    "contactTitle": "Contact",
+    "contact": {
+      "emailLabel": "Email",
+      "emailValue": "info@agrotrust.com",
+      "phoneLabel": "Phone",
+      "phoneValue": "+1 (234) 567-890",
+      "phoneHref": "+1234567890",
+      "locationLabel": "Location",
+      "locationValue": "Global Operations"
+    },
+    "social": {
+      "linkedin": "LinkedIn",
+      "linkedinUrl": "https://www.linkedin.com",
+      "x": "X",
+      "xUrl": "https://x.com"
+    },
+    "bottom": {
+      "privacyPolicy": "Privacy Policy",
+      "termsOfService": "Terms of Service",
+      "legal": "Legal"
+    },
+    "cta": "Become a Partner",
+    "groups": {
+      "navigation": "Navigation",
+      "ecosystem": "Ecosystem",
+      "contact": "Contact"
+    },
+    "navigation": {
+      "home": "Home",
+      "about": "About",
+      "platform": "Platform",
+      "howItWorks": "How It Works",
+      "partners": "Partners"
+    },
+    "ecosystem": {
+      "network": "Partner Network",
+      "stepFlow": "Step Flow",
+      "comparison": "AgroTrust vs LC",
+      "dashboard": "Execution Dashboard"
+    },
+    "contactText": "For partnerships, investor collaboration, and onboarding details, connect directly with our team.",
+    "contactEmail": "partners@agrotrust.global",
+    "contactCta": "Schedule a strategic call",
+    "rights": "{year} AGROTRUST. All rights reserved.",
+    "compliance": "Built for transparent and secure execution",
+    "backToTop": "Back to top"
+  },
+  "Privacy": {
+    "badge": "Legal",
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: November 9, 2026",
+    "breadcrumbs": {
+      "home": "Home",
+      "legal": "Legal",
+      "current": "Privacy"
+    },
+    "intro": "AgroTrust, LLC (\"AgroTrust,\" \"we,\" \"us\"), operates a structured trade finance platform connecting investors, producers, buyers and service providers in agricultural commodity trade. This policy explains what personal information we collect, how we use it, and your choices.",
+    "sections": {
+      "information": {
+        "title": "1. Information we collect",
+        "items": [
+          "Contact details you give us: name, company, email address, phone or WhatsApp number, and the content of your inquiry.",
+          "Business and transaction information needed to evaluate or operate a trade, including know-your-customer (KYC) and anti-money-laundering (AML) documentation.",
+          "Technical data collected automatically when you visit our website, such as IP address, browser type and pages viewed."
+        ]
+      },
+      "use": {
+        "title": "2. How we use information",
+        "items": [
+          "To respond to inquiries and provide our services.",
+          "To evaluate, document, execute and settle transactions on our platform.",
+          "To send service messages by email, phone or text message (SMS), including reminders, confirmations and follow-ups, where you have agreed to receive them.",
+          "To meet legal, regulatory, compliance and security obligations."
+        ]
+      },
+      "sms": {
+        "title": "3. Text messaging (SMS) and mobile information",
+        "items": [
+          "If you agree to receive text messages from AgroTrust, we use your mobile number only to send you the messages you agreed to. Message frequency varies. Message and data rates may apply. Reply STOP to opt out at any time, or HELP for help. See our SMS Terms.",
+          "No mobile information will be shared with third parties or affiliates for marketing or promotional purposes. All the categories of sharing described in this policy exclude text messaging originator opt-in data and consent; this information will not be shared with any third parties."
+        ]
+      },
+      "sharing": {
+        "title": "4. How we share information",
+        "intro": "We do not sell personal information. We share it only:",
+        "items": [
+          "With service providers who help us operate the platform (for example escrow agents, logistics providers, hosting and messaging providers), under confidentiality obligations and only as needed to provide the service.",
+          "With counterparties to a transaction you take part in, to the extent required to execute it.",
+          "When required by law, regulation, court order, or to protect our rights and the security of the platform."
+        ]
+      },
+      "retention": {
+        "title": "5. Data retention and security",
+        "content": "We keep personal information only as long as needed for the purposes above or as required by law, and we protect it with administrative, technical and physical safeguards appropriate to its sensitivity."
+      },
+      "choices": {
+        "title": "6. Your choices and rights",
+        "content": "You may ask to access, correct or delete your personal information, or withdraw consent to messages, by contacting us below. You can opt out of text messages at any time by replying STOP."
+      },
+      "changes": {
+        "title": "7. Changes",
+        "content": "We may update this policy. The \"Last updated\" date shows the latest version."
+      },
+      "contact": {
+        "title": "8. Contact",
+        "content": "AgroTrust, LLC · 8 The Green, Suite D, Dover, DE 19901, USA · admin@agrotrust.com.ve · +1 954 353 6494 (TEXT & WHATSAPP)"
+      }
+    }
+  },
+  "SmsTerms": {
+    "title": "AgroTrust SMS Terms",
+    "lastUpdated": "Last updated: November 9, 2026",
+    "sections": {
+      "program": {
+        "title": "1. Program description.",
+        "content": "The AgroTrust messaging program sends service text messages to clients, partners, lenders, producers and service providers who have agreed to receive them. Messages include meeting and deadline reminders, document and signature requests, transaction status updates, and follow-ups. Every message begins: \"This text is being sent by AgroTrust's Agent.\" We do not send marketing messages through this program."
+      },
+      "optIn": {
+        "title": "2. How you opt in.",
+        "content": "You agree to receive messages by checking the SMS consent box on our website contact form, or by giving your consent in writing (for example by email) or verbally to an AgroTrust representative, who records it. Consent is not a condition of any purchase or service."
+      },
+      "frequency": {
+        "title": "3. Message frequency.",
+        "content": "Message frequency varies based on your activity with AgroTrust."
+      },
+      "costs": {
+        "title": "4. Costs.",
+        "content": "Message and data rates may apply, according to your mobile plan."
+      },
+      "optingOut": {
+        "title": "5. Opting out.",
+        "content": "Reply STOP to any message to stop receiving texts. You will receive one final message confirming you have been unsubscribed. To rejoin, reply START or contact us."
+      },
+      "help": {
+        "title": "6. Help.",
+        "content": "Reply HELP to any message, or contact us at admin@agrotrust.com.ve or +1 954 353 6494 (TEXT & WHATSAPP)"
+      },
+      "carriers": {
+        "title": "7. Carriers.",
+        "content": "Mobile carriers are not liable for delayed or undelivered messages."
+      },
+      "privacy": {
+        "title": "8. Privacy.",
+        "content": "Your mobile number and consent are handled under our Privacy Policy. No mobile information will be shared with third parties or affiliates for marketing or promotional purposes."
+      },
+      "contact": {
+        "title": "9. Contact.",
+        "content": "AgroTrust, LLC · 8 The Green, Suite D, Dover, DE 19901, USA · admin@agrotrust.com.ve · +1 954 353 6494 (TEXT & WHATSAPP)"
+      }
+    }
+  },
+  "OnThisPage": {
+    "title": "On this page",
+    "privacy": {
+      "title": "Privacy Policy",
+      "items": {
+        "information": "1. Information we collect",
+        "use": "2. How we use information",
+        "sms": "3. Text messaging (SMS) and mobile information",
+        "sharing": "4. How we share information",
+        "retention": "5. Data retention and security",
+        "choices": "6. Your choices and rights",
+        "changes": "7. Changes",
+        "contact": "8. Contact"
+      }
+    },
+    "smsTerms": {
+      "title": "SMS Terms",
+      "items": {
+        "program": "1. Program description.",
+        "optIn": "2. How you opt in.",
+        "frequency": "3. Message frequency.",
+        "costs": "4. Costs.",
+        "optingOut": "5. Opting out.",
+        "help": "6. Help.",
+        "carriers": "7. Carriers.",
+        "privacy": "8. Privacy.",
+        "contact": "9. Contact."
+      }
+    }
+  },
+  "TermsOfService": {
+    "badge": "LEGAL",
+    "title": "AgroTrust Terms of Service",
+    "breadcrumbs": {
+      "home": "Home",
+      "legal": "Legal",
+      "current": "Terms of Service"
+    },
+    "OnThisPage": {
+      "title": "ON THIS PAGE",
+      "termsOfService": {
+        "title": "Terms of Service",
+        "items": {
+          "acceptance": "1. Acceptance, eligibility and definitions",
+          "whatDoes": "2. What AgroTrust does",
+          "whatDoesNot": "3. What AgroTrust does not do",
+          "participants": "4. Participants and their responsibilities",
+          "kyc": "5. KYC, AML and sanctions",
+          "funds": "6. Funds, escrow, digital assets and fees",
+          "data": "7. Data, confidentiality, intellectual property and communications",
+          "risk": "8. Risk disclosures and disclaimers",
+          "limitation": "9. Limitation of liability and indemnification",
+          "suspension": "10. Suspension, termination, governing law and general terms"
+        }
+      }
+    },
+    "sections": {
+      "acceptance": {
+        "title": "1. Acceptance, eligibility and definitions",
+        "subsections": {
+          "agreement": {
+            "title": "1.1 Agreement.",
+            "content": "These Terms of Service (the \"Terms\") govern access to and use of the website at agrotrust.com.ve, the AgroTrust platform, and any related documents, tools and communications (together, the \"Platform\"), operated by AgroTrust, LLC, a Delaware limited liability company (\"AgroTrust\", \"we\", \"us\"). By accessing or using the Platform, submitting an inquiry, or signing any agreement that references these Terms, you (\"you\" or the \"User\") agree to these Terms. If you act for a company, you confirm you are authorized to bind it."
+          },
+          "relationship": {
+            "title": "1.2 Relationship to Transaction Documents.",
+            "content": "Each transaction is governed by separate written agreements signed by the parties to it, which may include a platform agreement with AgroTrust, a loan and security agreement, an escrow agreement, a warehousing and collateral management agreement, and carrier, destination agent and customs broker acknowledgments (the \"Transaction Documents\"). If these Terms conflict with a signed Transaction Document, the Transaction Document prevails for that transaction. AgroTrust is not a party to any loan agreement, escrow agreement, sale contract or carriage contract between other participants unless it signs it."
+          },
+          "eligibility": {
+            "title": "1.3 Eligibility.",
+            "content": "The Platform is intended only for businesses and professional or institutional participants acting in a commercial capacity. It is not offered to consumers or to the general public. You may not use the Platform if you, your owners or your controllers are the subject of sanctions, or if your use would breach any law that applies to you."
+          },
+          "definitions": {
+            "title": "1.4 Definitions.",
+            "content": "Capitalized terms have the meanings below. Where a Transaction Document defines a term differently, that definition applies to that transaction.",
+            "termsList": [
+              {
+                "term": "Participant:",
+                "definition": "any person or entity that uses the Platform or takes part in a Transaction, including Exporters, Financing Entities, Offtakers and Service Providers."
               },
-    "MarketWidget":  {
-                         "eyebrow":  "Market Pulse",
-                         "title":  "Real-Time Market Indicators for Coffee & Cocoa",
-                         "description":  "Track coffee and cocoa price movement in real time.",
-                         "cards":  {
-                                       "1":  {
-                                                 "title":  "Coffee - Live Feed",
-                                                 "subtitle":  "KC1!"
-                                             },
-                                       "2":  {
-                                                 "title":  "Coffee - Intraday View",
-                                                 "subtitle":  "KC1!"
-                                             },
-                                       "3":  {
-                                                 "title":  "Coffee - Execution Reference",
-                                                 "subtitle":  "FPMARKETS:COFFEE"
-                                             },
-                                       "4":  {
-                                                 "title":  "Cocoa - Intraday View",
-                                                 "subtitle":  "USCOCOA"
-                                             },
-                                       "5":  {
-                                                 "title":  "Cocoa - Live Feed",
-                                                 "subtitle":  "USCOCOA"
-                                             }
-                                   }
-                     },
-    "OurPlatform":  {
-                        "eyebrow":  "Our Platform",
-                        "title":  "One Ecosystem",
-                        "description":  "AgroTrust brings together the key participants in global commodity trade into one structured ecosystem. Through a controlled framework, buyers, producers, capital partners, and service providers can operate with more transparency, security, and efficiency across every stage of the transaction.",
-                        "steps":  {
-                                      "1":  {
-                                                "title":  "Buyer due diligence \u0026 structuring",
-                                                "description":  "AgroTrust begins by validating parties involved and defining the structure of the transaction. This includes assessing counterparties, aligning deal terms, and creating a framework that reduces uncertainty before execution begins."
-                                            },
-                                      "2":  {
-                                                "title":  "Collateral \u0026 financing",
-                                                "description":  "Once the deal is structured, the platform supports the financial layer of the transaction through collateral organization and funding coordination. This helps ensure that capital is deployed within a secure framework that protects all parties involved."
-                                            },
-                                      "3":  {
-                                                "title":  "Shipment \u0026 escrow",
-                                                "description":  "AgroTrust helps coordinate the operational and financial controls tied to execution, including shipment oversight and escrow mechanisms. This adds a layer of protection and transparency as goods and payments move through the process."
-                                            },
-                                      "4":  {
-                                                "title":  "Distribution \u0026 final execution",
-                                                "description":  "The final stage focuses on completing the transaction efficiently and ensuring all participants remain aligned through delivery and distribution. The result is a more seamless execution process with clearer accountability from start to finish."
-                                            }
-                                  },
-                        "imageAlt":  "Business team hands joined together"
-                    },
-    "HowItWorks":  {
-                       "eyebrow":  "How It Works",
-                       "titlePrefix":  "AgroTrust",
-                       "titleHighlight":  "operates as a plug-and-play trade infrastructure,",
-                       "titleSuffix":  "where all key participants in global commodity trade converge within a single, secure framework.",
-                       "paragraph1":  "AgroTrust brings together the key participants in global commodity trade into one structured ecosystem. Through a controlled framework, buyers, producers, capital partners, and service providers can operate with more transparency, security, and efficiency across every stage of the transaction.",
-                       "paragraph2Prefix":  "Through our platform, every transaction is executed within a controlled ecosystem that manages both:",
-                       "paragraph2Highlight":  "The movement of goods, and the flow of funds",
-                       "cardTitle":  "Built for Secure Execution",
-                       "chips":  {
-                                     "1":  "Escrow-controlled payments",
-                                     "2":  "Collateral-backed transactions",
-                                     "3":  "Financing up to 80% of cargo value",
-                                     "4":  "Structured from origin to payment"
-                                 },
-                       "cardFooter":  "Ensuring transparency, security, and alignment across all participants.",
-                       "backgroundAlt":  "Agricultural fields and hills"
-                   },
-    "StepFlow":  {
-                     "title":  "Step Flow",
-                     "descriptionHighlight":  "AgroTrust brings together the key participants in global commodity trade into one structured ecosystem.",
-                     "descriptionSuffix":  "Through a controlled framework, buyers, producers, capital partners, and service providers can operate with more transparency, and efficiency across every stage of the transaction.",
-                     "controls":  {
-                                      "previous":  "Previous step",
-                                      "next":  "Next step",
-                                      "goToStep":  "Go to step"
-                                  },
-                     "slides":  {
-                                    "1":  {
-                                              "tab":  "Buyer Due Diligence",
-                                              "title":  "1. Buyer Due Diligence",
-                                              "description":  "Buyers are introduced and vetted, ensuring qualified demand enters the platform.",
-                                              "imageAlt":  "Buyer due diligence meeting"
-                                          },
-                                    "2":  {
-                                              "tab":  "Structuring \u0026 Participant Alignment",
-                                              "title":  "2. Structuring \u0026 Participant Alignment",
-                                              "lead":  "AgroTrust structures the transaction, aligning all parties:",
-                                              "bullets":  {
-                                                              "1":  "Producers",
-                                                              "2":  "Investors",
-                                                              "3":  "Warehouses",
-                                                              "4":  "Logistics providers",
-                                                              "5":  "Escrow banks",
-                                                              "6":  "Buyers",
-                                                              "7":  "Payment \u0026 FX Platforms"
-                                                          },
-                                              "imageAlt":  "Mechanism parts illustrating alignment"
-                                          },
-                                    "3":  {
-                                              "tab":  "Pre-Shipment Collateralization",
-                                              "title":  "3. Pre-Shipment Collateralization",
-                                              "description":  "The commodity is delivered to a regulated general deposit warehouse and secured through a pledge bond, creating a collateral-backed financing structure.",
-                                              "imageAlt":  "Document signing for collateralization"
-                                          },
-                                    "4":  {
-                                              "tab":  "Financing Deployment",
-                                              "title":  "4. Financing Deployment",
-                                              "description":  "Capital is deployed, typically up to 70-80% of the transaction value, within a secured framework backed by the underlying asset.",
-                                              "imageAlt":  "Capital deployment and funding"
-                                          },
-                                    "5":  {
-                                              "tab":  "Shipment Under Control",
-                                              "title":  "5. Shipment Under Control",
-                                              "description":  "The cargo is shipped under a controlled structure, ensuring full control of the goods throughout transit until payment is received.",
-                                              "imageAlt":  "Container ship under control"
-                                          },
-                                    "6":  {
-                                              "tab":  "Escrow-Based Payment",
-                                              "title":  "6. Escrow-Based Payment",
-                                              "description":  "The buyer remits payment exclusively into a designated escrow account, eliminating payment risk.",
-                                              "imageAlt":  "Escrow vault and secure payment"
-                                          },
-                                    "7":  {
-                                              "tab":  "Automated Waterfall Distribution",
-                                              "title":  "7. Automated Waterfall Distribution",
-                                              "description":  "Funds are distributed automatically through a predefined waterfall including all participants.",
-                                              "imageAlt":  "Funds distribution to participants"
-                                          }
-                                }
-                 },
-    "VsLc":  {
-                 "titleBrand":  "AGROTRUST",
-                 "titleVs":  "VS",
-                 "titleMain":  "Letters of Credit (LC)",
-                 "description":  "AgroTrust removes the limitations of traditional trade finance by creating a flexible, secure, and scalable infrastructure where transactions can be executed with confidence, whether or not a letter of credit exists.",
-                 "leftTitle":  "Traditional Letter of Credit (LC)",
-                 "leftItems":  {
-                                   "1":  "Rigid, document-heavy process",
-                                   "2":  "Fully dependent on issuing bank",
-                                   "3":  "Limited to bank financing",
-                                   "4":  "Controls documents only",
-                                   "5":  "Payment subject to strict compliance",
-                                   "6":  "Slow approval and processing",
-                                   "7":  "Limited by banking capacity",
-                                   "8":  "Requires LC to function"
-                               },
-                 "rightItems":  {
-                                    "1":  "Flexible, adaptable structure",
-                                    "2":  "Does not depend on buyer bank credit lines",
-                                    "3":  "Financing available directly from investors/funds",
-                                    "4":  "Controls both goods and funds",
-                                    "5":  "Escrow-based secure payments",
-                                    "6":  "Faster execution",
-                                    "7":  "Scalable across multiple participants",
-                                    "8":  "Works with or without LC"
-                                },
-                 "footer":  "Ensuring transparency, security, and alignment across all participants."
-             },
-    "BecomePartner":  {
-                          "title":  "Become a Partner",
-                          "leftTextPrefix":  "Join a structured ecosystem where every participant plays a critical role in enabling",
-                          "leftTextHighlight":  "secure, scalable global trade.",
-                          "rightText":  "Together, these participants form a fully integrated trade ecosystem designed to reduce risk, increase efficiency, and enable global scale.",
-                          "cta":  "Become a Partner",
-                          "controls":  {
-                                           "previous":  "Previous cards",
-                                           "next":  "Next cards"
-                                       },
-                          "cards":  {
-                                        "1":  {
-                                                  "title":  "Banks \u0026 Escrow Partners",
-                                                  "subtitle":  "Secure the flow of funds through controlled escrow accounts.",
-                                                  "description":  "They ensure all payments are received, held, and distributed transparently, eliminating payment risk across every transaction.",
-                                                  "imageAlt":  "Bank and escrow partnership"
-                                              },
-                                        "2":  {
-                                                  "title":  "Investors \u0026 Financing Partners",
-                                                  "subtitle":  "Provide capital to finance commodity transactions.",
-                                                  "description":  "By participating within a collateral-backed structure, investors gain access to real-asset opportunities with controlled risk and predictable execution.",
-                                                  "imageAlt":  "Investor signing a financing document"
-                                              },
-                                        "3":  {
-                                                  "title":  "Producers",
-                                                  "subtitle":  "Supply carefully selected, export-grade commodities directly from origin.",
-                                                  "description":  "Producers gain access to global markets and financing, unlocking growth without reliance on traditional intermediaries.",
-                                                  "imageAlt":  "Commodity producers at origin"
-                                              },
-                                        "4":  {
-                                                  "title":  "Buyers / Offtakers",
-                                                  "subtitle":  "Purchase commodities through the platform.",
-                                                  "description":  "International buyers access verified supply through secure payment structures, ensuring reliability, quality, and execution.",
-                                                  "imageAlt":  "Global buyers and offtakers network"
-                                              },
-                                        "5":  {
-                                                  "title":  "Logistics \u0026 Shipping Partners",
-                                                  "subtitle":  "Manage transport and shipment of goods.",
-                                                  "description":  "They ensure efficient movement of commodities under controlled documentation, preserving integrity from origin to destination.",
-                                                  "imageAlt":  "Container vessel transporting cargo"
-                                              },
-                                        "6":  {
-                                                  "title":  "Warehouse \u0026 Collateral Managers",
-                                                  "subtitle":  "Secure, store, and certify the commodity.",
-                                                  "description":  "By controlling inventory and issuing collateral instruments, they enable financing and protect the transaction at its foundation.",
-                                                  "imageAlt":  "Commodity warehouse storage aisles"
-                                              },
-                                        "7":  {
-                                                  "title":  "Exchange \u0026 Payment Platforms",
-                                                  "subtitle":  "Enable cross-border settlement through fiat and digital asset conversion.",
-                                                  "description":  "These partners provide seamless conversion between traditional currencies and digital assets (such as USDT), enabling faster, more flexible global payments, especially in markets where banking access is limited.",
-                                                  "imageAlt":  "Digital and fiat payment conversion platforms"
-                                              }
-                                    }
-                      },
-    "Dashboard":  {
-                      "eyebrow":  "Dashboard",
-                      "title":  "Real-Time trade execution dashboard",
-                      "description":  "Track assets, shipments, documents, and payments all in one place.",
-                      "controls":  {
-                                       "previous":  "Previous dashboard card",
-                                       "next":  "Next dashboard card"
-                                   },
-                      "bottomSlogan":  "One platform. Full visibility. Total control",
-                      "slides":  {
-                                     "1":  {
-                                               "title":  "1. Transaction Tracking",
-                                               "description":  "Follow every step from warehouse to final payment",
-                                               "panelCode":  "CAAU8335822",
-                                               "panelMeta":  "40\u0027 Dry High cube - Chicago - Rail arrived - Jun 25, 2025",
-                                               "panelOrigin":  "Chicago",
-                                               "events":  {
-                                                              "1":  "Rail arrived - Jun 25, 2025",
-                                                              "2":  "Rail departed - Jun 25, 2025",
-                                                              "3":  "Rail interchange received - Jun 25, 2025",
-                                                              "4":  "Rail arrived at McCook - Jun 25, 2025",
-                                                              "5":  "Rail departed to Joliet - Jun 25, 2025"
-                                                          },
-                                               "previewLabel":  "Cargo map and shipment control",
-                                               "imageAlt":  "Shipment tracking map"
-                                           },
-                                     "2":  {
-                                               "title":  "2. Document Synchronization",
-                                               "description":  "Coordinate contracts, warehouse receipts, and transport docs in one stream",
-                                               "panelCode":  "DOCS-92141",
-                                               "panelMeta":  "Contract Set B - Version 3 - Updated Jun 25, 2025",
-                                               "panelOrigin":  "Frankfurt",
-                                               "events":  {
-                                                              "1":  "Purchase agreement validated",
-                                                              "2":  "Warehouse certificate attached",
-                                                              "3":  "BL draft approved",
-                                                              "4":  "Compliance checklist completed",
-                                                              "5":  "Final package submitted"
-                                                          },
-                                               "previewLabel":  "Document controls and approvals",
-                                               "imageAlt":  "Document management panel"
-                                           },
-                                     "3":  {
-                                               "title":  "3. Quality \u0026 Origin Verification",
-                                               "description":  "Validate product specs, quality checkpoints, and origin evidence in real time",
-                                               "panelCode":  "QOR-51087",
-                                               "panelMeta":  "Batch 17-C - Origin verified - Updated Jun 25, 2025",
-                                               "panelOrigin":  "Puerto Cabello",
-                                               "events":  {
-                                                              "1":  "Origin certificate uploaded",
-                                                              "2":  "Pre-shipment quality inspection completed",
-                                                              "3":  "Moisture and weight controls passed",
-                                                              "4":  "Lab report attached",
-                                                              "5":  "Batch released for shipping"
-                                                          },
-                                               "previewLabel":  "Quality checkpoints and origin",
-                                               "imageAlt":  "Quality and origin dashboard"
-                                           },
-                                     "4":  {
-                                               "title":  "4. Payment Milestone Monitoring",
-                                               "description":  "Keep every payment trigger aligned with logistics and delivery milestones",
-                                               "panelCode":  "PAY-30072",
-                                               "panelMeta":  "Escrow flow active - 3 milestones - Updated Jun 25, 2025",
-                                               "panelOrigin":  "Panama",
-                                               "events":  {
-                                                              "1":  "Escrow account funded",
-                                                              "2":  "Shipment departure milestone confirmed",
-                                                              "3":  "Interchange checkpoint verified",
-                                                              "4":  "Delivery confirmation pending",
-                                                              "5":  "Final release queued"
-                                                          },
-                                               "previewLabel":  "Payment control milestones",
-                                               "imageAlt":  "Payment milestone monitoring"
-                                           },
-                                     "5":  {
-                                               "title":  "5. Audit-Ready Control Layer",
-                                               "description":  "Generate a clear operational audit trail across the entire transaction lifecycle",
-                                               "panelCode":  "AUD-77126",
-                                               "panelMeta":  "Audit package prepared - Updated Jun 25, 2025",
-                                               "panelOrigin":  "Houston",
-                                               "events":  {
-                                                              "1":  "Timeline export generated",
-                                                              "2":  "Approvals and signatures reconciled",
-                                                              "3":  "Risk checkpoints documented",
-                                                              "4":  "Exceptions log reviewed",
-                                                              "5":  "Final audit file delivered"
-                                                          },
-                                               "previewLabel":  "Audit trail and compliance control",
-                                               "imageAlt":  "Audit dashboard overview"
-                                           }
-                                 }
-                  },
-    "ContactForm":  {
-                        "eyebrow":  "Contact",
-                        "title":  "Get in Touch",
-                        "subtitle":  "Tell us about your role and how you\u0027d like to participate in the AgroTrust ecosystem.",
-                        "sections":  {
-                                         "purpose":  "Contact Purpose",
-                                         "companyType":  "Type of Company",
-                                         "companyInfo":  "Company Information",
-                                         "contactInfo":  "Contact Information",
-                                         "transaction":  "Transaction Interest"
-                                     },
-                        "form":  {
-                                     "purpose":  "What would you like to do?",
-                                     "purposePlaceholder":  "Select an option",
-                                     "purposeOptions":  {
-                                                            "requestSupply":  "Request Supply (Buyer / Offtaker)",
-                                                            "applyFinancing":  "Apply for Financing / Investment Opportunities",
-                                                            "becomeProducer":  "Become a Producer",
-                                                            "becomePartner":  "Become a Partner",
-                                                            "generalInquiry":  "General Inquiry"
-                                                        },
-                                     "role":  "Your Role / Company Type",
-                                     "rolePlaceholder":  "Select your role",
-                                     "roleOptions":  {
-                                                         "buyerOfftaker":  "Buyer / Offtaker",
-                                                         "producerExporter":  "Producer / Exporter",
-                                                         "investorEntity":  "Investor / Financing Entity",
-                                                         "bankEscrow":  "Bank / Escrow Provider",
-                                                         "warehouseManager":  "Warehouse / Collateral Manager",
-                                                         "logisticsShipping":  "Logistics / Shipping Company",
-                                                         "exchangePayment":  "Exchange / Payment Platform",
-                                                         "other":  "Other"
-                                                     },
-                                     "companyName":  "Company Name (Required)",
-                                     "country":  "Country",
-                                     "countryPlaceholder":  "Select a country",
-                                     "searchCountries":  "Search country or code...",
-                                     "searchPhoneCountries":  "Search by country or prefix...",
-                                     "noCountryResults":  "No countries found.",
-                                     "phoneCountryPlaceholder":  "Select country prefix",
-                                     "phoneNumberPlaceholder":  "Enter phone number",
-                                     "industry":  "Industry / Sector (Optional)",
-                                     "fullName":  "Full Name (Required)",
-                                     "email":  "Email Address (Required)",
-                                     "phone":  "Phone / WhatsApp (Optional but recommended)",
-                                     "commodities":  "What are you interested in?",
-                                     "commodityOptions":  {
-                                                              "cocoa":  "Cocoa",
-                                                              "coffee":  "Coffee",
-                                                              "other":  "Other Commodities"
-                                                          },
-                                     "volume":  "Estimated Volume (Optional)",
-                                     "volumePlaceholder":  "Select estimated volume",
-                                     "volumeOptions":  {
-                                                           "small":  "Small (1-5 containers)",
-                                                           "medium":  "Medium (5-20 containers)",
-                                                           "large":  "Large (20+ containers)"
-                                                       },
-                                     "message":  "Tell us more about your request",
-                                     "messagePlaceholder":  "Share any relevant details about your request.",
-                                      "submit":  "Submit Inquiry",
-                                      "submitting":  "Sending...",
-                                      "confidentiality":  "All inquiries are handled confidentially within our secure platform.",
-                                      "error":  "Please complete all required fields.",
-                                      "submitError":  "We could not send your inquiry right now. Please try again in a moment.",
-                                      "success":  "Thank you. Your inquiry was sent successfully."
-                                  }
-                     },
-    "Footer":  {
-                   "tagline":  "AgroTrust builds secure commodity workflows where capital, logistics, and execution stay aligned from origin to settlement.",
-                   "quickLinksTitle":  "Quick Links",
-                   "quickLinks":  {
-                                      "about":  "About",
-                                      "platform":  "Platform",
-                                      "howItWorks":  "How It Works",
-                                      "partners":  "Partners",
-                                      "news":  "News",
-                                      "contact":  "Contact"
-                                  },
-                   "contactTitle":  "Contact",
-                   "contact":  {
-                                   "emailLabel":  "Email",
-                                   "emailValue":  "info@agrotrust.com",
-                                   "phoneLabel":  "Phone",
-                                   "phoneValue":  "+1 (234) 567-890",
-                                   "phoneHref":  "+1234567890",
-                                   "locationLabel":  "Location",
-                                   "locationValue":  "Global Operations"
-                               },
-                   "social":  {
-                                  "linkedin":  "LinkedIn",
-                                  "linkedinUrl":  "https://www.linkedin.com",
-                                  "x":  "X",
-                                  "xUrl":  "https://x.com"
-                              },
-                   "bottom":  {
-                                  "privacyPolicy":  "Privacy Policy",
-                                  "termsOfService":  "Terms of Service",
-                                  "legal":  "Legal"
-                              },
-                   "cta":  "Become a Partner",
-                   "groups":  {
-                                  "navigation":  "Navigation",
-                                  "ecosystem":  "Ecosystem",
-                                  "contact":  "Contact"
-                              },
-                   "navigation":  {
-                                      "home":  "Home",
-                                      "about":  "About",
-                                      "platform":  "Platform",
-                                      "howItWorks":  "How It Works",
-                                      "partners":  "Partners"
-                                  },
-                   "ecosystem":  {
-                                     "network":  "Partner Network",
-                                     "stepFlow":  "Step Flow",
-                                     "comparison":  "AgroTrust vs LC",
-                                     "dashboard":  "Execution Dashboard"
-                                 },
-                   "contactText":  "For partnerships, investor collaboration, and onboarding details, connect directly with our team.",
-                   "contactEmail":  "partners@agrotrust.global",
-                   "contactCta":  "Schedule a strategic call",
-                   "rights":  "{year} AGROTRUST. All rights reserved.",
-                   "compliance":  "Built for transparent and secure execution",
-                   "backToTop":  "Back to top"
-               }
+              {
+                "term": "Exporter / Borrower:",
+                "definition": "the entity exporting commodities that may receive financing from a Financing Entity."
+              },
+              {
+                "term": "Financing Entity / Lender:",
+                "definition": "an independent financial institution, fund or entity that decides on its own whether to provide financing to an Exporter under a Loan Agreement."
+              },
+              {
+                "term": "Offtaker:",
+                "definition": "the buyer of the Inventory, obligated to pay for it."
+              },
+              {
+                "term": "Service Provider:",
+                "definition": "any independent third party providing services in a Transaction, including escrow banks, collateral management warehouses, carriers, NVOCCs, freight forwarders, shipping and logistics agents, destination agents, customs brokers, insurers, foreign exchange providers, and payment and digital asset service providers."
+              },
+              {
+                "term": "Inventory:",
+                "definition": "the commodities that are the subject of a Transaction and serve as collateral."
+              },
+              {
+                "term": "Escrow Account:",
+                "definition": "the account held by an independent Escrow Bank to receive and distribute Transaction funds under an Escrow Agreement."
+              },
+              {
+                "term": "Pledge Bond / Warehouse Receipt:",
+                "definition": "the document issued by a Warehouse Operator evidencing custody of Inventory and a security interest in favor of the Financing Entity."
+              },
+              {
+                "term": "Master Bill of Lading:",
+                "definition": "the bill of lading issued \"to the order of\" the Financing Entity."
+              },
+              {
+                "term": "Payment Waterfall:",
+                "definition": "the predefined order in which the Escrow Bank distributes funds received in the Escrow Account."
+              },
+              {
+                "term": "AgroTrust Structure:",
+                "definition": "AgroTrust's proprietary framework for structured trade finance, combining warehouse collateral, Pledge Bonds, lender-controlled bills of lading, escrow accounts and a Payment Waterfall."
+              },
+              {
+                "term": "Transaction:",
+                "definition": "a structured trade finance operation carried out using the AgroTrust Structure."
+              },
+              {
+                "term": "Structuring Fee:",
+                "definition": "the fee AgroTrust charges for access to the Platform and its structuring and coordination services."
+              }
+            ]
+          }
+        }
+      },
+      "whatDoes": {
+        "title": "2. What AgroTrust does",
+        "subsections": {
+          "ourRole": {
+            "title": "2.1 Our role.",
+            "content": "AgroTrust is a technology platform and transaction structuring company. We design the AgroTrust Structure and coordinate the independent Participants who carry out each Transaction. Our services are limited to the following:",
+            "items": [
+              "Structuring: designing the framework of a Transaction, including how Inventory is held as collateral, how title documents are controlled, and how payments flow through an Escrow Account and Payment Waterfall.",
+              "Coordination: coordinating timelines, documents and communications among Exporters, Financing Entities, Offtakers and Service Providers so each can perform its own role.",
+              "Documentation: preparing and circulating standard-form Transaction Documents and checklists for the Participants to review, negotiate with their own advisers, and sign.",
+              "Platform access: giving Participants access to the Platform, its tools, and a network of independent Service Providers that have agreed to operate within the AgroTrust Structure.",
+              "Operational support: following up on documents, booking and shipment milestones, and escrow instructions, and relaying information between Participants."
+            ]
+          },
+          "transactionWorks": {
+            "title": "2.2 How a Transaction works.",
+            "content": "In a typical Transaction:",
+            "items": [
+              "The Exporter delivers Inventory to an independent collateral management warehouse, which inspects it and issues a Pledge Bond in favor of the Financing Entity.",
+              "The Financing Entity independently decides whether to lend, and signs a Loan Agreement directly with the Exporter.",
+              "The Inventory ships under a Master Bill of Lading issued \"to the order of\" the Financing Entity. Carriers, destination agents and customs brokers acknowledge the Financing Entity's control.",
+              "The Offtaker pays the full invoice into the Escrow Account held by an independent Escrow Bank.",
+              "The Escrow Bank distributes the funds under the Payment Waterfall set out in the Escrow Agreement: typically first to the Financing Entity (principal and interest), then to AgroTrust (Structuring Fee), then the balance to the Exporter."
+            ]
+          },
+          "proprietaryStructure": {
+            "title": "2.3 Proprietary structure.",
+            "content": "The AgroTrust Structure, our documents, processes, pricing model, and partner arrangements are our confidential and proprietary information. Participants who sign a platform agreement may be bound by exclusivity and non-circumvention obligations set out in that agreement."
+          },
+          "communications": {
+            "title": "2.4 Communications.",
+            "content": "Where a Transaction Document requires it, electronic communications about Inventory, release instructions or escrow disbursements must copy all relevant parties and the designated AgroTrust address. AgroTrust relays and records these communications but does not authorize releases of Inventory or funds; only the party with that right under the Transaction Documents can do so."
+          }
+        }
+      },
+      "whatDoesNot": {
+        "title": "3. What AgroTrust does not do",
+        "subsections": {
+          "noSolicitation": {
+            "title": "3.1 No solicitation of investors or offering of securities.",
+            "content": "AgroTrust does not solicit, offer, sell, recommend or advertise investments, loans, notes, participations or any other financial product to any person. Nothing on the Platform is an offer to sell or a solicitation of an offer to buy any security or investment. AgroTrust does not raise capital for Exporters or for itself through the Platform, and does not pool, manage or invest money on behalf of others."
+          },
+          "notALender": {
+            "title": "3.2 Not a lender or financial institution.",
+            "content": "AgroTrust is not:",
+            "items": [
+              "a lender, creditor or provider of financing;",
+              "a bank, trust company, credit institution or money services business;",
+              "a money transmitter, payment institution, exchange or currency dealer;",
+              "a broker, dealer, placement agent, finder or investment adviser;",
+              "an escrow agent, custodian, trustee or holder of client funds or digital assets;",
+              "an insurer or guarantor;",
+              "a warehouse operator, collateral manager, carrier, freight forwarder, NVOCC, customs broker or logistics provider;",
+              "a buyer or seller of any Inventory."
+            ]
+          },
+          "noHandlingOfFunds": {
+            "title": "3.3 No handling of funds.",
+            "content": "AgroTrust never receives, holds, controls or disburses Transaction funds or Participant money. All Offtaker payments go to the Escrow Account held by an independent, regulated Escrow Bank, which alone executes the Payment Waterfall. AgroTrust receives only its own Structuring Fee, paid by the Escrow Bank under the Escrow Agreement. Any fiat-to-digital-asset conversion is carried out by independent, licensed providers under their own terms, not by AgroTrust."
+          },
+          "noCreditDecisions": {
+            "title": "3.4 No credit decisions, negotiation or advice.",
+            "content": "All decisions to lend, underwrite, approve, price or enforce financing are made solely by the Financing Entity and the Exporter. AgroTrust does not negotiate commercial or financial terms between Participants, does not act as agent for any Participant, and does not give financial, investment, legal, tax, accounting, customs or regulatory advice. Each Participant must rely on its own advisers."
+          },
+          "noGuarantee": {
+            "title": "3.5 No guarantee.",
+            "content": "AgroTrust does not guarantee and is not responsible for:",
+            "items": [
+              "the availability of financing from any Financing Entity;",
+              "repayment of any loan, or the creditworthiness of any Participant;",
+              "payment by any Offtaker;",
+              "the quantity, quality, condition, existence, title or value of any Inventory;",
+              "the performance of any warehouse, escrow bank, carrier, agent, broker or other Service Provider;",
+              "the validity, enforceability or perfection of any security interest, Pledge Bond or bill of lading;",
+              "any return, yield or outcome of any Transaction."
+            ]
+          },
+          "noFiduciary": {
+            "title": "3.6 No fiduciary relationship.",
+            "content": "AgroTrust is not a fiduciary, trustee, partner, joint venturer or agent of any Participant. Each Participant acts as an independent party for its own account and risk."
+          },
+          "noDutyToMonitor": {
+            "title": "3.7 No duty to monitor.",
+            "content": "AgroTrust has no duty to monitor Transactions, investigate Participants, verify documents for authenticity, or ensure any Participant's legal or regulatory compliance."
+          }
+        }
+      },
+      "participants": {
+        "title": "4. Participants and their responsibilities",
+        "subsections": {
+          "independentParties": {
+            "title": "4.1 Independent parties.",
+            "content": "Each Participant is solely responsible for its own role, performance, licenses, permits, taxes and compliance, and for the accuracy of everything it provides. The table summarizes each role as set out in the Transaction Documents; the signed Transaction Documents control.",
+            "tableHeaders": {
+              "participant": "Participant",
+              "responsibility": "Responsible for"
+            },
+            "tableRows": [
+              {
+                "participant": "Exporter / Borrower",
+                "responsibility": "Delivering Inventory to the designated warehouse; title to and accuracy of Inventory and documents; export permits, phytosanitary and origin certificates; directing all Offtaker payments to the Escrow Account; insurance required by the Loan Agreement; repaying the loan; costs and delays caused by its own documentation or conduct."
+              },
+              {
+                "participant": "Financing Entity / Lender",
+                "responsibility": "Its own credit analysis, approval, pricing and funding; holding and enforcing its security over the Pledge Bond and Master Bill of Lading; issuing release or enforcement instructions; its own licensing and lending-law compliance."
+              },
+              {
+                "participant": "Offtaker / Buyer",
+                "responsibility": "Paying the full invoice only into the Escrow Account; complying with import rules; inspection and acceptance of goods under its sale contract."
+              },
+              {
+                "participant": "Escrow Bank",
+                "responsibility": "Opening and maintaining the Escrow Account; holding funds without commingling; executing the Payment Waterfall without discretion; its own KYC/AML on account holders and payors."
+              },
+              {
+                "participant": "Collateral Management Warehouse",
+                "responsibility": "Receiving, inspecting, storing and insuring the Inventory; issuing the Pledge Bond; releasing Inventory only on the Financing Entity's written authorization; liability for loss, damage or misappropriation in its custody."
+              },
+              {
+                "participant": "Carriers, NVOCCs, forwarders, shipping agents",
+                "responsibility": "Issuing the Master Bill of Lading to the order of the Financing Entity; refusing release, telex release or changes of consignee without the Financing Entity's consent; following Financing Entity instructions after a default."
+              },
+              {
+                "participant": "Destination agents and customs brokers",
+                "responsibility": "Holding the cargo and refusing release, clearance or delivery without the Financing Entity's written authorization."
+              },
+              {
+                "participant": "Payment and digital asset service providers",
+                "responsibility": "Onboarding, KYC/AML, conversion and settlement under their own licenses and terms, including the requirement that fiat and digital asset accounts be held in the same name."
+              }
+            ]
+          },
+          "useOfDesignatedProviders": {
+            "title": "4.2 Use of designated providers.",
+            "content": "To preserve the controls that protect all Participants, a Transaction may require use of Service Providers that have agreed to operate within the AgroTrust Structure. Designation of a Service Provider is not a recommendation, endorsement or guarantee of it. Each Participant should do its own due diligence on every counterpart and Service Provider."
+          },
+          "accurateInformation": {
+            "title": "4.3 Accurate information.",
+            "content": "You represent that all information and documents you provide through the Platform are true, complete, current and authentic, and that you have the right to provide them. AgroTrust may rely on them without verification."
+          },
+          "noDeviation": {
+            "title": "4.4 No deviation.",
+            "content": "Participants must not act outside the agreed AgroTrust Structure in any way that affects control of funds or Inventory, including receiving Offtaker payments outside the Escrow Account or requesting bill of lading amendments without the Financing Entity's consent."
+          }
+        }
+      },
+      "kyc": {
+        "title": "5. KYC, AML and sanctions",
+        "subsections": {
+          "ownResponsibility": {
+            "title": "5.1 Each Participant's own responsibility.",
+            "content": "AgroTrust does not perform, and is not responsible for, know-your-customer (KYC), customer due diligence, anti-money laundering (AML), counter-terrorist financing, anti-bribery, export control or sanctions screening of any Participant or counterpart. Each Participant is solely responsible for:",
+            "items": [
+              "conducting its own KYC, due diligence and sanctions screening on every counterpart it deals with;",
+              "verifying the identity, beneficial ownership, source of funds and source of wealth of its counterparts;",
+              "complying with all AML, sanctions, anti-corruption, export control, customs and tax laws that apply to it;",
+              "filing any reports it is required to file with any authority."
+            ]
+          },
+          "regulatedInstitutions": {
+            "title": "5.2 Regulated institutions.",
+            "content": "Where the law requires KYC and AML checks for a Transaction, they are performed by the regulated institutions involved, including the Escrow Bank, any payment or digital asset service provider, and the Financing Entity, under their own policies. AgroTrust does not review, approve, rely on or vouch for those checks, and their outcome is not a representation by AgroTrust."
+          },
+          "documentsPassed": {
+            "title": "5.3 Documents passed through the Platform.",
+            "content": "If AgroTrust forwards onboarding documents between a Participant and a regulated institution at a Participant's request, it does so only as a courier of information. Forwarding is not verification, screening or approval."
+          },
+          "yourRepresentations": {
+            "title": "5.4 Your representations.",
+            "content": "You represent and warrant, on each day you use the Platform, that:",
+            "items": [
+              "you, your owners, directors, officers and controllers are not on any sanctions list maintained by the United States (including OFAC), the United Nations, the European Union, the United Kingdom, or any other applicable authority, and are not owned or controlled by such a person;",
+              "no funds, Inventory or proceeds you use in a Transaction derive from unlawful activity, and none will be used to benefit a sanctioned person or for any unlawful purpose;",
+              "you will not use the Platform to evade sanctions, export controls or currency controls."
+            ]
+          },
+          "agroTrustRights": {
+            "title": "5.5 AgroTrust's rights.",
+            "content": "Although it has no duty to do so, AgroTrust may at any time ask for information, decline to coordinate, pause or stop any Transaction, or suspend access, if it believes in good faith that a Transaction or Participant may breach law or these Terms. AgroTrust is not liable for any loss caused by doing so, and may share information with authorities when required by law."
+          }
+        }
+      },
+      "funds": {
+        "title": "6. Funds, escrow, digital assets and fees",
+        "subsections": {
+          "escrow": {
+            "title": "6.1 Escrow.",
+            "content": "All Transaction proceeds are paid into the Escrow Account and distributed by the Escrow Bank under the Escrow Agreement. The Escrow Bank acts only on the escrow instructions; AgroTrust cannot direct, release or redirect funds. Payment instructions are irrevocable once set and may only be changed as the Escrow Agreement allows."
+          },
+          "bewareOfFraud": {
+            "title": "6.2 Beware of payment fraud.",
+            "content": "AgroTrust will never ask you to pay money to AgroTrust or to any account other than the Escrow Account named in the signed Transaction Documents. Before sending any payment, confirm the account details by a separate, trusted channel. AgroTrust is not liable for payments sent to the wrong account, including because of fraudulent or altered instructions."
+          },
+          "digitalAssets": {
+            "title": "6.3 Digital assets and currency conversion.",
+            "content": "Where a Participant chooses to convert fiat currency into stablecoins or other digital assets, or to settle in them, the service is provided by independent, licensed third parties under their own terms, KYC and \"same name\" requirements. AgroTrust does not hold, exchange, transmit or custody digital assets or currency, and is not responsible for those providers, for price or exchange rate movements, for blockchain or network failures, or for any regulatory treatment of digital assets in any jurisdiction."
+          },
+          "structuringFee": {
+            "title": "6.4 Structuring Fee.",
+            "content": "The Structuring Fee is compensation for access to the Platform and for AgroTrust's structuring and coordination services. It is set in the platform agreement with the Exporter. It may be calculated by reference to transaction size or complexity for pricing purposes only; it is not a commission, interest, placement or finder's fee, or payment for raising capital. Unless agreed otherwise in writing, it is earned when the Offtaker's funds are received in the Escrow Account and is paid only through the Payment Waterfall."
+          },
+          "bundledFees": {
+            "title": "6.5 Bundled fees and third-party compensation.",
+            "content": "The Structuring Fee is a bundled fee and may include amounts AgroTrust pays to Service Providers, such as escrow, warehouse, logistics or foreign exchange costs. AgroTrust may also receive compensation from Service Providers, including a share of fees they charge for services such as currency or digital asset conversion. The fee owed by a Participant is the fee stated in its signed agreements."
+          },
+          "taxes": {
+            "title": "6.6 Taxes.",
+            "content": "Each Participant is responsible for its own taxes, duties and withholding arising from any Transaction. Amounts owed to AgroTrust are payable without set-off or deduction, except where the law requires withholding."
+          }
+        }
+      },
+      "data": {
+        "title": "7. Data, confidentiality, intellectual property and communications",
+        "subsections": {
+          "confidentialInformation": {
+            "title": "7.1 Confidential information.",
+            "content": "The AgroTrust Structure, Transaction Documents, pricing, fee composition, partner relationships and operational processes are AgroTrust's confidential information. You may use them only to take part in Transactions and may not disclose, copy, reverse-engineer or replicate them. AgroTrust will keep your non-public business information confidential and share it only with Participants and Service Providers who need it to carry out your Transaction, with our advisers, or as required by law."
+          },
+          "intellectualProperty": {
+            "title": "7.2 Intellectual property.",
+            "content": "AgroTrust owns all rights in the Platform, the AgroTrust name and logo, the AgroTrust Structure, and our documents, templates and content. We grant you a limited, revocable, non-exclusive, non-transferable right to use them only for your own Transactions while these Terms apply. You may not copy, modify, distribute, sell or create derivative works from them, or use our name or marks without written permission."
+          },
+          "yourContent": {
+            "title": "7.3 Your content.",
+            "content": "You keep ownership of the documents and data you provide. You grant AgroTrust a license to use, store, copy and share them as needed to provide the Platform and coordinate your Transactions, to comply with law, and to improve our services in aggregated or anonymized form."
+          },
+          "privacy": {
+            "title": "7.4 Privacy.",
+            "content": "Our handling of personal information is described in our Privacy Policy, which forms part of these Terms."
+          },
+          "electronicCommunications": {
+            "title": "7.5 Electronic communications and signatures.",
+            "content": "You agree to receive notices and documents electronically and to sign Transaction Documents by electronic signature (for example DocuSign). Electronic records and signatures have the same effect as originals. Where a Transaction Document requires certain recipients to be copied on communications, a communication that does not copy them may be disregarded."
+          },
+          "textMessages": {
+            "title": "7.6 Text messages.",
+            "content": "If you agree to receive text messages from AgroTrust, our SMS Terms apply. Reply STOP to opt out at any time."
+          },
+          "acceptableUse": {
+            "title": "7.7 Acceptable use.",
+            "content": "You will not: use the Platform for any unlawful, fraudulent or deceptive purpose; submit false or forged documents; impersonate any person; interfere with the Platform's security or operation; scrape, probe or attempt unauthorized access; or upload malware."
+          }
+        }
+      },
+      "risk": {
+        "title": "8. Risk disclosures and disclaimers",
+        "subsections": {
+          "risksYouAccept": {
+            "title": "8.1 Risks you accept.",
+            "content": "Cross-border commodity trade and trade finance carry significant risks that remain with the Participants, not with AgroTrust. They include:",
+            "items": [
+              "Credit and payment risk: an Offtaker may not pay, pay late or pay less; a Borrower may default.",
+              "Collateral risk: Inventory may be lost, damaged, spoiled, contaminated, short in quantity or quality, seized, or worth less than expected; liquidation may not cover the debt.",
+              "Logistics risk: delays, port congestion, vessel or container issues, carrier failures, demurrage and detention, and route changes.",
+              "Documentary and legal risk: a security interest, Pledge Bond or bill of lading may not be enforceable or perfected in every jurisdiction; courts in different countries may treat documents differently.",
+              "Country and political risk: sanctions, export or import restrictions, currency and capital controls, expropriation, changes in law, and civil unrest, including in Venezuela and destination countries.",
+              "Currency and digital asset risk: exchange rate movements, conversion limits, stablecoin de-pegging, and changing regulation of digital assets.",
+              "Counterparty and fraud risk: forged documents, payment-instruction fraud, and misconduct by any Participant or Service Provider.",
+              "Regulatory risk: a Transaction may require licenses, registrations or approvals that each Participant must obtain for itself."
+            ]
+          },
+          "asIsPlatform": {
+            "title": "8.2 \"As is\" Platform.",
+            "content": "The Platform, its content and AgroTrust's services are provided \"as is\" and \"as available\". To the fullest extent permitted by law, AgroTrust disclaims all warranties, express or implied, including merchantability, fitness for a particular purpose, title, non-infringement, accuracy and uninterrupted or error-free operation."
+          },
+          "informationOnly": {
+            "title": "8.3 Information only.",
+            "content": "Any information, example, model, timeline or figure on the Platform or in AgroTrust's communications is general information. It is not advice, a projection of results, or a representation about any Transaction, Participant or outcome."
+          },
+          "noReliance": {
+            "title": "8.4 No reliance.",
+            "content": "Each Participant confirms it has made its own independent assessment of every Transaction and counterpart and is not relying on AgroTrust for the creditworthiness of any person, the legality or enforceability of any Transaction, the repayment of any loan, or any financial, legal, tax or investment advice."
+          }
+        }
+      },
+      "limitation": {
+        "title": "9. Limitation of liability and indemnification",
+        "subsections": {
+          "noLiabilityForThirdParties": {
+            "title": "9.1 No liability for third parties.",
+            "content": "AgroTrust is not liable for any act, omission, default, insolvency, fraud or negligence of any Participant or Service Provider, including any Financing Entity, Exporter, Offtaker, Escrow Bank, warehouse, carrier, agent, broker, insurer, or payment or digital asset provider."
+          },
+          "excludedLosses": {
+            "title": "9.2 Excluded losses.",
+            "content": "To the fullest extent permitted by law, AgroTrust and its members, managers, officers, employees, agents and affiliates (the \"AgroTrust Parties\") are not liable for any indirect, incidental, special, consequential, exemplary or punitive damages, or for any loss of profits, revenue, business, opportunity, goodwill, data, or Inventory value, or for losses from delays, disruptions or failed Transactions, however caused and even if advised of the possibility."
+          },
+          "liabilityCap": {
+            "title": "9.3 Liability cap.",
+            "content": "To the fullest extent permitted by law, the AgroTrust Parties' total liability arising out of or relating to these Terms, the Platform or any Transaction is limited to the Structuring Fees actually received by AgroTrust for the Transaction giving rise to the claim. If no Transaction is involved, the cap is US$1,000."
+          },
+          "basisOfTheBargain": {
+            "title": "9.4 Basis of the bargain.",
+            "content": "The fees AgroTrust charges reflect its limited role and this allocation of risk. The limits apply even if a remedy fails of its essential purpose. They do not limit liability that cannot be limited by law, such as liability for fraud or willful misconduct."
+          },
+          "indemnity": {
+            "title": "9.5 Indemnity.",
+            "content": "You will defend, indemnify and hold harmless the AgroTrust Parties from all claims, losses, liabilities, damages, penalties, costs and expenses (including reasonable legal fees) arising out of or related to:",
+            "items": [
+              "your breach of these Terms or any Transaction Document;",
+              "your violation of any law, including AML, sanctions, export control, customs and tax laws;",
+              "any inaccurate, false or forged information or document you provide;",
+              "any Transaction you take part in, and any dispute between you and any other Participant or Service Provider;",
+              "your negligence, fraud or willful misconduct."
+            ]
+          },
+          "timeLimit": {
+            "title": "9.6 Time limit.",
+            "content": "To the extent permitted by law, any claim against AgroTrust must be brought within one (1) year after the facts giving rise to it occurred, or it is permanently barred."
+          }
+        }
+      },
+      "suspension": {
+        "title": "10. Suspension, termination, governing law and general terms",
+        "subsections": {
+          "suspensionAndTermination": {
+            "title": "10.1 Suspension and termination.",
+            "content": "AgroTrust may suspend or end your access to the Platform at any time, with or without notice, including if you breach these Terms or if continuing would expose AgroTrust or other Participants to legal, regulatory or reputational risk. You may stop using the Platform at any time. Transactions already in progress continue under their Transaction Documents until completed, and fees earned remain payable."
+          },
+          "survival": {
+            "title": "10.2 Survival.",
+            "content": "Sections 3, 5, 6, 7, 8, 9 and 10, and any provision that by its nature should survive, survive termination."
+          },
+          "governingLaw": {
+            "title": "10.3 Governing law.",
+            "content": "These Terms and any dispute about the Platform are governed by the laws of [the State of Delaware, USA], without regard to conflict-of-law rules. Each Transaction is governed by the law stated in its own Transaction Documents."
+          },
+          "disputes": {
+            "title": "10.4 Disputes.",
+            "content": "The parties will first try to resolve any dispute in good faith within thirty (30) days of written notice. If not resolved, the dispute will be finally settled by binding arbitration administered by [the International Centre for Dispute Resolution of the American Arbitration Association] under its rules then in force, by one arbitrator, seated in [Miami, Florida], in English. Disputes must be brought individually, not as a class or collective action. Either party may seek urgent injunctive relief from a competent court, including to protect confidential information or prevent circumvention."
+          },
+          "changes": {
+            "title": "10.5 Changes.",
+            "content": "AgroTrust may update these Terms by posting a new version on the Platform with a new \"Last updated\" date. Changes apply from posting, except that they do not change the terms of a Transaction already signed. Continued use of the Platform means you accept the updated Terms."
+          },
+          "general": {
+            "title": "10.6 General.",
+            "content": "These Terms, the Privacy Policy, the SMS Terms and any signed Transaction Documents are the entire agreement on their subject. If any provision is unenforceable, the rest remains in effect and the provision is enforced to the maximum extent allowed. A failure to enforce a right is not a waiver. You may not assign these Terms without AgroTrust's written consent; AgroTrust may assign them to an affiliate or successor. Nothing creates a partnership, joint venture, agency or employment relationship. AgroTrust is not liable for delays caused by events beyond its reasonable control. If these Terms are translated, the English version controls."
+          },
+          "contact": {
+            "title": "10.7 Contact.",
+            "content": "AgroTrust, LLC · 8 The Green, Suite D, Dover, DE 19901, USA · admin@agrotrust.com.ve · +1 954 353 6494 (TEXT & WHATSAPP)"
+          }
+        }
+      }
+    }
+  }
 }

@@ -23,152 +23,100 @@ export function CompaniesCarousel() {
   const logos = useMemo<CompanyLogo[]>(
     () => [
       {
-        name: "ItalBank",
-        href: "https://www.italbank.com/",
-        src: "/images/companies/logo-ital-bank.png",
-        alt: t("italBankAlt"),
-        width: 210,
-        height: 58,
-      },
-      {
         name: "Stanzione",
         href: "https://stanzione.com/",
         src: "/images/companies/logo-stanzione.png",
         alt: t("stanZioneAlt"),
-        width: 210,
-        height: 58,
-        imageClassName: "h-16 sm:h-16 md:h-[106px]",
-      },
-      // {
-      //   name: "Bursagro",
-      //   href: "https://www.bursagro.com/",
-      //   src: "/images/companies/logo-bursagro.png",
-      //   alt: t("bursagroAlt"),
-      //   width: 210,
-      //   height: 58,
-      //   imageClassName: "h-8 sm:h-8 md:h-[66px]",
-      // },
-      {
-        name: "Apila Capital",
-        href: "https://www.apilacapital.com/",
-        src: "/images/companies/logo-apila.png",
-        alt: t("apilaCapitalAlt"),
-        width: 210,
-        height: 58,
-        imageClassName: "h-8 sm:h-8 md:h-[66]",
+        width: 491,
+        height: 195,
       },
       {
         name: "DEFISA",
         href: "https://defisa.com",
         src: "/images/companies/logo-defisa.png",
         alt: t("defisaAlt"),
-        width: 220,
-        height: 54,
-        
+        width: 844,
+        height: 121,
       },
       {
         name: "AVEX",
         href: "https://avex.com.ve/",
         src: "/images/companies/logo-avex.png",
         alt: t("avexAlt"),
-        width: 228,
-        height: 68,
-        imageClassName: "h-8 sm:h-8 md:h-[66]",
+        width: 381,
+        height: 155,
       },
-      // {
-      //   name: "Bolpriaven",
-      //   href: "https://www.bolpriaven.net/",
-      //   src: "/images/companies/logo_bolpriaven.png",
-      //   alt: t("bolpriavenAlt"),
-      //   width: 255,
-      //   height: 66,
-      // },
       {
         name: "Brige",
         href: "https://bridge.xyz/",
         src: "/images/companies/logo-bridge.png",
         alt: t("bridgeAlt"),
-        width: 238,
-        height: 120,
-        
-      },
-      // {
-      //   name: "Agroinvest",
-      //   href: "https://www.agroinvestcb.com/inicio",
-      //   src: "/images/companies/logo-agroinvest2.png",
-      //   alt: t("agroinvestAlt"),
-      //   width: 238,
-      //   height: 120,
-      //   imageClassName: "h-16 sm:h-16 md:h-[76px]",
-      // },
-      {
-        name: "Inter Global",
-        href: "https://interglobalcdb.com/",
-        src: "/images/companies/logo-interglobal.png",
-        alt: t("interGlobalAlt"),
-        width: 220,
-        height: 120,
-      },
-      {
-        name: "Brisas del Gil",
-        href: "https://www.instagram.com/brisasdelgil/",
-        src: "/images/companies/logo-brisas-del-gil.png",
-        alt: t("brisasDelGilAlt"),
-        width: 220,
-        height: 120,
-        imageClassName: "h-16 sm:h-16 md:h-[80px]",
-      },
-      {
-        name: "Conduit",
-        href: "https://conduitpay.com/",
-        src: "/images/companies/logo-conduit.png",
-        alt: t("conduitAlt"),
-        width: 213,
-        height: 40,
+        width: 605,
+        height: 165,
       },
       {
         name: "FECVE Lab",
         href: "https://www.fecvelab.com",
         src: "/images/companies/logo-fecve-lab.png",
         alt: t("fecveLabAlt"),
-        width: 260,
-        height: 95,
+        width: 390,
+        height: 133,
       },
       {
         name: "Italcambio",
         href: "https://www.italcambio.com/",
         src: "/images/companies/logo-italcambio.png",
         alt: t("italcambioAlt"),
-        width: 250,
-        height: 52,
-        imageClassName: "h-8 sm:h-8 md:h-[46]",
+        width: 780,
+        height: 138,
       },
       {
         name: "Depositos Industriales",
         href: "https://www.instagram.com/depositos_industriales_sa?igsh=MWRkcjkzeHZ0czhvdg%3D%3D",
         src: "/images/companies/logo-depositos.png",
-        alt: t("italcambioAlt"),
-        width: 250,
-        height: 52,
-        imageClassName: "h-8 sm:h-8 md:h-[116]",
+        alt: t("depositosAlt"),
+        width: 240,
+        height: 240,
       },
       {
         name: "Triangulo de Mocoties",
         href: "https://www.instagram.com/triangulodemocoties/",
         src: "/images/companies/logo-triangulo.png",
         alt: t("trianguloAlt"),
-        width: 250,
-        height: 130,
-        imageClassName: "h-16 sm:h-16 md:h-[80px]",
+        width: 671,
+        height: 147,
       },
       {
-        name: "Detons",
-        href: "https://www.dentons.com/en/global-presence/latin-america-and-the-caribbean/venezuela/caracas",
-        src: "/images/companies/logo-detons.png",
-        alt: t("dentonAlt"),
-        width: 250,
-        height: 130,
-        imageClassName: "h-16 sm:h-16 md:h-[80px]",
+        name: "Activo Banco Universal",
+        href: "https://www.bancoactivo.com/",
+        src: "/images/companies/logo-banco-universal.png",
+        alt: t("bancoUniversalAlt"),
+        width: 799,
+        height: 132,
+      },
+      {
+        name: "Impulsa Venture Capital",
+        href: "https://www.impulsa.vc/",
+        src: "/images/companies/logo-impulsa.png",
+        alt: t("impulsaAlt"),
+        width: 599,
+        height: 165,
+      },
+      {
+        name: "Nuvira",
+        href: "https://www.nuvira.io/",
+        src: "/images/companies/logo-nuvira.png",
+        alt: t("nuviraAlt"),
+        width: 555,
+        height: 174,
+      },
+      {
+        name: "StoneX",
+        href: "https://www.stonex.com/",
+        src: "/images/companies/logo-stonex.png",
+        alt: t("stonexAlt"),
+        width: 670,
+        height: 147,
       },
     ],
     [t]
@@ -189,17 +137,8 @@ export function CompaniesCarousel() {
   }, [logos.length]);
 
   useEffect(() => {
-    const prefersReducedMotion = window.matchMedia(
-      "(prefers-reduced-motion: reduce)"
-    ).matches;
-
-    if (prefersReducedMotion) {
-      if (trackRef.current) {
-        trackRef.current.style.transform = "translate3d(0, 0, 0)";
-      }
-      return;
-    }
-
+    // La marquesina de partners se desplaza siempre (igual que el Hero) y se
+    // pausa al pasar el mouse o al enfocar un logo.
     const step = (time: number) => {
       if (lastTimeRef.current == null) {
         lastTimeRef.current = time;

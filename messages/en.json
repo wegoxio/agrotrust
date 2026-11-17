@@ -57,23 +57,18 @@
   },
   "Companies": {
     "subtitle": "Built on a network of trusted, established partners across agriculture, logistics, and finance.",
-    "italBankAlt": "ItalBank logo",
     "stanZioneAlt": "Stanzione Logo",
     "defisaAlt": "DEFISA logo",
     "avexAlt": "AVEX logo",
-    "bolpriavenAlt": "Bolpriaven logo",
-    "agroinvestAlt": "Agroinvest logo",
     "bridgeAlt": "Bridge Logo",
-    "brisasDelGilAlt": "Brisas del Gil logo",
-    "interGlobalAlt": "InterGlobal Logo",
-    "bursagroAlt": "Bursagro Logo",
-    "apilaCapitalAlt": "Apila Capital Logo",
-    "conduitAlt": "Conduit logo",
     "fecveLabAlt": "FECVE Lab logo",
     "italcambioAlt": "Italcambio logo",
     "trianguloAlt": "Triangulo de Mocoties logo",
     "depositosAlt": "Depositos industriales Logo",
-    "dentonAlt": "Denton Logo"
+    "bancoUniversalAlt": "Activo Banco Universal logo",
+    "impulsaAlt": "Impulsa Venture Capital logo",
+    "nuviraAlt": "Nuvira logo",
+    "stonexAlt": "StoneX logo"
   },
   "About": {
     "eyebrow": "About",

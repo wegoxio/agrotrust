@@ -28,9 +28,7 @@ export function CompanyLogoItem({ logo, showDivider }: CompanyLogoItemProps) {
       alt={logo.alt}
       width={logo.width}
       height={logo.height}
-      className={`h-9 w-auto object-contain sm:h-8 md:h-10 ${
-        logo.imageClassName ?? ""
-      }`}
+      className={`h-auto w-auto object-contain ${logo.imageClassName ?? ""}`}
     />
   );
 

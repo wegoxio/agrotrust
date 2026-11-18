@@ -23,6 +23,14 @@ export function CompaniesCarousel() {
   const logos = useMemo<CompanyLogo[]>(
     () => [
       {
+        name: "ItalBank",
+        href: "https://www.italbank.com/",
+        src: "/images/companies/logo-ital-bank.png",
+        alt: t("italBankAlt"),
+        width: 717,
+        height: 148,
+      },
+      {
         name: "Stanzione",
         href: "https://stanzione.com/",
         src: "/images/companies/logo-stanzione.png",
